@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Allows amethyst blocks to be used as a beacon base. Allows amethyst shards to be used as a beacon payment item."
+  }
+}

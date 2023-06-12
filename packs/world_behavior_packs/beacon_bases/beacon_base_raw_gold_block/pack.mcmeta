@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Allows raw gold blocks to be used as a beacon base. Allows raw gold to be used as beacon payment."
+  }
+}

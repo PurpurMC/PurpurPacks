@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Allows solid copper blocks to be used as a beacon base block. Allows copper ingots to be used as a beacon payment item."
+  }
+}

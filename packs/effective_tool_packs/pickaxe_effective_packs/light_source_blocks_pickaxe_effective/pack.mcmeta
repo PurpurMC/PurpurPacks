@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Adds glowstone, redstone lamps, sea lanterns, and beacons to the pickaxe mineable tag"
+  }
+}

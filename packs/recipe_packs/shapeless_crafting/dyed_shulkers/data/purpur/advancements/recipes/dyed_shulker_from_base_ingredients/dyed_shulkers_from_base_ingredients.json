@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shulker_shell"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:dyed_shulker_from_base_ingredients/black_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/blue_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/brown_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/cyan_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/gray_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/green_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/light_blue_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/light_gray_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/lime_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/magenta_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/orange_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/pink_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/purple_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/red_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/white_shulker_from_base_ingredients",
+      "purpur:dyed_shulker_from_base_ingredients/yellow_shulker_from_base_ingredients"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:raw_iron"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:blasting/iron_block_from_blasting_raw_iron_block",
+      "purpur:smelting/iron_block_from_smelting_raw_iron_block"
+    ]
+  }
+}

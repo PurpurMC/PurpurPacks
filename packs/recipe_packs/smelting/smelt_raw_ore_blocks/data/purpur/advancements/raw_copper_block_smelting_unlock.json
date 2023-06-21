@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:raw_copper"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:blasting/copper_block_from_blasting_raw_copper_block",
+      "purpur:smelting/copper_block_from_smelting_raw_copper_block"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Allows raw ore blocks to be smelted to their smelted form in a normal or blast furnace."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 900,
+  "experience": 9.0,
+  "group": "gold_block",
+  "ingredient": {
+    "item": "minecraft:raw_gold_block"
+  },
+  "result": "minecraft:gold_block"
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:raw_gold"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:blasting/gold_block_from_blasting_raw_gold_block",
+      "purpur:smelting/gold_block_from_smelting_raw_gold_block"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Allows upgrading stone tools to iron ones in an upgrade table"
+  }
+}

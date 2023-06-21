@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:stone_tool_materials"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:wooden_to_stone_tools/stone_axe_from_wooden_axe",
+      "purpur:wooden_to_stone_tools/stone_pickaxe_from_wooden_pickaxe",
+      "purpur:wooden_to_stone_tools/stone_hoe_from_wooden_hoe",
+      "purpur:wooden_to_stone_tools/stone_shovel_from_wooden_shovel",
+      "purpur:wooden_to_stone_tools/stone_sword_from_wooden_sword"
+    ]
+  }
+}

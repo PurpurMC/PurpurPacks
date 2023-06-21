@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "concrete_powder",
+  "key": {
+    "#": {
+      "tag": "purpur:dyeable_concrete_powder"
+    },
+    "X": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:white_concrete_powder"
+  },
+  "show_notification": true
+}

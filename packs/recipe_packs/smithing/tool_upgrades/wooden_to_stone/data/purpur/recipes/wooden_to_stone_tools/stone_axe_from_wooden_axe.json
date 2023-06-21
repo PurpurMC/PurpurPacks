@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "tag": "minecraft:stone_tool_materials"
+  },
+  "base": {
+    "item": "minecraft:wooden_axe"
+  },
+  "addition": [],
+  "result": {
+    "item": "minecraft:stone_axe"
+  }
+}

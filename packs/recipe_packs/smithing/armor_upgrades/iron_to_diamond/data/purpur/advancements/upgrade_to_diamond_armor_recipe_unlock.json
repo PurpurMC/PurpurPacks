@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:diamond"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:iron_to_diamond_armor/diamond_boots_from_iron_boots",
+      "purpur:iron_to_diamond_armor/diamond_leggings_from_iron_leggings",
+      "purpur:iron_to_diamond_armor/diamond_chestplate_from_iron_chestplate",
+      "purpur:iron_to_diamond_armor/diamond_helmet_from_iron_helmet"
+    ]
+  }
+}

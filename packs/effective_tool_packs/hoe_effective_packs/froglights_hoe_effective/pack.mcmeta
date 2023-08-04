@@ -1,6 +1,7 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": ""
+    "description": "Adds froglights to the 'hoe' mineable tag",
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 16}
   }
 }

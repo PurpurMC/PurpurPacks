@@ -1,7 +1,8 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "Put reinforced deepslate in the pickaxe tag, and allow it to be silk-touched"
+    "description": "Put reinforced deepslate in the pickaxe tag, and allow it to be silk-touched",
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 16}
   }
 }
 

@@ -1,7 +1,8 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "Add the new paintings to placeable paintings"
+    "description": "Add the new paintings to placeable paintings",
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 16}
   }
 }
 

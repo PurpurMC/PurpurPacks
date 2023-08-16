@@ -18,7 +18,8 @@ There's a folder in the first directory, named `data` - everything in that direc
 [![](assets/modrinth_logos/redye-glass.png "Re-Dye All Colors Of Glass")](https://modrinth.com/datapack/purpurpacks-re-dye-glass/versions)
 [![](assets/modrinth_logos/redye-wool-more-output.png "Dye 8 Wool or Carpet at a Time Instead Of One")](https://modrinth.com/datapack/purpurpacks-more-dyed-wool-and-carpet/versions)
 [![](assets/modrinth_logos/shulker-box-dyed.png "Craft Dyed Shulkers From Scratch")](https://modrinth.com/datapack/purpurpacks-one-step-dyed-shulker-boxes/versions)
-
+[![](assets/modrinth_logos/smelt-raw-ore-blocks.png "Smelt Raw Ore Blocks")](https://modrinth.com/datapack/purpurpack-smelt-raw-ore-blocks)
+[![](assets/modrinth_logos/blast-furnace-smelting-sand.png "Blasting Furnace Smelts Glass")](https://modrinth.com/datapack/purpurpack-blasting-smelts-glass)
 ## Loot Tables
 [![](assets/modrinth_logos/netherite-smithing-templates-from-bartering.png "Add Netherite Smithing Template to Piglin barter table")](https://modrinth.com/datapack/purpurpacks-one-step-dyed-shulker-boxes/versions)
 [![](assets/modrinth_logos/silk-touch-budding-amethyst.png "Pick Up Budding Amethyst blocks with Silk Touch")](https://modrinth.com/datapack/purpurpacks-silk-touch-budding-amethyst/versions)
@@ -34,6 +35,7 @@ There's a folder in the first directory, named `data` - everything in that direc
 
 ## Mob behavior
 [![](assets/modrinth_logos/axolotls-ignore-passives.png "Axolotls Do Not Attack Passive Mobs")](https://modrinth.com/datapack/purpurpack-axolotls-ignore-passives/versions)
+[![](assets/modrinth_logos/breed_axolotl_with_tropical_fish.png "Axolotl Breed With Tropical Fish Item")](https://modrinth.com/datapack/purpurpack-breed-axolotl-with-tropical-fish-item)
 
 ## World Behavior
 [![](assets/modrinth_logos/new-paintings-placeable.png "The Four New Paintings Are Placeable")](https://modrinth.com/datapack/purpurpacks-placeable-new-paintings/versions)

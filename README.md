@@ -30,7 +30,7 @@ There's a folder in the first directory, named `data` - everything in that direc
 [![](assets/modrinth_logos/glass-pickaxe-effective.png "Glass Breaks Faster With A Pickaxe")](https://modrinth.com/datapack/purpurpacks-pickaxe-effective-glass/versions)
 [![](assets/modrinth_logos/reinforced-deepslate-pickaxe-effective.png "Reinforced Deepslate Breaks Faster With A Pickaxe")](https://modrinth.com/datapack/purpurpacks-pickaxe-effective-reinforced-deepslate/versions)
 [![](assets/modrinth_logos/froglights-hoe-effective.png "Froglights Break Faster Using A Hoe")](https://modrinth.com/datapack/purpurpacks-hoe-effective-froglights/versions)
-[![](assets/modrinth_logos/cactus-hoe-effective.png "Cactus Breaks Faster With A Hoe")](https://modrinth.com/datapack/hoe-effective-cactus/versions)
+[![](assets/modrinth_logos/cactus-hoe-effective.png "Cactus Breaks Faster With A Hoe")](https://modrinth.com/datapack/purpurpacks-hoe-effective-cactus/versions)
 [![](assets/modrinth_logos/skulls-axe-effective.png "Skulls And Heads Break Faster With An Axe")](https://modrinth.com/datapack/purpurpacks-axe-effective-skulls/versions)
 
 ## Mob behavior
@@ -48,5 +48,5 @@ There's a folder in the first directory, named `data` - everything in that direc
 [![](assets/modrinth_logos/beacon-base-lapis.png "Lapis Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-lapis-beacon-base/versions)
 [![](assets/modrinth_logos/beacon-base-amethyst.png "Amethyst Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-amethyst-beacon-base/versions)
 [![](assets/modrinth_logos/beacon-base-raw-gold.png "Raw Gold Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-raw-gold-beacon-base/versions)
-[![](assets/modrinth_logos/beacon-base-raw-iron.png "Raw Irong Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-raw-iron-block-beacon-base/versions)
+[![](assets/modrinth_logos/beacon-base-raw-iron.png "Raw Iron Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-raw-iron-block-beacon-base/versions)
 [![](assets/modrinth_logos/beacon-base-raw-copper.png "Raw Copper Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-raw-copper-beacon-base/versions)

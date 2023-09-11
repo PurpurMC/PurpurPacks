@@ -20,7 +20,10 @@ jobs:
           sudo apt-get install jq -y
 
       - name: Run Deployment Script
-        run:  bash deploy_script.sh
+        run: |
+          cd ../
+          cd deploy
+          bash deploy_script.sh
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

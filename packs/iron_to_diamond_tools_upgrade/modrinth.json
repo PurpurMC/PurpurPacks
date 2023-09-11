@@ -1,0 +1,12 @@
+{
+    "version_number": 1.1,
+    "changelog": "CHANGES",
+    "game_versions": [
+        "1.20.1",
+        "23w31a",
+        "23w32a",
+        "23w33a"
+    ],
+    "version_type": "beta",
+    "project_id": "fOi8LwAw"
+}

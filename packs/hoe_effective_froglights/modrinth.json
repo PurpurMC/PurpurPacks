@@ -1,0 +1,34 @@
+{
+    "version_number": 1.1,
+    "changelog": "CHANGES",
+    "game_versions": [
+        "1.20.1",
+        "23w31a",
+        "23w32a",
+        "23w33a"
+    ],
+    "dependencies": [
+        {
+            "project_id": "ERLjKg7g",
+            "dependency_type": "optional"
+        },
+        {
+            "project_id": "y87pO5HP",
+            "dependency_type": "optional"
+        },
+        {
+            "project_id": "Xqq7IBeE",
+            "dependency_type": "optional"
+        },
+        {
+            "project_id": "S7cHoMDR",
+            "dependency_type": "optional"
+        },
+        {
+            "project_id": "kbuqezYO",
+            "dependency_type": "optional"
+        }
+    ],
+    "version_type": "beta",
+    "project_id": "dpLYDTiH"
+}

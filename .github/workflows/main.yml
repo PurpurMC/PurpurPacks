@@ -1,0 +1,26 @@
+name: Deploy Packs
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zip  
+          sudo apt-get install jq -y
+
+      - name: Run Deployment Script
+        run:  bash deploy_script.sh
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

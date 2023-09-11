@@ -8,15 +8,15 @@ echo "Changed files: $ALL_CHANGED_FILES"
 for datapack_path in $datapack_folder/*; do
     modrinth_file_path="$datapack_path/modrinth.json"
 
-    # break if not a directory
+    # continue if not a directory
     if [ ! -d "$datapack_path" ]; then
-      break
+      continue
     fi
 
-    # break if datapack folder does not include modrinth.json
+    # continue if datapack folder does not include modrinth.json
     if [ ! -e "$modrinth_file_path" ]; then
       echo "No modrinth.json file located in \"$datapack_path\""
-      break
+      continue
     fi
 
     # packs/<datapack> -> <datapack>

@@ -1,6 +1,7 @@
 {
     "featured": false,
-    "loaders": "datapack",
+    "loaders": ["datapack"],
     "dependencies": [],
-    "primary": true
+    "primary": true,
+    "file_parts": ["file"]
 }

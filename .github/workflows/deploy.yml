@@ -1,4 +1,4 @@
-name: Deploy Packs
+name: Deploy PurpurPacks to Modrinth
 on:
   push:
     branches:
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run Deployment Script
-        run: ${{ github.workspace }}/deploy_script.sh
+      - name: Run Script
+        run: .github/workflows/deploy.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -8,7 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: Ana06/get-changed-files@v2
+        id: changed_files
+        with:
+          format: json
       - name: Run Script
         run: .github/workflows/deploy.sh
         env:
+          ALL_CHANGED_FILES: ${{ steps.changed_files.outputs.all }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

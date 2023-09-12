@@ -17,8 +17,6 @@ if [ -z "$MODRINTH_TOKEN" ]; then
     exit 1
 fi
 
-base_modrinth_file_changed=$(jq 'map(select(startswith("modrinth.json")))|unique[]' <<< $ALL_CHANGED_FILES)
-
 for datapack_path in $datapack_folder/*; do
     modrinth_file_path="$datapack_path/modrinth.json"
 

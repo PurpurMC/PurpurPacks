@@ -44,7 +44,7 @@ for datapack_path in $datapack_folder/*; do
     # combine modrinth.json with <datapack>/modrinth.json (datapack file overrides base file values)
     modrinth_json=$(jq -s '.[0] * .[1]' modrinth.json $modrinth_file_path)
 
-    project_id=$(jq -s '.project_id' <<< $modrinth_json)
+    project_id=$(jq '.project_id' <<< $modrinth_json)
 
     all_versions_curl_output=$(curl -vs -G -H "Authorization: $MODRINTH_TOKEN" $(modrinth_GET_versions_route $project_id) --data $(convert_json_to_query_param $modrinth_json) 2>&1)
     all_versions_curl_error=$(jq '.error' <<< $all_versions_curl_output)
@@ -53,7 +53,7 @@ for datapack_path in $datapack_folder/*; do
         continue
     fi
 
-    project_version_number=$(jq -s '.version_number' <<< $modrinth_json)
+    project_version_number=$(jq '.version_number' <<< $modrinth_json)
     if [ "null" != $(jq "map(.version_number) | index(${project_version_number})" <<< $all_versions_curl_output) ]; then
         echo  "A version already exists for project ${project_id}! Skipping..."
         continue

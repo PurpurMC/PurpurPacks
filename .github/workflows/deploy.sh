@@ -47,6 +47,7 @@ for datapack_path in $datapack_folder/*; do
     project_id=$(jq '.project_id' <<< $modrinth_json)
 
     all_versions_curl_output=$(curl -vs -G -H "Authorization: $MODRINTH_TOKEN" $(modrinth_GET_versions_route $project_id) --data $(convert_json_to_query_param $modrinth_json) 2>&1)
+    echo -e "Curl output when attempting to get previous versions...\n${all_versions_curl_output}"
     all_versions_curl_error=$(jq '.error' <<< $all_versions_curl_output)
     if [ $all_versions_curl_error != "null" ]; then
         echo -e "Could not retrieve project ${project_id}'s versions. Skipping... Output:\n$(jq <<< $all_versions_curl_output)"
@@ -59,15 +60,16 @@ for datapack_path in $datapack_folder/*; do
         continue
     fi
 
-    zipped_file_name="${datapack_prefix}${datapack_name}_${project_version_number}.zip"
+    zipped_file_name=${datapack_prefix}${datapack_name}_${project_version_number}.zip
 
     #create a zipped file inside packs/<datapack>/dist/ without including the modrinth.json file & dist/ directory
     (cd $datapack_path && mkdir -p dist && zip -r "dist/${zipped_file_name}" . -x dist/ modrinth.json)
 
     echo "Datapack located at: $(ls ${datapack_path}/dist)"
 
-    curl_output=$(curl -vs -H "Authorization: $MODRINTH_TOKEN" -X POST $modrinth_POST_version_route -F data=$modrinth_json -F file="@${$datapack_path}/dist/${zipped_file_name}" 2>&1)
+    curl_output=$(curl -vs -H "Authorization: $MODRINTH_TOKEN" -X POST $modrinth_POST_version_route -F data=$modrinth_json -F file="@${datapack_path}/dist/${zipped_file_name}" 2>&1)
 
+    echo -e "Curl output when attempting to get post version...\n${curl_output}"
 
     curl_output_error=$(jq '.error' <<< $curl_output)
     if [ $curl_output_error == "null" ]; then

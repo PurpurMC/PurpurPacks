@@ -41,6 +41,7 @@ for datapack_path in $datapack_folder/*; do
         continue
     fi
 
+    echo "Processing $datapack_name..."
 
     # combine modrinth.json with <datapack>/modrinth.json (datapack file overrides base file values)
     modrinth_json=$(jq -s '.[0] * .[1]' modrinth.json $modrinth_file_path)

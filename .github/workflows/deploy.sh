@@ -75,6 +75,8 @@ for datapack_path in $datapack_folder/*; do
 
     echo "Datapack located at: $(ls ${datapack_path}/dist)"
 
+    echo "curl looks like this:" "curl -s -H \"Authorization: MODRINTH_TOKEN\" -X POST \"$modrinth_POST_version_route\" -F data=$modrinth_json -F file=\"@${datapack_path}/dist/${zipped_file_name}\" 2>&1"
+
     curl_output=$(curl -s -H "Authorization: $MODRINTH_TOKEN" -X POST "$modrinth_POST_version_route" -F data=$modrinth_json -F file="@${datapack_path}/dist/${zipped_file_name}" 2>&1)
 
     echo -e "Curl output when attempting to get post version...\n${curl_output}"

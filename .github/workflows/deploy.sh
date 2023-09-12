@@ -54,7 +54,7 @@ for datapack_path in $datapack_folder/*; do
     echo -e "Output of 'convert_json_to_query_param \$modrinth_json' :\n$(convert_json_to_query_param "$modrinth_json")"
 
 
-    all_versions_curl_output=$(curl -vs -G -H "Authorization: $MODRINTH_TOKEN" $(modrinth_GET_versions_route $project_id) --data $(convert_json_to_query_param "$modrinth_json") 2>&1)
+    all_versions_curl_output=$(curl -s -G -H "Authorization: $MODRINTH_TOKEN" $(modrinth_GET_versions_route $project_id) --data $(convert_json_to_query_param "$modrinth_json") 2>&1)
     echo -e "Curl output when attempting to get previous versions...\n${all_versions_curl_output}"
     all_versions_curl_error=$(jq '.error' <<< $all_versions_curl_output)
     if [ $all_versions_curl_error != "null" ]; then
@@ -75,7 +75,7 @@ for datapack_path in $datapack_folder/*; do
 
     echo "Datapack located at: $(ls ${datapack_path}/dist)"
 
-    curl_output=$(curl -vs -H "Authorization: $MODRINTH_TOKEN" -X POST $modrinth_POST_version_route -F data=$modrinth_json -F file="@${datapack_path}/dist/${zipped_file_name}" 2>&1)
+    curl_output=$(curl -s -H "Authorization: $MODRINTH_TOKEN" -X POST "$modrinth_POST_version_route" -F data=$modrinth_json -F file="@${datapack_path}/dist/${zipped_file_name}" 2>&1)
 
     echo -e "Curl output when attempting to get post version...\n${curl_output}"
 

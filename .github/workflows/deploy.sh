@@ -63,7 +63,7 @@ for datapack_path in $datapack_folder/*; do
     fi
 
     project_version_number=$(jq --raw-output '.version_number' <<< $modrinth_json)
-    if [ "null" != $(jq "map(.version_number) | index(${project_version_number})" <<< $all_versions_curl_output) ]; then
+    if [ "null" != $(jq "map(.version_number) | index(\"${project_version_number}\")" <<< $all_versions_curl_output) ]; then
         echo  "A version already exists for project ${project_id}! Skipping..."
         continue
     fi

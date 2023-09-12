@@ -51,10 +51,10 @@ for datapack_path in $datapack_folder/*; do
     echo -e "Output of project_id: \n ${project_id}"
 
     echo -e "Output of 'modrinth_GET_versions_route \$project_id' :\n$(modrinth_GET_versions_route $project_id)"
-    echo -e "Output of 'convert_json_to_query_param \$modrinth_json' :\n$(convert_json_to_query_param $modrinth_json)"
+    echo -e "Output of 'convert_json_to_query_param \$modrinth_json' :\n$(convert_json_to_query_param "$modrinth_json")"
 
 
-    all_versions_curl_output=$(curl -vs -G -H "Authorization: $MODRINTH_TOKEN" $(modrinth_GET_versions_route $project_id) --data $(convert_json_to_query_param $modrinth_json) 2>&1)
+    all_versions_curl_output=$(curl -vs -G -H "Authorization: $MODRINTH_TOKEN" $(modrinth_GET_versions_route $project_id) --data $(convert_json_to_query_param "$modrinth_json") 2>&1)
     echo -e "Curl output when attempting to get previous versions...\n${all_versions_curl_output}"
     all_versions_curl_error=$(jq '.error' <<< $all_versions_curl_output)
     if [ $all_versions_curl_error != "null" ]; then

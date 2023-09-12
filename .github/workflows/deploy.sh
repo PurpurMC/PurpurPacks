@@ -2,7 +2,15 @@
 
 datapack_prefix="purpurpack_"
 datapack_folder="packs"
-modrinth_api_route="https://api.modrinth.com/v2/version"
+modrinth_POST_version_route="https://api.modrinth.com/v2/version"
+
+convert_json_to_query_param() {
+    echo $(jq --raw-output '[to_entries[] | (@uri "\(.key)" + "=" + @uri "\(.value)")] | join("&")' <<< $1)
+}
+
+modrinth_GET_versions_route() {
+    echo "https://api.modrinth.com/v2/project/$1/version"
+}
 
 if [ -z "$MODRINTH_TOKEN" ]; then
     echo "The required environment variable MODRINTH_TOKEN is not set."
@@ -28,29 +36,44 @@ for datapack_path in $datapack_folder/*; do
     # packs/<datapack> -> <datapack>
     datapack_name=$(cut -d'/' -f2 <<< $datapack_path)
 
-    # continue if base modrinth file was not changed and the changed files do not include the datapack name
-    if [ -z "$base_modrinth_file_changed" ] && [ -z $(jq "map(select(contains(${datapack_name})))|unique[]" <<< $ALL_CHANGED_FILES) ]; then
+    # continue if the changed files do not include the datapack name
+    if [ -z $(jq "map(select(contains(${datapack_name})))|unique[]" <<< $ALL_CHANGED_FILES) ]; then
         continue
     fi
 
+    echo "Processing $datapack_name..."
 
     # combine modrinth.json with <datapack>/modrinth.json (datapack file overrides base file values)
     modrinth_json=$(jq -s '.[0] * .[1]' modrinth.json $modrinth_file_path)
 
-    zipped_file_name="${datapack_prefix}${datapack_name}_$(jq '.version_number' <<< $modrinth_json).zip"
+    project_id=$(jq -s '.project_id' <<< $modrinth_json)
+
+    all_versions_curl_output=$(curl -vs -G -H "Authorization: $MODRINTH_TOKEN" $(modrinth_GET_versions_route $project_id) --data $(convert_json_to_query_param $modrinth_json) 2>&1)
+    all_versions_curl_error=$(jq '.error' <<< $all_versions_curl_output)
+    if [ $all_versions_curl_error != "null" ]; then
+        echo -e "Could not retrieve project ${project_id}'s versions. Skipping... Output:\n$(jq <<< $all_versions_curl_output)"
+        continue
+    fi
+
+    project_version_number=$(jq -s '.version_number' <<< $modrinth_json)
+    if [ "null" != $(jq "map(.version_number) | index(${project_version_number})" <<< $all_versions_curl_output) ]; then
+        echo  "A version already exists for project ${project_id}! Skipping..."
+        continue
+    fi
+
+    zipped_file_name="${datapack_prefix}${datapack_name}_${project_version_number}.zip"
 
     #create a zipped file inside packs/<datapack>/dist/ without including the modrinth.json file & dist/ directory
     (cd $datapack_path && mkdir -p dist && zip -r "dist/${zipped_file_name}" . -x dist/ modrinth.json)
 
     echo "Datapack located at: $(ls ${datapack_path}/dist)"
 
-    #TODO: check if project version already exists. if it does, then PATCH, otherwise, POST
-    curl_output=$(curl -vs -H "Authorization: $MODRINTH_TOKEN" -X POST $modrinth_api_route -F data=$modrinth_json -F file="@${$datapack_path}/dist/${zipped_file_name}" 2>&1)
+    curl_output=$(curl -vs -H "Authorization: $MODRINTH_TOKEN" -X POST $modrinth_POST_version_route -F data=$modrinth_json -F file="@${$datapack_path}/dist/${zipped_file_name}" 2>&1)
 
 
-    error=$(jq '.error' <<< $curl_output)
-    if [ $error == "null" ]; then
-      echo -e "Successfully uploaded $datapack_name! Output:\n$(jq <<< $curl_output)"
+    curl_output_error=$(jq '.error' <<< $curl_output)
+    if [ $curl_output_error == "null" ]; then
+      echo -e "Successfully uploaded version ${project_version_number} for ${project_id}! Output:\n$(jq <<< $curl_output)"
       exit 0
     else
       echo -e "Failed to upload $datapack_name. Output:\n$(jq <<< $curl_output)"

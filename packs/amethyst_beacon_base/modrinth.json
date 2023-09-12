@@ -1,6 +1,6 @@
 {
     "name": "v1.2 - 1.20.2-pre1 support",
-    "version_number": "1.2",
+    "version_number": "1.2.5",
     "changelog": "Support up to 1.20.2-pre1",
     "game_versions": [
         "1.20.1",

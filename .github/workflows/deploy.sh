@@ -56,7 +56,7 @@ for datapack_path in $datapack_folder/*; do
 
     all_versions_curl_output=$(curl -s -G -H "Authorization: $MODRINTH_TOKEN" $(modrinth_GET_versions_route $project_id) --data $(convert_json_to_query_param "$modrinth_json") 2>&1)
     echo -e "Curl output when attempting to get previous versions...\n${all_versions_curl_output}"
-    all_versions_curl_error=$(jq '.error' <<< $all_versions_curl_output)
+    all_versions_curl_error=$(jq 'try .error catch null' <<< $all_versions_curl_output)
     if [ $all_versions_curl_error != "null" ]; then
         echo -e "Could not retrieve project ${project_id}'s versions. Skipping... Output:\n$(jq <<< $all_versions_curl_output)"
         continue

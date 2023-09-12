@@ -42,7 +42,7 @@ for datapack_path in $datapack_folder/*; do
     echo "Processing $datapack_name..."
 
     # combine modrinth.json with <datapack>/modrinth.json (datapack file overrides base file values)
-    modrinth_json=$(jq -s '.[0] * .[1]' modrinth.json $modrinth_file_path)
+    modrinth_json=$(jq --compact-output -s '.[0] * .[1]' modrinth.json $modrinth_file_path)
 
     echo -e "Output of modrinth_json: \n ${modrinth_json}"
 
@@ -77,7 +77,7 @@ for datapack_path in $datapack_folder/*; do
 
     echo "curl looks like this:" "curl -s -H \"Authorization: MODRINTH_TOKEN\" -X POST \"$modrinth_POST_version_route\" -F data=$modrinth_json -F file=\"@${datapack_path}/dist/${zipped_file_name}\" 2>&1"
 
-    curl_output=$(curl -s -H "Authorization: $MODRINTH_TOKEN" -X POST "$modrinth_POST_version_route" -F data=$modrinth_json -F file="@${datapack_path}/dist/${zipped_file_name}" 2>&1)
+    curl_output=$(curl -s -H "Authorization: $MODRINTH_TOKEN" -X POST "$modrinth_POST_version_route" -F data="$modrinth_json" -F file="@${datapack_path}/dist/${zipped_file_name}" 2>&1)
 
     echo -e "Curl output when attempting to get post version...\n${curl_output}"
 

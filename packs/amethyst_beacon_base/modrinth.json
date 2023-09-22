@@ -1,15 +1,11 @@
 {
-    "name": "v1.2 - 1.20.2-pre1 support",
-    "version_number": "1.2",
-    "changelog": "Support up to 1.20.2-pre1",
+    "name": "v1.3 Update to 1.20.2",
+    "version_number": "1.3",
+    "changelog": "Update to 1.20.2",
     "game_versions": [
         "1.20.1",
-        "23w31a",
-        "23w32a",
-        "23w33a",
-        "23w35a",
-        "1.20.2-pre1"
+        "1.20.2"
     ],
-    "version_type": "beta",
+    "version_type": "release",
     "project_id": "EP4tesbZ"
 }

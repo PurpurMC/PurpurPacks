@@ -1,13 +1,11 @@
 {
-    "name": "v1.1",
-    "version_number": "1.1",
-    "changelog": "CHANGES",
+    "name": "v1.2 Update to 1.20.2",
+    "version_number": "1.2",
+    "changelog": "Update to 1.20.2",
     "game_versions": [
         "1.20.1",
-        "23w31a",
-        "23w32a",
-        "23w33a"
+        "1.20.2"
     ],
-    "version_type": "beta",
+    "version_type": "release",
     "project_id": "ItRpuGf4"
 }

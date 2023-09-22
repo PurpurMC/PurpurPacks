@@ -2,6 +2,6 @@
   "pack": {
     "pack_format": 15,
     "description": "Piglin bartering can result in a netherite template",
-    "supported_formats": {"min_inclusive": 15, "max_inclusive": 16}
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 18}
   }
 }

@@ -84,9 +84,10 @@ for datapack_path in $datapack_folder/*; do
     curl_output_error=$(jq '.error' <<< $curl_output)
     if [ $curl_output_error == "null" ]; then
       echo -e "Successfully uploaded version ${project_version_number} for ${project_id}! Output:\n$(jq <<< $curl_output)"
-      exit 0
     else
       echo -e "Failed to upload $datapack_name. Output:\n$(jq <<< $curl_output)"
-      exit 1
     fi
 done
+
+echo -e "Finished looping through all datapacks."
+exit 0

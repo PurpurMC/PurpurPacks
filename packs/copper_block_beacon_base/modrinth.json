@@ -1,11 +1,10 @@
 {
-    "name": "v1.2 Update to 1.20.2",
-    "version_number": "1.2",
-    "changelog": "Update to 1.20.2",
-    "game_versions": [
-        "1.20.1",
-        "1.20.2"
-    ],
-    "version_type": "release",
-    "project_id": "zFdrE9Wt"
+  "name": "v2.0 Update to 1.20.3, Adds new copper blocks",
+  "version_number": "2.0",
+  "changelog": "Update to 1.20.3, Adds support for the new copper blocks",
+  "game_versions": [
+    "1.20.3-pre3"
+  ],
+  "version_type": "release",
+  "project_id": "zFdrE9Wt"
 }

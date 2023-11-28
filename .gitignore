@@ -1,2 +1,4 @@
 /.idea/
 /PurpurPacks.iml
+/util/change_purpurpack_versions.sh
+/util/zip_to_test.sh

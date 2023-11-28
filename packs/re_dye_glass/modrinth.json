@@ -1,25 +1,26 @@
 {
-    "name": "v1.2 Update to 1.20.2",
-    "version_number": "1.2",
-    "changelog": "Update to 1.20.2",
-    "game_versions": [
-        "1.20.1",
-        "1.20.2"
-    ],
-    "dependencies": [
-        {
-            "project_id": "DUoieMnq",
-            "dependency_type": "optional"
-        },
-        {
-            "project_id": "lANiwxxT",
-            "dependency_type": "optional"
-        },
-        {
-            "project_id": "z9M75QAX",
-            "dependency_type": "optional"
-        }
-    ],
-    "version_type": "release",
-    "project_id": "sbHA4Z4I"
+  "name": "v1.3 Update to 1.20.3",
+  "version_number": "1.3",
+  "changelog": "Update to 1.20.3",
+  "game_versions": [
+    "1.20.1",
+    "1.20.2",
+    "1.20.3-pre3"
+  ],
+  "dependencies": [
+    {
+      "project_id": "DUoieMnq",
+      "dependency_type": "optional"
+    },
+    {
+      "project_id": "lANiwxxT",
+      "dependency_type": "optional"
+    },
+    {
+      "project_id": "z9M75QAX",
+      "dependency_type": "optional"
+    }
+  ],
+  "version_type": "release",
+  "project_id": "sbHA4Z4I"
 }

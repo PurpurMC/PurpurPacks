@@ -2,7 +2,7 @@
   "pack": {
     "pack_format": 15,
     "description": "Adds reinforced deepslate to the pickaxe mineable tag",
-    "supported_formats": {"min_inclusive": 15, "max_inclusive": 16}
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 26}
   }
 }
 

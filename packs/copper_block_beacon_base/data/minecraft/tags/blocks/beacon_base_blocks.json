@@ -7,6 +7,22 @@
     "minecraft:waxed_copper_block",
     "minecraft:waxed_exposed_copper",
     "minecraft:waxed_weathered_copper",
-    "minecraft:waxed_oxidized_copper"
+    "minecraft:waxed_oxidized_copper",
+    "minecraft:chiseled_copper",
+    "minecraft:exposed_chiseled_copper",
+    "minecraft:weathered_chiseled_copper",
+    "minecraft:oxidized_chiseled_copper",
+    "minecraft:waxed_chiseled_copper",
+    "minecraft:waxed_exposed_chiseled_copper",
+    "minecraft:waxed_weathered_chiseled_copper",
+    "minecraft:waxed_oxidized_chiseled_copper",
+    "minecraft:copper_bulb",
+    "minecraft:exposed_copper_bulb",
+    "minecraft:weathered_copper_bulb",
+    "minecraft:oxidized_copper_bulb",
+    "minecraft:waxed_copper_bulb",
+    "minecraft:waxed_exposed_copper_bulb",
+    "minecraft:waxed_weathered_copper_bulb",
+    "minecraft:waxed_oxidized_copper_bulb"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "values": [
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:lever",
+    "minecraft:redstone_wire",
+    "minecraft:redstone_torch",
+    "minecraft:sculk_sensor",
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:sculk_shrieker",
+    "minecraft:tripwire_hook",
+    "minecraft:tripwire",
+    "minecraft:lectern",
+    "minecraft:daylight_detector",
+    "minecraft:lightning_rod",
+    "minecraft:slime_block",
+    "minecraft:honey_block",
+    "minecraft:hopper",
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:decorated_pot",
+    "minecraft:composter",
+    "minecraft:bell"
+  ]
+}

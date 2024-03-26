@@ -1,19 +1,17 @@
 {
   "values": [
-    "minecraft:torch",
-    "minecraft:soul_torch",
-    "minecraft:lantern",
-    "minecraft:soul_lantern",
-    "minecraft:chain",
-    "minecraft:end_rod",
     "minecraft:stonecutter",
     "minecraft:grindstone",
     "minecraft:brewing_stand",
     "minecraft:conduit",
     "minecraft:scaffolding",
-    "minecraft:decorated_pot",
     "minecraft:ender_chest",
-    "minecraft:dragon_egg",
-    "minecraft:end_portal_frame"
+    "minecraft:enchanting_table",
+    "minecraft:end_portal_frame",
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:composter",
+    "minecraft:lectern",
+    "minecraft:bell"
   ]
 }

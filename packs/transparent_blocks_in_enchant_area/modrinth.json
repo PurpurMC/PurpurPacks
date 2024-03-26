@@ -1,7 +1,7 @@
 {
-  "name": "v2.0 Add a bunch of things",
-  "version_number": "2.0",
-  "changelog": "## Adds a bunch of stuff I forgot initially. ### Added <br><br><ul><li>#candle_cakes</li><li>#cave_vines</li><li>#climbable</li><li>#trapdoors</li><li>#walls</li><li>moss_carpet</li><li>pointed_dripstone</li><li>small_amethyst_bud</li><li>medium_amethyst_bud</li><li>large_amethyst_bud</li><li>amethyst_cluster</li><li>mangrove_roots</li><li>brown_mushroom</li><li>red_mushroom</li><li>crimson_fungus</li><li>warped_fungus</li><li>dead_bush</li><li>sculk_vein</li><li>cobweb</li><li>skeleton_skull</li><li>skeleton_wall_skull</li><li>wither_skeleton_skull</li><li>wither_skeleton_wall_skull</li><li>zombie_head</li><li>zombie_wall_head</li><li>creeper_head</li><li>creeper_wall_head</li><li>dragon_head</li><li>dragon_wall_head</li><li>piglin_head</li><li>piglin_wall_head</li><li>player_head</li><li>player_wall_head</li><li>torch</li><li>soul_torch</li><li>lantern</li><li>soul_lantern</li><li>chain</li><li>end_rod</li><li>stonecutter</li><li>brewing_stand</li><li>conduit</li><li>scaffolding</li><li>decorated_pot</li><li>ender_chest</li><li>dragon_egg</li><li>end_portal_frame</li><li>repeater</li><li>comparator</li><li>lever</li><li>redstone_wire</li><li>redstone_torch</li><li>sculk_sensor</li><li>calibrated_sculk_sensor</li><li>sculk_shrieker</li><li>tripwire_hook</li><li>tripwire</li><li>lectern</li><li>daylight_detector</li><li>lightning_rod</li><li>slime_block</li><li>honey_block</li><li>hopper</li><li>chest</li><li>trapped_chest</li><li>composter</li><li>bell</li><li>cake</li></ul>",
+  "name": "v2.1 Add other things that were missed",
+  "version_number": "2.1",
+  "changelog": "",
   "game_versions": [
     "1.20.4"
   ],

@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": {
-    "item": "minecraft:diamond"
-  },
+  "template": [],
   "base": {
     "item": "minecraft:iron_helmet"
   },
-  "addition": [],
+  "addition": {
+    "item": "minecraft:diamond"
+  },
   "result": {
-    "item": "minecraft:diamond_helmet"
+    "id": "minecraft:diamond_helmet"
   }
 }

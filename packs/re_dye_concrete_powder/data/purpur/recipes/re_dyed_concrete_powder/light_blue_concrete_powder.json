@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "minecraft:light_blue_concrete_powder"
+    "id": "minecraft:light_blue_concrete_powder"
   },
   "show_notification": true
 }

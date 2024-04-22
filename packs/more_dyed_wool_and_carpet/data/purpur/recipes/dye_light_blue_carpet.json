@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "minecraft:light_blue_carpet"
+    "id": "minecraft:light_blue_carpet"
   },
   "show_notification": true
 }

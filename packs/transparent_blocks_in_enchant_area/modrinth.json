@@ -1,9 +1,10 @@
 {
-  "name": "v2.1 Add other things that were missed",
+  "name": "v2.2 update to 1.20.5",
   "version_number": "2.1",
-  "changelog": "### Adjusts the list of transparent blocks again<br><ul><li>Removed #climbable</li><li>Add corals and dead corals</li><li>Add a lot of different plants that weren't already on the list</li></ul><br><br>Resolves [Issue 6](https://github.com/PurpurMC/PurpurPacks/issues/6)",
+  "changelog": "Update to add support for 1.20.5, no other changes",
   "game_versions": [
-    "1.20.4"
+    "1.20.4",
+    "1.20.5"
   ],
   "version_type": "release",
   "project_id": "NhxPgV4c"

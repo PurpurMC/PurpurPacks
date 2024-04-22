@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 15,
+    "pack_format": 41,
     "description": "Allows axolotls to be bred with the tropical fish item",
-    "supported_formats": {"min_inclusive": 15, "max_inclusive": 26}
+    "supported_formats": {"min_inclusive": 41, "max_inclusive": 41}
   }
 }
 

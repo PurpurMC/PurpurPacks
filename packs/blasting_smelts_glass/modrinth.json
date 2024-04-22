@@ -1,11 +1,9 @@
 {
-  "name": "v1.2 Update to 1.20.3",
+  "name": "v2.0 Update to 1.20.5",
   "version_number": "1.2",
-  "changelog": "Update to 1.20.3",
+  "changelog": "Update to the new recipe format in 1.20.5",
   "game_versions": [
-    "1.20.1",
-    "1.20.2",
-    "1.20.3-pre3"
+    "1.20.5"
   ],
   "version_type": "release",
   "project_id": "yQr7wOEY"

@@ -2,7 +2,7 @@
   "pack": {
     "pack_format": 26,
     "description": "Allow more transparent blocks in the enchantment area",
-    "supported_formats": {"min_inclusive": 26, "max_inclusive": 26}
+    "supported_formats": {"min_inclusive": 26, "max_inclusive": 41}
   }
 }
 

@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "minecraft:blue_wool"
+    "id": "minecraft:blue_wool"
   },
   "show_notification": true
 }

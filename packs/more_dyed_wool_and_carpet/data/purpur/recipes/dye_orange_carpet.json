@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "minecraft:orange_carpet"
+    "id": "minecraft:orange_carpet"
   },
   "show_notification": true
 }

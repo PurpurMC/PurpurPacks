@@ -1,11 +1,13 @@
 {
-  "name": "v1.3 Update to 1.20.3",
+  "name": "v1.4 Update to 1.20.5",
   "version_number": "1.3",
-  "changelog": "Update to 1.20.3",
+  "changelog": "Update to add support for 1.20.5, no other changes",
   "game_versions": [
     "1.20.1",
     "1.20.2",
-    "1.20.3-pre3"
+    "1.20.3",
+    "1.20.4",
+    "1.20.5"
   ],
   "version_type": "release",
   "project_id": "UDhPA1TM"

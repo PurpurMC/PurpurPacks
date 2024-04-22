@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": {
-    "item": "minecraft:iron_ingot"
-  },
+  "template": [],
   "base": {
     "item": "minecraft:stone_hoe"
   },
-  "addition": [],
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
   "result": {
-    "item": "minecraft:iron_hoe"
+    "id": "minecraft:iron_hoe"
   }
 }

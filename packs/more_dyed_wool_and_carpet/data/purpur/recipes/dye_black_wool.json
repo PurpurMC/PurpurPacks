@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "minecraft:black_wool"
+    "id": "minecraft:black_wool"
   },
   "show_notification": true
 }

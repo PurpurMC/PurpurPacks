@@ -2,7 +2,7 @@
   "pack": {
     "pack_format": 15,
     "description": "Allows chiseled bookshelves to add to the enchanting power in an enchanting setup",
-    "supported_formats": {"min_inclusive": 15, "max_inclusive": 26}
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 41}
   }
 }
 

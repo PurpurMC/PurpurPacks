@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "minecraft:magenta_wool"
+    "id": "minecraft:magenta_wool"
   },
   "show_notification": true
 }

@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "item": "minecraft:lime_concrete_powder"
+    "id": "minecraft:lime_concrete_powder"
   },
   "show_notification": true
 }

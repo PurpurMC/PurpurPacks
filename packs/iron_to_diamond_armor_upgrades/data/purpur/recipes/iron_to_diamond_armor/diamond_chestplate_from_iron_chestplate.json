@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": {
-    "item": "minecraft:diamond"
-  },
+  "template": [],
   "base": {
     "item": "minecraft:iron_chestplate"
   },
-  "addition": [],
+  "addition": {
+    "item": "minecraft:diamond"
+  },
   "result": {
-    "item": "minecraft:diamond_chestplate"
+    "id": "minecraft:diamond_chestplate"
   }
 }

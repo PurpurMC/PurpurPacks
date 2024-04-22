@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": {
-    "tag": "minecraft:stone_tool_materials"
-  },
+  "template": [],
   "base": {
     "item": "minecraft:wooden_hoe"
   },
-  "addition": [],
+  "addition": {
+    "tag": "minecraft:stone_tool_materials"
+  },
   "result": {
-    "item": "minecraft:stone_hoe"
+    "id": "minecraft:stone_hoe"
   }
 }

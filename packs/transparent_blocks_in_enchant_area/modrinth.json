@@ -4,7 +4,8 @@
   "changelog": "Update to add support for 1.20.5, no other changes",
   "game_versions": [
     "1.20.4",
-    "1.20.5"
+    "1.20.5",
+    "1.20.6"
   ],
   "version_type": "release",
   "project_id": "NhxPgV4c"

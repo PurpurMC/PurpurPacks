@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 15,
+    "pack_format": 48,
     "description": "Prevents Axolotls from attacking fish, squid, and tadpoles",
-    "supported_formats": {"min_inclusive": 15, "max_inclusive": 41}
+    "supported_formats": {"min_inclusive": 48, "max_inclusive": 48}
   }
 }
 

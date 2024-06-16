@@ -1,9 +1,9 @@
 {
-  "name": "v2.0 Update to 1.20.5",
-  "version_number": "2.0",
-  "changelog": "Update to 1.20.5 to use the new recipe format",
+  "name": "v3.0 Update to 1.21",
+  "version_number": "3.0",
+  "changelog": "Update to 1.21 to use the new tag folder names",
   "game_versions": [
-    "1.20.5"
+    "1.21"
   ],
   "version_type": "release",
   "project_id": "cNHq7t9M"

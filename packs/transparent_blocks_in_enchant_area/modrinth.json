@@ -1,10 +1,9 @@
 {
-  "name": "v2.2 update to 1.20.5",
-  "version_number": "2.2",
-  "changelog": "Update to add support for 1.20.5, no other changes",
+  "name": "v3.0 Update to 1.21",
+  "version_number": "3.0",
+  "changelog": "Update to 1.21 to use the new tag folder names",
   "game_versions": [
-    "1.20.4",
-    "1.20.5"
+    "1.21"
   ],
   "version_type": "release",
   "project_id": "NhxPgV4c"

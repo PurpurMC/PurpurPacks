@@ -1,7 +1,7 @@
 {
   "pack": {
     "pack_format": 48,
-    "description": "Allows infinity and mending on the same bow",
+    "description": "Allows infinity on a crossbow",
     "supported_formats": {"min_inclusive": 48, "max_inclusive": 48}
   }
 }

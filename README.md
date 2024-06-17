@@ -42,6 +42,10 @@ There's a folder in the first directory, named `data` - everything in that direc
 [![](assets/modrinth_logos/chiseled-bookselves-enchant-power.png "Chiseled Bookshelves Add To Enchantment Power")](https://modrinth.com/datapack/purpurpacks-chiseled-bookshelves-add-enchantment-power/versions)
 [![](assets/modrinth_logos/transparent-blocks-in-enchant-area.png "Transparent Blocks Do Not Reduce Enchant Power In Enchant Area")](https://modrinth.com/datapack/purpurpacks-transparent-blocks-in-enchant-area/versions)
 
+## Enchants
+[![](assets/modrinth_logos/infinity-crossbow.png "Infinity Can Be Placed On Crossbows")](https://modrinth.com/datapack/purpurpacks-infinity-on-crossbows/versions)
+[![](assets/modrinth_logos/infinity-mending.png "Infinity And Mending Can Be Placed On The Same Bow")](https://modrinth.com/datapack/purpurpacks-infinity-mending-bows/versions)
+
 ## Beacon Base Materials
 [![](assets/modrinth_logos/beacon-bases-copper.png "Copper Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-copper-block-beacon-base/versions)
 [![](assets/modrinth_logos/beacon-base-redstone.png "Redstone Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-redstone-beacon-base/versions)

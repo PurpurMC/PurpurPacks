@@ -21,7 +21,7 @@ There's a folder in the first directory, named `data` - everything in that direc
 [![](assets/modrinth_logos/smelt-raw-ore-blocks.png "Smelt Raw Ore Blocks")](https://modrinth.com/datapack/purpurpack-smelt-raw-ore-blocks)
 [![](assets/modrinth_logos/blast-furnace-smelting-sand.png "Blasting Furnace Smelts Glass")](https://modrinth.com/datapack/purpurpack-blasting-smelts-glass)
 ## Loot Tables
-[![](assets/modrinth_logos/netherite-smithing-templates-from-bartering.png "Add Netherite Smithing Template to Piglin barter table")](https://modrinth.com/datapack/purpurpacks-one-step-dyed-shulker-boxes/versions)
+[![](assets/modrinth_logos/netherite-smithing-templates-from-bartering.png "Add Netherite Smithing Template to Piglin barter table")](https://modrinth.com/datapack/purpurpacks-rebalanced-piglin-bartering/versions)
 [![](assets/modrinth_logos/silk-touch-budding-amethyst.png "Pick Up Budding Amethyst blocks with Silk Touch")](https://modrinth.com/datapack/purpurpacks-silk-touch-budding-amethyst/versions)
 [![](assets/modrinth_logos/silk-touch-reinforced-deepslate.png "Pick Up Reinforced Deepslate blocks with Silk Touch")](https://modrinth.com/datapack/purpurpacks-silk-touch-reinforced-deepslate/versions)
 

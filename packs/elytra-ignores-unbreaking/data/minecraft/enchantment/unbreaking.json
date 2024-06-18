@@ -1,0 +1,131 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.unbreaking"
+  },
+  "supported_items": "#purpur:enchantable/durability",
+  "weight": 5,
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:remove_binomial",
+          "chance": {
+            "type": "minecraft:fraction",
+            "numerator": {
+              "type": "minecraft:linear",
+              "base": 2,
+              "per_level_above_first": 2
+            },
+            "denominator": {
+              "type": "minecraft:linear",
+              "base": 10,
+              "per_level_above_first": 5
+            }
+          }
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": "#minecraft:enchantable/armor"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "minecraft:elytra"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "minecraft:remove_binomial",
+          "chance": {
+            "type": "minecraft:fraction",
+            "numerator": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 1
+            },
+            "denominator": {
+              "type": "minecraft:linear",
+              "base": 2,
+              "per_level_above_first": 1
+            }
+          }
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "#minecraft:enchantable/armor"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "minecraft:elytra"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "minecraft:remove_binomial",
+          "chance": {
+            "type": "minecraft:fraction",
+            "numerator": {
+              "type": "minecraft:linear",
+              "base": 0,
+              "per_level_above_first": 0
+            },
+            "denominator": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 0
+            }
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:elytra"
+          }
+        }
+      }
+    ]
+  }
+}

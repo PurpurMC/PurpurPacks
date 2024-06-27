@@ -45,7 +45,8 @@ There's a folder in the first directory, named `data` - everything in that direc
 ## Enchants
 [![](assets/modrinth_logos/infinity-crossbow.png "Infinity Can Be Placed On Crossbows")](https://modrinth.com/datapack/purpurpacks-infinity-on-crossbows/versions)
 [![](assets/modrinth_logos/infinity-mending.png "Infinity And Mending Can Be Placed On The Same Bow")](https://modrinth.com/datapack/purpurpacks-infinity-mending-bows/versions)
-
+[![](assets/modrinth_logos/no-unbreaking-elytra.png "Unbreaking Removed From Elytra")](https://modrinth.com/datapack/purpurpacks-no-unbreaking-on-elytra/versions)
+[![](assets/modrinth_logos/remove-mending.png "Remove The Ability To Use Mending")](https://modrinth.com/datapack/purpurpacks-no-mending/versions)
 ## Beacon Base Materials
 [![](assets/modrinth_logos/beacon-bases-copper.png "Copper Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-copper-block-beacon-base/versions)
 [![](assets/modrinth_logos/beacon-base-redstone.png "Redstone Blocks Can Be Used As A Beacon Base")](https://modrinth.com/datapack/purpurpacks-redstone-beacon-base/versions)

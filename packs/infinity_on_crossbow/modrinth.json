@@ -1,7 +1,7 @@
 {
-  "name": "1.0",
-  "version_number": "1.0",
-  "changelog": "",
+  "name": "1.1",
+  "version_number": "1.1",
+  "changelog": "Fix the pack not working, Merges [#9](https://github.com/PurpurMC/PurpurPacks/pull/9)",
   "game_versions": [
     "1.21"
   ],

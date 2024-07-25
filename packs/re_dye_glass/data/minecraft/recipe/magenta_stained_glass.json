@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "concrete_powder",
+  "group": "stained_glass",
   "key": {
     "#": {
-      "tag": "purpur:dyeable_concrete_powder"
+      "tag": "purpur:dyeable_glass"
     },
     "X": {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:magenta_dye"
     }
   },
   "pattern": [
@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "id": "minecraft:yellow_concrete_powder"
+    "id": "minecraft:magenta_stained_glass"
   },
   "show_notification": true
 }

@@ -1,7 +1,7 @@
 {
-  "name": "v3.1 fix dye-ing yellow concrete powder",
-  "version_number": "3.1",
-  "changelog": "Yellow concrete powder is not made from white dye *finger guns*",
+  "name": "v1, initial release",
+  "version_number": "1",
+  "changelog": "Initial Release",
   "game_versions": [
     "1.21"
   ],
@@ -19,14 +19,10 @@
       "dependency_type": "optional"
     },
     {
-      "project_id": "1hrzfBkm",
-      "dependency_type": "optional"
-    },
-    {
       "project_id": "mBcDOO3o",
       "dependency_type": "optional"
     }
   ],
   "version_type": "release",
-  "project_id": "DUoieMnq"
+  "project_id": "1hrzfBkm"
 }

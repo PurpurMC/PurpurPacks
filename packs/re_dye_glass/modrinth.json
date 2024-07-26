@@ -17,6 +17,14 @@
     {
       "project_id": "z9M75QAX",
       "dependency_type": "optional"
+    },
+    {
+      "project_id": "1hrzfBkm",
+      "dependency_type": "optional"
+    },
+    {
+      "project_id": "mBcDOO3o",
+      "dependency_type": "optional"
     }
   ],
   "version_type": "release",

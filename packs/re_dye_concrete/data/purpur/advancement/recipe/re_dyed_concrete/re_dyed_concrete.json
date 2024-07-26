@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_concrete",
+              "minecraft:orange_concrete",
+              "minecraft:yellow_concrete",
+              "minecraft:lime_concrete",
+              "minecraft:green_concrete",
+              "minecraft:cyan_concrete",
+              "minecraft:blue_concrete",
+              "minecraft:light_blue_concrete",
+              "minecraft:purple_concrete",
+              "minecraft:magenta_concrete",
+              "minecraft:pink_concrete",
+              "minecraft:brown_concrete",
+              "minecraft:white_concrete",
+              "minecraft:light_gray_concrete",
+              "minecraft:gray_concrete",
+              "minecraft:black_concrete"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:re_dyed_concrete/black_concrete",
+      "purpur:re_dyed_concrete/blue_concrete",
+      "purpur:re_dyed_concrete/brown_concrete",
+      "purpur:re_dyed_concrete/cyan_concrete",
+      "purpur:re_dyed_concrete/gray_concrete",
+      "purpur:re_dyed_concrete/green_concrete",
+      "purpur:re_dyed_concrete/light_blue_concrete",
+      "purpur:re_dyed_concrete/light_gray_concrete",
+      "purpur:re_dyed_concrete/lime_concrete",
+      "purpur:re_dyed_concrete/magenta_concrete",
+      "purpur:re_dyed_concrete/orange_concrete",
+      "purpur:re_dyed_concrete/pink_concrete",
+      "purpur:re_dyed_concrete/purple_concrete",
+      "purpur:re_dyed_concrete/red_concrete",
+      "purpur:re_dyed_concrete/white_concrete",
+      "purpur:re_dyed_concrete/yellow_concrete"
+    ]
+  }
+}

@@ -14,8 +14,11 @@ There's a folder in the first directory, named `data` - everything in that direc
 
 ## Crafting Recipes
 [![](assets/modrinth_logos/redye-terracotta.png "Re-Dye All Colors of Terracotta")](https://modrinth.com/datapack/purpurpacks-re-dye-terracotta/versions)
-[![](assets/modrinth_logos/redye-concrete-powder.png "Re-Dye All Colors of Concrete")](https://modrinth.com/datapack/purpurpacks-re-dye-concrete-powder/versions)
-[![](assets/modrinth_logos/redye-glass.png "Re-Dye All Colors Of Glass")](https://modrinth.com/datapack/purpurpacks-re-dye-glass/versions)
+[![](assets/modrinth_logos/redye-glazed-terracotta.png "Re-Dye All Colors Of Glass")](https://modrinth.com/datapack/purpurpacks-re-dye-glass/versions)
+[![](assets/modrinth_logos/redye-concrete-powder.png "Re-Dye All Colors of Concrete Powder")](https://modrinth.com/datapack/purpurpacks-re-dye-concrete-powder/versions)
+[![](assets/modrinth_logos/redye-concrete.png "Re-Dye All Colors Of Concrete")](https://modrinth.com/datapack/purpurpacks-re-dye-concrete/versions)
+[![](assets/modrinth_logos/redye-glass.png "Re-Dye All Colors Of Glazed Terracotta")](https://modrinth.com/datapack/purpurpacks-re-dye-glazed-terracotta/versions)
+
 [![](assets/modrinth_logos/redye-wool-more-output.png "Dye 8 Wool or Carpet at a Time Instead Of One")](https://modrinth.com/datapack/purpurpacks-more-dyed-wool-and-carpet/versions)
 [![](assets/modrinth_logos/shulker-box-dyed.png "Craft Dyed Shulkers From Scratch")](https://modrinth.com/datapack/purpurpacks-one-step-dyed-shulker-boxes/versions)
 [![](assets/modrinth_logos/smelt-raw-ore-blocks.png "Smelt Raw Ore Blocks")](https://modrinth.com/datapack/purpurpack-smelt-raw-ore-blocks)

@@ -1,6 +1,6 @@
 {
-    "name": "v1.0 Update",
-    "version_number": "1.0",
+    "name": "v1.1 Update",
+    "version_number": "1.1",
     "changelog": "Starts preparing support easier updating. Adds a 'version_info.txt' file. Also adds 'support' for 1.21.1, though not particularly necessary",
     "game_versions": [
         "1.21",

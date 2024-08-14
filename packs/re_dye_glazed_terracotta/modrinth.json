@@ -1,28 +1,29 @@
 {
-  "name": "v1.0 Initial Release",
-  "version_number": "1.0",
-  "changelog": "Initial Release",
-  "game_versions": [
-    "1.21"
-  ],
-  "dependencies": [
-    {
-      "project_id": "DUoieMnq",
-      "dependency_type": "optional"
-    },
-    {
-      "project_id": "sbHA4Z4I",
-      "dependency_type": "optional"
-    },
-    {
-      "project_id": "z9M75QAX",
-      "dependency_type": "optional"
-    },
-    {
-      "project_id": "1hrzfBkm",
-      "dependency_type": "optional"
-    }
-  ],
-  "version_type": "release",
-  "project_id": "mBcDOO3o"
+    "name": "v1.0 Update",
+    "version_number": "1.0",
+    "changelog": "Starts preparing support easier updating. Adds a 'version_info.txt' file. Also adds 'support' for 1.21.1, though not particularly necessary",
+    "game_versions": [
+        "1.21",
+        "1.21.1"
+    ],
+    "dependencies": [
+        {
+            "project_id": "DUoieMnq",
+            "dependency_type": "optional"
+        },
+        {
+            "project_id": "sbHA4Z4I",
+            "dependency_type": "optional"
+        },
+        {
+            "project_id": "z9M75QAX",
+            "dependency_type": "optional"
+        },
+        {
+            "project_id": "1hrzfBkm",
+            "dependency_type": "optional"
+        }
+    ],
+    "version_type": "release",
+    "project_id": "mBcDOO3o"
 }

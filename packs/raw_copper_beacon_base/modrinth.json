@@ -1,10 +1,11 @@
 {
-  "name": "v2.0 Update to 1.21",
-  "version_number": "2.0",
-  "changelog": "Update to 1.21 to use the new tag folder names",
-  "game_versions": [
-    "1.21"
-  ],
-  "version_type": "release",
-  "project_id": "ItRpuGf4"
+    "name": "v2.1 Update",
+    "version_number": "2.1",
+    "changelog": "Starts preparing support easier updating. Adds a 'version_info.txt' file. Also adds 'support' for 1.21.1, though not particularly necessary",
+    "game_versions": [
+        "1.21",
+        "1.21.1"
+    ],
+    "version_type": "release",
+    "project_id": "ItRpuGf4"
 }

@@ -1,7 +1,7 @@
 {
-    "name": "v3.1 Update",
-    "version_number": "3.1",
-    "changelog": "Starts preparing support easier updating. Adds a 'version_info.txt' file. Also adds 'support' for 1.21.1, though not particularly necessary",
+    "name": "v3.2 Update",
+    "version_number": "3.2",
+    "changelog": "Fixes an issue where books and boots were just enchanted randomly, rather than enchanted just with soul speed",
     "game_versions": [
         "1.21",
         "1.21.1"

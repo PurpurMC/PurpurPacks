@@ -6,21 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_upgrade_smithing_template",
-          "weight": 5
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {}
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:soul_speed"
-              ]
-            }
-          ]
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -29,9 +26,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:soul_speed"
-              ]
+              "options": "minecraft:soul_speed"
             }
           ]
         },
@@ -248,10 +243,7 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:silk_touch"
-              ]
+              "function": "minecraft:enchant_randomly"
             }
           ]
         },
@@ -542,53 +534,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:sharpness"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:fire_aspect"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:looting"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:piercing"
-              ]
+              "function": "minecraft:enchant_randomly"
             }
           ]
         },
@@ -596,6 +546,17 @@
           "type": "minecraft:item",
           "name": "minecraft:music_disc_pigstep",
           "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:soul_speed"
+            }
+          ]
         }
       ]
     }

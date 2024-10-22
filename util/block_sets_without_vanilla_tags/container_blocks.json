@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:barrel",
+    "minecraft:decorated_pot",
+    "minecraft:chiseled_bookshelf",
+    "minecraft:lectern",
+    "minecraft:dispenser",
+    "minecraft:droppper",
+    "minecraft:hopper",
+
+  ]
+}

@@ -1,23 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "concrete",
-  "key": {
-    "#": {
-      "tag": "purpur:concrete_blocks"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "concrete",
+    "key": {
+        "#": "#purpur:concrete_blocks",
+        "X": "minecraft:black_dye"
     },
-    "X": {
-      "item": "minecraft:black_dye"
-    }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "id": "minecraft:black_concrete"
-  },
-  "show_notification": true
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:black_concrete"
+    },
+    "show_notification": true
 }

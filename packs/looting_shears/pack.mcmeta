@@ -1,8 +1,10 @@
 {
-  "pack": {
-    "pack_format": 53,
-    "description": "Allows looting on shears",
-    "supported_formats": {"min_inclusive": 53, "max_inclusive": 53}
-  }
+    "pack": {
+        "pack_format": 57,
+        "description": "Allows looting on shears",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 57
+        }
+    }
 }
-

@@ -1,7 +1,10 @@
 {
-  "pack": {
-    "pack_format": 48,
-    "description": "Allows dyeing 8 wool/carpet instead of one at a time",
-    "supported_formats": {"min_inclusive": 48, "max_inclusive": 48}
-  }
+    "pack": {
+        "pack_format": 57,
+        "description": "Allows dyeing 8 wool/carpet instead of one at a time",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 57
+        }
+    }
 }

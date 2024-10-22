@@ -1,13 +1,8 @@
 {
-  "type": "minecraft:smithing_transform",
-  "template": [],
-  "base": {
-    "item": "minecraft:iron_sword"
-  },
-  "addition": {
-    "item": "minecraft:diamond"
-  },
-  "result": {
-    "id": "minecraft:diamond_sword"
-  }
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:iron_sword",
+    "addition": "minecraft:diamond",
+    "result": {
+        "id": "minecraft:diamond_sword"
+    }
 }

@@ -1,7 +1,10 @@
 {
-  "pack": {
-    "pack_format": 48,
-    "description": "Allows upgrading wooden tools to stone ones in an upgrade table",
-    "supported_formats": {"min_inclusive": 48, "max_inclusive": 48}
-  }
+    "pack": {
+        "pack_format": 57,
+        "description": "Allows upgrading wooden tools to stone ones in an upgrade table",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 57
+        }
+    }
 }

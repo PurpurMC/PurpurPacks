@@ -1,23 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "wool",
-  "key": {
-    "#": {
-      "tag": "minecraft:wool"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "wool",
+    "key": {
+        "#": "#minecraft:wool",
+        "X": "minecraft:brown_dye"
     },
-    "X": {
-      "item": "minecraft:brown_dye"
-    }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "id": "minecraft:brown_wool"
-  },
-  "show_notification": true
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:brown_wool"
+    },
+    "show_notification": true
 }

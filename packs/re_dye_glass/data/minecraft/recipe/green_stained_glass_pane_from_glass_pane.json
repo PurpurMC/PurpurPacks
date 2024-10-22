@@ -1,23 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "stained_glass_pane",
-  "key": {
-    "#": {
-      "tag": "purpur:dyeable_glass_panes"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "stained_glass_pane",
+    "key": {
+        "#": "#purpur:dyeable_glass_panes",
+        "$": "minecraft:green_dye"
     },
-    "$": {
-      "item": "minecraft:green_dye"
-    }
-  },
-  "pattern": [
-    "###",
-    "#$#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "id": "minecraft:green_stained_glass_pane"
-  },
-  "show_notification": true
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:green_stained_glass_pane"
+    },
+    "show_notification": true
 }

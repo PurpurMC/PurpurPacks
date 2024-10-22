@@ -19,9 +19,12 @@
               "function": "minecraft:set_count"
             },
             {
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops",
-              "function": "minecraft:apply_bonus"
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:looting",
+              "formula": "minecraft:uniform_bonus_count",
+              "parameters": {
+                "bonusMultiplier": 3
+              }
             }
           ]
         }

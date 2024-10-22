@@ -1,29 +1,14 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "dyed-shulker",
-  "ingredients": [
-    {
-      "item": "minecraft:orange_dye"
-    },
-    {
-      "item": "minecraft:shulker_shell"
-    },
-    {
-      "item": "minecraft:shulker_shell"
-    },
-    [
-      {
-        "item": "minecraft:chest"
-      },
-      {
-        "item": "minecraft:trapped_chest"
-      },
-      {
-        "item": "minecraft:barrel"
-      }
-    ]
-  ],
-  "result": {
-    "id": "minecraft:orange_shulker_box"
-  }
+    "type": "minecraft:crafting_shapeless",
+    "group": "dyed-shulker",
+    "ingredients": [
+        "minecraft:shulker_shell",
+        "#purpur:chests",
+        "minecraft:shulker_shell",
+        "minecraft:orange_dye"
+    ],
+    "result": {
+        "id": "minecraft:orange_shulker_box",
+        "count": 1
+    }
 }

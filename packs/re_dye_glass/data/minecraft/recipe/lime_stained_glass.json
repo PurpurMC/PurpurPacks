@@ -1,23 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_glass",
-  "key": {
-    "#": {
-      "tag": "purpur:dyeable_glass"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "stained_glass",
+    "key": {
+        "#": "#purpur:dyeable_glass",
+        "X": "minecraft:lime_dye"
     },
-    "X": {
-      "item": "minecraft:lime_dye"
-    }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "id": "minecraft:lime_stained_glass"
-  },
-  "show_notification": true
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:lime_stained_glass"
+    },
+    "show_notification": true
 }

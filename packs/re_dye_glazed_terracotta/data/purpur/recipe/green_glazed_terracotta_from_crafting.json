@@ -1,23 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "stained_terracotta",
-  "key": {
-    "#": {
-      "tag": "purpur:glazed_terracotta"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "stained_terracotta",
+    "key": {
+        "#": "#purpur:glazed_terracotta",
+        "X": "minecraft:green_dye"
     },
-    "X": {
-      "item": "minecraft:green_dye"
-    }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "id": "minecraft:green_glazed_terracotta"
-  },
-  "show_notification": true
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:green_glazed_terracotta"
+    },
+    "show_notification": true
 }

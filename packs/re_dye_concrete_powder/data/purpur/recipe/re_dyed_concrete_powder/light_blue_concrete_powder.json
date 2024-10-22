@@ -1,23 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "concrete_powder",
-  "key": {
-    "#": {
-      "tag": "purpur:dyeable_concrete_powder"
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "concrete_powder",
+    "key": {
+        "#": "#purpur:dyeable_concrete_powder",
+        "X": "minecraft:light_blue_dye"
     },
-    "X": {
-      "item": "minecraft:light_blue_dye"
-    }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 8,
-    "id": "minecraft:light_blue_concrete_powder"
-  },
-  "show_notification": true
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:light_blue_concrete_powder"
+    },
+    "show_notification": true
 }

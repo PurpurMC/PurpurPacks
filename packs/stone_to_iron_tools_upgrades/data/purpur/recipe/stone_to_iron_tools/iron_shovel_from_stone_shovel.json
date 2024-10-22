@@ -1,13 +1,8 @@
 {
-  "type": "minecraft:smithing_transform",
-  "template": [],
-  "base": {
-    "item": "minecraft:stone_shovel"
-  },
-  "addition": {
-    "item": "minecraft:iron_ingot"
-  },
-  "result": {
-    "id": "minecraft:iron_shovel"
-  }
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:stone_shovel",
+    "addition": "minecraft:iron_ingot",
+    "result": {
+        "id": "minecraft:iron_shovel"
+    }
 }

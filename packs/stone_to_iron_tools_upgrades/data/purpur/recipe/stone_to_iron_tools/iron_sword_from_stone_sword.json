@@ -1,13 +1,8 @@
 {
-  "type": "minecraft:smithing_transform",
-  "template": [],
-  "base": {
-    "item": "minecraft:stone_sword"
-  },
-  "addition": {
-    "item": "minecraft:iron_ingot"
-  },
-  "result": {
-    "id": "minecraft:iron_sword"
-  }
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:stone_sword",
+    "addition": "minecraft:iron_ingot",
+    "result": {
+        "id": "minecraft:iron_sword"
+    }
 }

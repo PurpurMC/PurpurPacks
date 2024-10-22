@@ -1,8 +1,10 @@
 {
-  "pack": {
-    "pack_format": 48,
-    "description": "Removes the ability to get mending, add it to tools, and removes it's functionality",
-    "supported_formats": {"min_inclusive": 48, "max_inclusive": 48}
-  }
+    "pack": {
+        "pack_format": 57,
+        "description": "Removes the ability to get mending, add it to tools, and removes it's functionality",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 57
+        }
+    }
 }
-

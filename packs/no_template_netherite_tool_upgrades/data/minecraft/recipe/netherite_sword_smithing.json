@@ -1,13 +1,8 @@
 {
-  "type": "minecraft:smithing_transform",
-  "template": [],
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
-  "base": {
-    "item": "minecraft:diamond_sword"
-  },
-  "result": {
-    "id": "minecraft:netherite_sword"
-  }
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:netherite_ingot",
+    "base": "minecraft:diamond_sword",
+    "result": {
+        "id": "minecraft:netherite_sword"
+    }
 }

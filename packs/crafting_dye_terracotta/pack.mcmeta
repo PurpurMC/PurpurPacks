@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 57,
+        "description": "Re-Dye All Colors Of Terracotta",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 57
+        }
+    }
+}

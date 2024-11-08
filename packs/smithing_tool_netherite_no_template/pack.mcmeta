@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 57,
+        "description": "Upgrade Diamond Tools to Netherite Without A Template",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 57
+        }
+    }
+}

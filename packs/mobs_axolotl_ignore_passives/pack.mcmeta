@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 57,
+        "description": "Axolotls Do Not Attack Passive Mobs",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 57
+        }
+    }
+}

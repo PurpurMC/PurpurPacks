@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 57,
+        "description": "Copper Blocks Can Be Used As A Beacon Base. Copper Ingots Can Be Used As A Beacon Payment Item",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 57
+        }
+    }
+}

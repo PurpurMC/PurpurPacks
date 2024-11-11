@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 57,
+        "description": "Blasting Furnace Smelts Glass",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 57
+        }
+    }
+}

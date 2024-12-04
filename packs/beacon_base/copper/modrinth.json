@@ -1,9 +1,9 @@
 {
-    "name": "v4.0 Update",
-    "version_number": "4.0",
-    "changelog": "Update to 1.21.2",
+    "name": "v4.1 Update",
+    "version_number": "4.1",
+    "changelog": "Update to 1.21.4",
     "game_versions": [
-        "1.21.2"
+        "1.21.4"
     ],
     "version_type": "release",
     "project_id": "zFdrE9Wt"

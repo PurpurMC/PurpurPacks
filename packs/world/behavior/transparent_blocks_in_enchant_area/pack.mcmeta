@@ -1,10 +1,10 @@
 {
     "pack": {
-        "pack_format": 57,
+        "pack_format": 61,
         "description": "Transparent Blocks Do Not Reduce Enchant Power In Enchant Area",
         "supported_formats": {
             "min_inclusive": 57,
-            "max_inclusive": 57
+            "max_inclusive": 61
         }
     }
 }

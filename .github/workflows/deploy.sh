@@ -17,19 +17,11 @@ if [ -z "$MODRINTH_TOKEN" ]; then
     exit 1
 fi
 
-for datapack_path in $datapack_folder/*; do
-    modrinth_file_path="$datapack_path/modrinth.json"
+find "$datapack_folder" -type f -name "modrinth.json" | while read -r modrinth_file_path; do
 
-    # continue if not a directory
-    if [ ! -d "$datapack_path" ]; then
-      continue
-    fi
+  datapack_path=$(dirname "$modrinth_file_path")
 
-    # continue if datapack folder does not include modrinth.json
-    if [ ! -e "$modrinth_file_path" ]; then
-      echo "No modrinth.json file located in \"$datapack_path\""
-      continue
-    fi
+  echo "modrinth.json found in directory $datapack_path"
 
     # packs/<datapack> -> <datapack>
     datapack_name=$(cut -d'/' -f2 <<< $datapack_path)
@@ -42,11 +34,23 @@ for datapack_path in $datapack_folder/*; do
     echo "Processing $datapack_name..."
 
     # combine modrinth.json with <datapack>/modrinth.json (datapack file overrides base file values)
-    modrinth_json=$(jq --compact-output -s '.[0] * .[1]' modrinth.json $modrinth_file_path)
+    modrinth_json=$(jq --compact-output -s '.[0] * .[1]' modrinth.json "$modrinth_file_path") || {
+        echo "Failed to parse JSON for $datapack_path. Skipping...";
+        continue;
+    }
 
     echo -e "Output of modrinth_json: \n ${modrinth_json}"
 
-    project_id=$(jq --raw-output '.project_id' <<< $modrinth_json)
+    project_id=$(jq --raw-output '.project_id' <<< "$modrinth_json")
+    if [ -z "$project_id" ]; then
+        echo "Project ID missing in $datapack_path. Skipping..."
+        continue
+    fi
+
+    if ! jq empty <<< "$all_versions_curl_output" 2>/dev/null; then
+        echo "Invalid JSON response from Modrinth API. Skipping $project_id..."
+        continue
+    fi
 
     echo -e "Output of project_id: \n ${project_id}"
 
@@ -71,7 +75,7 @@ for datapack_path in $datapack_folder/*; do
     zipped_file_name=${datapack_prefix}${datapack_name}_${project_version_number}.zip
 
     #create a zipped file inside packs/<datapack>/dist/ without including the modrinth.json file & dist/ directory
-    (cd $datapack_path && mkdir -p dist && zip -r "dist/${zipped_file_name}" . -x dist/ modrinth.json)
+    (cd "$datapack_path" && mkdir -p dist && zip -r "dist/${zipped_file_name}" . -x dist/ modrinth.json)
 
     echo "Datapack located at: $(ls ${datapack_path}/dist)"
 

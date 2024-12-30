@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_warped_planks": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_planks"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "purpur:stonecutting/wood/warped_pressure_plate_from_warped_planks_stonecutting"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_warped_planks"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "minecraft:warped_pressure_plate_from_warped_planks_stonecutting"
+        ]
+    }
+}

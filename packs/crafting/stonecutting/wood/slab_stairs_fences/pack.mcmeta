@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 61,
+        "description": "Use the stonecutter to get stairs, slabs, fences, and fence gates from planks",
+        "supported_formats": {
+            "min_inclusive": 61,
+            "max_inclusive": 61
+        }
+    }
+}

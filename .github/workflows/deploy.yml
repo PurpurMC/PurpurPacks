@@ -1,8 +1,10 @@
 name: Deploy PurpurPacks to Modrinth
+
 on:
   push:
     branches:
       - master
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -10,12 +12,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: Ana06/get-changed-files@v2.2.0
-        id: changed_files
-        with:
-          format: json
-      - name: Run Script
-        run: .github/workflows/deploy.sh
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Python Deploy Script
+        run: python .github/workflows/deploy.py
         env:
-          ALL_CHANGED_FILES: ${{ steps.changed_files.outputs.all }}
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}

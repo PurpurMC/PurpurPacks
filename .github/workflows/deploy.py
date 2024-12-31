@@ -98,14 +98,22 @@ def zip_and_post(modrinth_info, root):
 
 
 def main():
+    print(f"Starting the datapack update process in {datapack_folder}.")
     for root, dirs, files in os.walk(datapack_folder):
+        print(f"Checking directory: {root}")
         if 'pack.mcmeta' not in files:
-            print(f"{root} is not a pack directory, skipping")
+            print(f"{root} is not a pack directory, skipping.")
             continue
         if 'modrinth.json' not in files:
-            print(f"{root} does not have a modrinth json file, skipping")
+            print(f"{root} does not have a modrinth.json file, skipping.")
             continue
-        datapack_info = get_datapack_info(os.path.join(root, "modrinth.json"))
-        if not should_update_pack(datapack_info):
-            continue
-        zip_and_post(datapack_info, root)
+        try:
+            datapack_info = get_datapack_info(os.path.join(root, "modrinth.json"))
+            if not should_update_pack(datapack_info):
+                print(f"Skipping {root}: no update needed.")
+                continue
+            print(f"Preparing to update {root}.")
+            zip_and_post(datapack_info, root)
+        except Exception as e:
+            print(f"Error processing directory {root}: {e}")
+

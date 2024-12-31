@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "com.modrinth",
+    "id": "mr_purpurpacks_pickaxeeffectivereinforceddeepslate",
+    "version": "1.4",
+    "metadata": {
+      "name": "%pack-name%",
+      "description": "%pack-desc%",
+      "contributors": {
+        "Rhythmic": "Developer",
+        "PurpurMC": "Member"
+      },
+      "contact": {
+        "homepage": "%download%",
+        "sources": "https://github.com/PurpurMC/PurpurPacks",
+        "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+      },
+      "icon": "%icon%"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ]
+  }
+}

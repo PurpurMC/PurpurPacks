@@ -45,6 +45,12 @@ def get_current_version(json_file):
 def get_project_id(json_file):
     return json_file["project_id"]
 
+def get_dependencies(json_file):
+    dependencies = json_file["dependencies"]
+    if dependencies is None:
+        return []
+    return dependencies
+
 def should_update_pack(modrinth_json):
     if modrinth_json is None:
         print("Modrinth JSON is empty or missing, skipping")
@@ -89,9 +95,9 @@ def zip_and_post(modrinth_info, root):
 def post(modrinth_info, datapack_name, zipped_file_path):
     version = get_current_version(modrinth_info)
     project_id = get_project_id(modrinth_info)
+    dependencies = get_dependencies(modrinth_info)
     ver_name = modrinth_info["name"]
     changelog = modrinth_info["changelog"]
-    dependencies = modrinth_info["dependencies"]
     supported_versions = modrinth_info["supported_versions"]
     release_type = modrinth_info["version_type"]
 

@@ -46,10 +46,7 @@ def get_project_id(json_file):
     return json_file["project_id"]
 
 def get_dependencies(json_file):
-    dependencies = json_file["dependencies"]
-    if dependencies is None:
-        return []
-    return dependencies
+    return json_file.get("dependencies", [])
 
 def should_update_pack(modrinth_json):
     if modrinth_json is None:

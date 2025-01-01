@@ -95,7 +95,7 @@ def post(modrinth_info, datapack_name, zipped_file_path):
     dependencies = get_dependencies(modrinth_info)
     ver_name = modrinth_info["name"]
     changelog = modrinth_info["changelog"]
-    supported_versions = modrinth_info["supported_versions"]
+    supported_versions = modrinth_info["game_versions"]
     release_type = modrinth_info["version_type"]
 
     files = {

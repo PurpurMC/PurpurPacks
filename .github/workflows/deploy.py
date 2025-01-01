@@ -68,7 +68,6 @@ def should_update_pack(modrinth_json):
 
 def zip_and_post(modrinth_info, root):
     version = get_current_version(modrinth_info)
-    project_id = get_project_id(modrinth_info)
     relative_path = os.path.relpath(root, datapack_folder)
     datapack_name = f"{relative_path.replace(os.sep, '_')}_v{version}.zip"
     full_datapack_path = os.path.join(root, datapack_name)
@@ -83,11 +82,38 @@ def zip_and_post(modrinth_info, root):
                 zipped_file.write(os.path.join(root, file), arcname=file)
         print(f"zipping {file}")
 
+    post(modrinth_info, datapack_name, zipped_file_path)
+
+
+
+def post(modrinth_info, datapack_name, zipped_file_path):
+    version = get_current_version(modrinth_info)
+    project_id = get_project_id(modrinth_info)
+    ver_name = modrinth_info["name"]
+    changelog = modrinth_info["changelog"]
+    dependencies = modrinth_info["dependencies"]
+    supported_versions = modrinth_info["supported_versions"]
+    release_type = modrinth_info["version_type"]
+
     files = {
-        'data': (None, json.dumps(modrinth_info), 'application/json'),
-        'file': (datapack_name, open(zipped_file_path, 'rb'), 'application/zip')
+        'primary_file': (datapack_name, open(zipped_file_path, 'rb'), 'application/zip')
     }
-    response = requests.post(modrinth_post_version_route, headers={"Authorization": modrinth_token}, files=files)
+
+    payload = {
+        "name": ver_name,
+        "version_number": version,
+        "changelog": changelog,
+        "dependencies": dependencies,
+        "game_versions": supported_versions,
+        "version_type": release_type,
+        "loaders": ['datapack'],
+        "featured": 'false',
+        "project_id": project_id
+    }
+
+
+
+    response = requests.post(modrinth_post_version_route, headers={"Authorization": modrinth_token}, files=files, data=payload)
     upload_response = response.json()
 
     if 'error' not in upload_response:
@@ -96,26 +122,20 @@ def zip_and_post(modrinth_info, root):
         print(f"Failed to upload {datapack_name}. Output:\n{upload_response}")
 
 
-
 def main():
-    print(f"Starting the datapack update process in {datapack_folder}.")
     for root, dirs, files in os.walk(datapack_folder):
-        print(f"Checking directory: {root}")
         if 'pack.mcmeta' not in files:
-            print(f"{root} is not a pack directory, skipping.")
+            print(f"{root} is not a pack directory, skipping")
             continue
         if 'modrinth.json' not in files:
-            print(f"{root} does not have a modrinth.json file, skipping.")
+            print(f"{root} does not have a modrinth json file, skipping")
             continue
-        try:
-            datapack_info = get_datapack_info(os.path.join(root, "modrinth.json"))
-            if not should_update_pack(datapack_info):
-                print(f"Skipping {root}: no update needed.")
-                continue
-            print(f"Preparing to update {root}.")
-            zip_and_post(datapack_info, root)
-        except Exception as e:
-            print(f"Error processing directory {root}: {e}")
+        datapack_info = get_datapack_info(os.path.join(root, "modrinth.json"))
+        if not should_update_pack(datapack_info):
+            continue
+        zip_and_post(datapack_info, root)
+
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "#minecraft:bamboo_blocks",
+    "result": {
+        "count": 1,
+        "id": "minecraft:bamboo_hanging_sign"
+    }
+}

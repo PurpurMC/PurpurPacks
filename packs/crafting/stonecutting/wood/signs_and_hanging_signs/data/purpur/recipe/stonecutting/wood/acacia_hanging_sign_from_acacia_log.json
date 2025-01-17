@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "#minecraft:acacia_logs",
+    "result": {
+        "count": 1,
+        "id": "minecraft:acacia_hanging_sign"
+    }
+}

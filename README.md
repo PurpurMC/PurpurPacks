@@ -31,8 +31,8 @@ There's a folder in the first directory, named `data` - everything in that direc
 [![](/packs/crafting/smelting/blasting_smelts_glass/pack.png "Blasting Furnace Smelts Glass")](https://modrinth.com/project/yQr7wOEY/versions)
 [![](/packs/crafting/smelting/raw_ore_blocks/pack.png "Smelt Raw Ore Blocks")](https://modrinth.com/project/Sue2z8Bl/versions)
 ### Stonecutter
-[![](packs/crafting/stonecutting/wood/door_trapdoor_pressure_plate/pack.png "Stonecutter Cuts Planks To Doors Trapdoors and Pressure Plates")](https://modrinth.com/project/VWWrpSlM/versions)
-[![](packs/crafting/stonecutting/wood/slab_stairs_fences/pack.png "Stonecutter Cuts Planks To Slabs Stairs Fences and Fence Gates")](https://modrinth.com/project/k4swAzko/versions)
+[![](packs/crafting/stonecutting/wood/doors_and_trapdoors/pack.png "Stonecutter Cuts Planks To Doors Trapdoors and Pressure Plates")](https://modrinth.com/project/VWWrpSlM/versions)
+[![](packs/crafting/stonecutting/wood/slabs_and_stairs/pack.png "Stonecutter Cuts Planks To Slabs Stairs Fences and Fence Gates")](https://modrinth.com/project/k4swAzko/versions)
 ### Misc
 [![](/packs/crafting/misc/more_dyed_wool_and_carpet/pack.png "Craft 8 Wool Or Carpet Instead Of One At A Time")](https://modrinth.com/project/z9M75QAX/versions)
 [![](/packs/crafting/misc/one_step_dyed_shulker_boxes/pack.png "Craft Dyed Shulkers From Scratch")](https://modrinth.com/project/cNHq7t9M/versions)

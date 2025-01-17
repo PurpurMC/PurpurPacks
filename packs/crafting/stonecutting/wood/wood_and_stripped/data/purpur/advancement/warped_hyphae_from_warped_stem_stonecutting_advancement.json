@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_warped_stem": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_stem"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "purpur:stonecutting/wood/warped_hyphae_from_warped_stem"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_warped_stem"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "purpur:stonecutting/wood/warped_hyphae_from_warped_stem"
+        ]
+    }
+}

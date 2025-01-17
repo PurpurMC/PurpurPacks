@@ -1,0 +1,10 @@
+{
+    "name": "v1.1",
+    "version_number": "1.1",
+    "changelog": "Remove buttons, fences, and fence gates and separate them to a different pack",
+    "game_versions": [
+        "1.21.4"
+    ],
+    "version_type": "release",
+    "project_id": "k4swAzko"
+}

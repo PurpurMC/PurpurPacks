@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "#minecraft:birch_logs",
+    "result": {
+        "count": 1,
+        "id": "minecraft:birch_hanging_sign"
+    }
+}

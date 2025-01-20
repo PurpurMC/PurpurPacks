@@ -1,7 +1,7 @@
 {
-    "name": "v4.1 Update",
-    "version_number": "4.1",
-    "changelog": "Update to 1.21.4",
+    "name": "v4.2",
+    "version_number": "4.2",
+    "changelog": "Fix Enchanted books randomly being in here again",
     "game_versions": [
         "1.21.4"
     ],

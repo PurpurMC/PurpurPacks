@@ -6,16 +6,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {}
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:netherite_upgrade_smithing_template",
           "weight": 5
         },

@@ -1,10 +1,10 @@
 {
     "name": "v1.0",
     "version_number": "1.0",
-    "changelog": "",
+    "changelog": "Initial Release",
     "game_versions": [
         "1.21.4"
     ],
     "version_type": "release",
-    "project_id": ""
+    "project_id": "H8LxYxUo"
 }

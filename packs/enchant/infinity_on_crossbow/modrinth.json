@@ -1,9 +1,10 @@
 {
-    "name": "v2.1 Update",
-    "version_number": "2.1",
-    "changelog": "Update to 1.21.4",
+    "name": "v2.2 Update",
+    "version_number": "2.2",
+    "changelog": "Update to 1.21.5",
     "game_versions": [
-        "1.21.4"
+        "1.21.4",
+        "1.21.5"
     ],
     "version_type": "release",
     "project_id": "rvzRe1CC"

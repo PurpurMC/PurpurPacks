@@ -1,10 +1,10 @@
 {
     "pack": {
-        "pack_format": 61,
+        "pack_format": 71,
         "description": "Lapis Blocks Can Be Used As A Beacon Base. Lapis Lazuli Can Be Used As A Beacon Payment Item",
         "supported_formats": {
             "min_inclusive": 57,
-            "max_inclusive": 61
+            "max_inclusive": 71
         }
     }
 }

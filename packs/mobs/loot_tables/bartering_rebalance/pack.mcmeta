@@ -1,10 +1,10 @@
 {
     "pack": {
-        "pack_format": 61,
+        "pack_format": 71,
         "description": "Rebalance The Piglin Bartering Loot Table",
         "supported_formats": {
             "min_inclusive": 57,
-            "max_inclusive": 61
+            "max_inclusive": 71
         }
     }
 }

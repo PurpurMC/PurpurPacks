@@ -1,4 +1,4 @@
 {
-    "version_number": "3.1",
+    "version_number": "3.2",
     "project_id": "I2neFSkP"
 }

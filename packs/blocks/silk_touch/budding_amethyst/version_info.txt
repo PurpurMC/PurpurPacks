@@ -1,4 +1,4 @@
 {
-    "version_number": "4.1",
+    "version_number": "4.2",
     "project_id": "7P6tQJuB"
 }

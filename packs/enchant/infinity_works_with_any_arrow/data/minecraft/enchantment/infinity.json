@@ -8,14 +8,12 @@
       {
         "effect": {
           "type": "minecraft:set",
-          "value": 0.0
+          "value": 0
         },
         "requirements": {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "items": [
-              "#minecraft:arrows"
-            ]
+            "items": "#minecraft:arrows"
           }
         }
       }

@@ -167,7 +167,9 @@
     "minecraft:sculk_sensor",
     "minecraft:calibrated_sculk_sensor",
     "minecraft:sculk_shrieker",
-    "minecraft:sculk_vein"
+    "minecraft:sculk_vein",
+    "minecraft:pale_hanging_moss",
+    "minecraft:firefly_bush"
 
 
   ]

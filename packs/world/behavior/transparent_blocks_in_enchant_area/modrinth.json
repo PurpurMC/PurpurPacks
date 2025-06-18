@@ -1,10 +1,9 @@
 {
-    "name": "v4.2 Update",
-    "version_number": "4.2",
-    "changelog": "Update to 1.21.5",
+    "name": "v4.3 Update",
+    "version_number": "4.3",
+    "changelog": "Update to 1.21.6",
     "game_versions": [
-        "1.21.4",
-        "1.21.5"
+        "1.21.6"
     ],
     "version_type": "release",
     "project_id": "NhxPgV4c"

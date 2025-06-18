@@ -1,34 +1,32 @@
 {
-    "parent": "minecraft:recipes/root",
-    "criteria": {
-        "has_dark_oak_log": {
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "#minecraft:dark_oak_logs"
-                        ]
-                    }
-                ]
-            },
-            "trigger": "minecraft:inventory_changed"
-        },
-        "has_the_recipe": {
-            "conditions": {
-                "recipe": "purpur:stonecutting/wood/dark_oak_hanging_sign_from_dark_oak_logs"
-            },
-            "trigger": "minecraft:recipe_unlocked"
-        }
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dark_oak_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:dark_oak_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     },
-    "requirements": [
-        [
-            "has_the_recipe",
-            "has_dark_oak_log"
-        ]
-    ],
-    "rewards": {
-        "recipes": [
-            "purpur:stonecutting/wood/dark_oak_hanging_sign_from_dark_oak_logs"
-        ]
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "purpur:stonecutting/wood/dark_oak_hanging_sign_from_dark_oak_logs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dark_oak_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "purpur:stonecutting/wood/dark_oak_hanging_sign_from_dark_oak_logs"
+    ]
+  }
 }

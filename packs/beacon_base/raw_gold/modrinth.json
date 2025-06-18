@@ -1,11 +1,12 @@
 {
-    "name": "v3.2 Update",
-    "version_number": "3.2",
-    "changelog": "Update to 1.21.5",
+    "name": "v3.3 Update",
+    "version_number": "3.3",
+    "changelog": "Update to 1.21.6",
     "game_versions": [
         "1.21.3",
         "1.21.4",
-        "1.21.5"
+        "1.21.5",
+        "1.21.6"
     ],
     "version_type": "release",
     "project_id": "MqaYXlAP"

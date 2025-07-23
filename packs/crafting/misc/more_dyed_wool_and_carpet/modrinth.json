@@ -1,12 +1,14 @@
 {
-    "name": "v5.3 Update",
-    "version_number": "5.3",
-    "changelog": "Update to 1.21.6",
+    "name": "v5.4 Update",
+    "version_number": "5.4",
+    "changelog": "Update to 1.21.8",
     "game_versions": [
         "1.21.3",
         "1.21.4",
         "1.21.5",
-        "1.21.6"
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
     ],
     "version_type": "release",
     "project_id": "z9M75QAX"

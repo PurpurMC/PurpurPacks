@@ -1,10 +1,10 @@
 {
     "pack": {
-        "pack_format": 80,
+        "pack_format": 81,
         "description": "Raw Iron Blocks Can Be Used As A Beacon Base. Raw Iron Can Be Used As A Beacon Payment Item",
         "supported_formats": {
             "min_inclusive": 57,
-            "max_inclusive": 80
+            "max_inclusive": 81
         }
     }
 }

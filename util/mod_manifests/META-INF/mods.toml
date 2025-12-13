@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = '{mod-id}', version = '{version-number}', displayName = '{project-name}', description = '{project-description}', logoFile = '{icon-path}', updateJSONURL = 'https://api.modrinth.com/updates/{modrinth-id}/forge_updates.json', credits = '{credits}', authors = '{authors-list}', displayURL = 'https://modrinth.com/project/{modrinth-id}' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

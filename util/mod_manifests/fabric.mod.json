@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "{mod-id}",
+  "version": "{version-number}",
+  "name": "{project-name}",
+  "description": "{project-description}",
+  "authors": [
+    "{authors-list}"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/{modrinth-id}",
+    "sources": "{github-link}",
+    "issues": "{issues-link}"
+  },
+  "license": "MIT",
+  "icon": "{icon-path}",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

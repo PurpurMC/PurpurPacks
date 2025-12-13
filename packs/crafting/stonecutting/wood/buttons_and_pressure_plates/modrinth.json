@@ -1,7 +1,7 @@
 {
-    "name": "v1.5 Update",
-    "version_number": "1.5",
-    "changelog": "Update to 1.21.11",
+    "name": "v1.0 Update",
+    "version_number": "1.0",
+    "changelog": "Initial Release",
     "game_versions": [
         "1.21.10",
         "1.21.11",

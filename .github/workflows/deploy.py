@@ -1,6 +1,7 @@
 import os
 import json
 import zipfile
+
 import requests
 
 # Constants
@@ -9,179 +10,156 @@ datapack_folder = "packs"
 user_agent = "Deploy/Purpur/PurpurPacks (https://purpurmc.org/)"
 modrinth_post_version_route = "https://api.modrinth.com/v2/version"
 modrinth_token = os.getenv('MODRINTH_TOKEN')
-
-if not modrinth_token:
-    print("The required environment variable MODRINTH_TOKEN is not set.")
-    exit(1)
+DRY_RUN = True
 
 
-def fetch_versions_json(project_id):
-    """Fetches information about available versions of a project from Modrinth."""
-    url = f"https://api.modrinth.com/v2/project/{project_id}/version"
-    headers = {
-        "Authorization": modrinth_token
-    }
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print(f"Failed to fetch info for project ID: {project_id} (HTTP {response.status_code})")
-        return []
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as file:
+        return json.load(file)
+
+def log(msg):
+    prefix = "[DRY RUN] " if DRY_RUN else ""
+    print(prefix + msg)
 
 
-def get_latest_modrinth_version(project_id):
-    versions = fetch_versions_json(project_id)
-    if not versions:
-        print(f"No versions found for project ID: {project_id}")
-        return None
-    for version_data in versions:
-        if "datapack" in version_data.get("loaders", []):
-            return version_data.get("version_number")
-    return None
+DEFAULTS_DIR = os.path.dirname(__file__)
 
+DATAPACK_DEFAULTS = load_json(
+    os.path.join(DEFAULTS_DIR, "datapack-modrinth.json")
+)
 
-def get_datapack_info(modrinth_json_path):
-    with open(modrinth_json_path, "r") as modrinth_file:
-        file_info = json.load(modrinth_file)
-        return file_info
+FABRIC_DEFAULTS = load_json(
+    os.path.join(DEFAULTS_DIR, "mod-fabric-modrinth.json")
+)
 
+FORGE_DEFAULTS = load_json(
+    os.path.join(DEFAULTS_DIR, "mod-forge-modrinth.json")
+)
 
-def get_current_version(json_file):
-    return json_file.get("version_number", None)
+FABRIC_METADATA_FILES = [
+    "modrinth.json", "fabric.mod.json", "quilt.mod.json"
+]
 
+FORGE_METADATA_FILES = [
+    "modrinth.json", "mods.toml", "neoforge.mods.toml"
+]
 
-def get_project_id(json_file):
-    return json_file.get("project_id", None)
+def merge_modrinth_info(defaults, override):
+    merged = defaults.copy()
+    merged.update(override)
+    return merged
 
+def build_datapack_zipfile(root, version):
+    relative = os.path.relpath(root, datapack_folder)
+    name = f"{relative.replace(os.sep, '_')}_v{version}.zip"
 
-def get_dependencies(json_file):
-    return json_file.get("dependencies", [])
+    out_directory = os.path.join(datapack_folder, "distro_datapack")
+    os.makedirs(out_directory, exist_ok=True)
 
+    path = os.path.join(out_directory, name)
 
-def should_update_pack(modrinth_json):
-    if modrinth_json is None:
-        print("Modrinth JSON is empty or missing, skipping")
-        return False
-
-    project_id = get_project_id(modrinth_json)
-    current_version = get_current_version(modrinth_json)
-
-    if current_version is None:
-        print("Pack does not have a version number, skipping")
-        return False
-
-    if project_id is None:
-        print("Pack does not have a project ID, skipping")
-        return False
-
-    latest_version = get_latest_modrinth_version(project_id)
-    if latest_version is None:
-        print("Pack does not have a version number, skipping")
-        return False
-
-    if latest_version >= current_version:
-        print("Pack does not need to be updated, skipping")
-        return False
-
-    return True
-
-
-def zip_and_post(modrinth_info, root):
-    version = get_current_version(modrinth_info)
-    relative_path = os.path.relpath(root, datapack_folder)
-    datapack_name = f"{relative_path.replace(os.sep, '_')}_v{version}.zip"
-    dist_dir = os.path.join(datapack_folder, "dist")  # Corrected path
-    os.makedirs(dist_dir, exist_ok=True)
-    zipped_file_path = os.path.join(dist_dir, datapack_name)
-
-    with zipfile.ZipFile(zipped_file_path, "w", zipfile.ZIP_DEFLATED) as zipped_file:
-        for pack_root, dirs, files in os.walk(root):
+    with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
+        for rel, _, files in os.walk(root):
             for file in files:
-                if file == 'modrinth.json':
+                if file in FORGE_METADATA_FILES or file in FABRIC_METADATA_FILES:
                     continue
-                zipped_file.write(os.path.join(pack_root, file),
-                                  arcname=os.path.relpath(os.path.join(pack_root, file), root))
-        print(f"Zipped {datapack_name}")
+                z.write(
+                    os.path.join(rel, file),
+                    arcname=os.path.relpath(os.path.join(rel, file), root)
+                )
 
-    if not os.path.isfile(zipped_file_path):
-        print(f"File {zipped_file_path} does not exist. Skipping upload.")
+    return path, name
+
+
+def build_mod_jar(root, version):
+    relative = os.path.relpath(root, datapack_folder)
+    name = f"{relative.replace(os.sep, '_')}_v{version}.jar"
+
+    out_dir = os.path.join(datapack_folder, "dist_mod")
+    os.makedirs(out_dir, exist_ok=True)
+
+    path = os.path.join(out_dir, name)
+
+    with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
+        for rel, _, files in os.walk(root):
+            for file in files:
+                if file == "modrinth.json":
+                    continue
+                z.write(
+                    os.path.join(rel, file),
+                    arcname=os.path.relpath(os.path.join(rel, file), root)
+                )
+
+    return path, name
+
+def post_version(modrinth_data, file_path, file_name):
+    if DRY_RUN:
+        log("Would upload:")
+        log(f"  File: {file_name}")
+        log(f"  Project: {modrinth_data.get('project_id')}")
+        log(f"  Version: {modrinth_data.get('version_number')}")
+        log(f"  Loaders: {modrinth_data.get('loaders')}")
+        log(f"  Game versions: {modrinth_data.get('game_versions')}")
+        log(f"  Dependencies: {modrinth_data.get('dependencies')}")
+        log("")
         return
+    headers = {
+        "Authorization": modrinth_token,
+        "User-Agent": user_agent
+    }
 
-    post(modrinth_info, datapack_name, zipped_file_path)
-
-
-def post(modrinth_info, datapack_name, zipped_file_path):
-    version = get_current_version(modrinth_info)
-    project_id = get_project_id(modrinth_info)
-    dependencies = get_dependencies(modrinth_info)
-    ver_name = modrinth_info["name"]
-    changelog = modrinth_info.get("changelog", "")
-    supported_versions = modrinth_info["game_versions"]
-    release_type = modrinth_info["version_type"]
-
-    # Open the file in binary mode
-    with open(zipped_file_path, 'rb') as file:
-        files = {
-            'file': (datapack_name, file, 'application/zip')
-        }
-
-        # Prepare the payload
-        payload = {
-            "name": ver_name,
-            "version_number": version,
-            "changelog": changelog,
-            "dependencies": dependencies,
-            "game_versions": supported_versions,
-            "version_type": release_type,
-            "loaders": ['datapack'],
-            "featured": False,
-            "project_id": project_id,
-            "file_parts": ["file"]
-        }
-
-        # Convert payload to JSON string
-        payload_json = json.dumps(payload)
-
-        # Headers for the request
-        headers = {
-            "Authorization": modrinth_token,
-            "User-Agent": user_agent
-        }
-
-        # Perform the POST request
+    with open(file_path, "rb") as f:
         response = requests.post(
             modrinth_post_version_route,
             headers=headers,
-            files=files,
-            data={'data': payload_json}
+            files={"file": (file_name, f, "application/zip")},
+            data={"data": json.dumps(modrinth_data)}
         )
 
-        # Parse the response
-        try:
-            upload_response = response.json()
-        except json.JSONDecodeError:
-            print("Failed to decode JSON response")
-            return
+    try:
+        res = response.json()
+    except Exception:
+        print("Invalid Modrinth response")
+        return
 
-        # Check for errors in the response
-        if 'error' not in upload_response:
-            print(f"Successfully uploaded version {version} for {project_id}! Output:\n{upload_response}")
-        else:
-            print(f"Failed to upload {datapack_name}. Output:\n{upload_response}")
+    if "error" in res:
+        print(f"Upload failed for {file_name}: {res}")
+    else:
+        print(f"Uploaded {file_name} successfully")
 
 
 def main():
-    for root, dirs, files in os.walk(datapack_folder):
-        if 'pack.mcmeta' not in files:
-            print(f"{root} is not a pack directory, skipping")
+    for root, _, files in os.walk(datapack_folder):
+        if "pack.mcmeta" not in files or "modrinth.json" not in files:
             continue
-        if 'modrinth.json' not in files:
-            print(f"{root} does not have a modrinth json file, skipping")
+
+        pack_meta = load_json(os.path.join(root, "modrinth.json"))
+        version = pack_meta.get("version_number")
+
+        if not version:
+            print(f"{root} has no version_number, skipping")
             continue
-        datapack_info = get_datapack_info(os.path.join(root, "modrinth.json"))
-        if not should_update_pack(datapack_info):
-            continue
-        zip_and_post(datapack_info, root)
+
+        # =====================
+        # DATAPACK
+        # =====================
+        dp_meta = merge_modrinth_info(pack_meta, DATAPACK_DEFAULTS)
+        dp_path, dp_name = build_datapack_zipfile(root, version)
+        post_version(dp_meta, dp_path, dp_name)
+
+        # =====================
+        # MOD JAR (build once)
+        # =====================
+        jar_path, jar_name = build_mod_jar(root, version)
+
+        # Fabric / Quilt
+        fabric_meta = merge_modrinth_info(pack_meta, FABRIC_DEFAULTS)
+        post_version(fabric_meta, jar_path, jar_name)
+
+        # Forge / NeoForge
+        forge_meta = merge_modrinth_info(pack_meta, FORGE_DEFAULTS)
+        post_version(forge_meta, jar_path, jar_name)
+
 
 
 if __name__ == "__main__":

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting_misc_more_dyed_wool_and_carpet",
+  "version": "5.6+mod",
+  "name": "More Dyed Wool And Carpet",
+  "description": "Craft 8 Wool Or Carpet Instead Of One At A Time",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-more-dyed-wool-and-carpet",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

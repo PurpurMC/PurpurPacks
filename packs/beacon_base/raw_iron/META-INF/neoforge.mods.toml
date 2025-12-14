@@ -1,0 +1,9 @@
+
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+	{ modId = 'beacon_base_raw_iron', version = '3.6+mod', displayName = 'Raw Iron', description = 'Raw Iron Blocks Can Be Used As A Beacon Base. Raw Iron Can Be Used As A Beacon Payment Item', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/8iJVgUtF/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-raw-iron-block-beacon-base' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

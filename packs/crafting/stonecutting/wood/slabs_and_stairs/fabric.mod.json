@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting_stonecutting_wood_slabs_and_stairs",
+  "version": "1.7+mod",
+  "name": "Slabs And Stairs",
+  "description": "Use the stonecutter to get stairs, slabs, fences, and fence gates from planks",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-stonecutter-cuts-slabs",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

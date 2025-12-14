@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'world_behavior_four_new_paintings_are_placeable', version = '3.6+mod', displayName = 'Four New Paintings Are Placeable', description = 'The Four New Paintings Are Placeable', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/UDhPA1TM/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-placeable-new-paintings' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

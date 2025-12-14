@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting_smelting_raw_ore_blocks",
+  "version": "4.6+mod",
+  "name": "Raw Ore Blocks",
+  "description": "Smelt Raw Ore Blocks",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpack-smelt-raw-ore-blocks",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

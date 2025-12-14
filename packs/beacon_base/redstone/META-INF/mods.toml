@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'beacon_base_redstone', version = '3.6+mod', displayName = 'Redstone', description = 'Redstone Blocks Can Be Used As A Beacon Base. Redstone Dust Can Be Used As A Beacon Payment Item', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/I2neFSkP/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-redstone-beacon-base' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

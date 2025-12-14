@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'beacon_base_raw_copper', version = '3.6+mod', displayName = 'Raw Copper', description = 'Raw Copper Blocks Can Be Used As A Beacon Base. Raw Copper Can Be Used As A Beacon Payment Item', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/ItRpuGf4/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-raw-copper-beacon-base' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

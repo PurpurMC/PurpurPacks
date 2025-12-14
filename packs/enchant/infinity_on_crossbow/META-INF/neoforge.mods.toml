@@ -1,0 +1,9 @@
+
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+	{ modId = 'enchant_infinity_on_crossbow', version = '2.6+mod', displayName = 'Infinity On Crossbow', description = 'Infinity Can Be Placed On A Crossbow', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/rvzRe1CC/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-infinity-on-crossbows' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

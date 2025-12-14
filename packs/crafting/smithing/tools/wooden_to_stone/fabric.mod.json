@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting_smithing_tools_wooden_to_stone",
+  "version": "4.6+mod",
+  "name": "Wooden To Stone",
+  "description": "Upgrade Wood Tools To Stone Ones",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-wooden-to-stone-tools-upgrades",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

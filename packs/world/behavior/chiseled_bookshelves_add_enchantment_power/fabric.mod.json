@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "world_behavior_chiseled_bookshelves_add_enchantment_power",
+  "version": "3.6+mod",
+  "name": "Chiseled Bookshelves Add Enchantment Power",
+  "description": "Chiseled Bookshelves Add To Enchantment Power",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-chiseled-bookshelves-add-enchantment-power",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

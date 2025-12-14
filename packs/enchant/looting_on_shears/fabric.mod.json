@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "enchant_looting_on_shears",
+  "version": "1.6+mod",
+  "name": "Looting On Shears",
+  "description": "Looting Works On Shears",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-looting-shears",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

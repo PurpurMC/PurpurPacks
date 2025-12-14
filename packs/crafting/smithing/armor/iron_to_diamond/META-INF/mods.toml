@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'crafting_smithing_armor_iron_to_diamond', version = '4.6+mod', displayName = 'Iron To Diamond', description = 'Upgrade Iron Armor to Diamond Armor', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/UwL3n8Ei/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-iron-to-diamond-armor-upgrades' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

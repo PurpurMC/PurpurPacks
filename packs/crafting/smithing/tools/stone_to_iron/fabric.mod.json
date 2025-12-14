@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting_smithing_tools_stone_to_iron",
+  "version": "4.6+mod",
+  "name": "Stone To Iron",
+  "description": "Upgrade Stone Tools To Iron Ones",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-stone-to-iron-tools-upgrades",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

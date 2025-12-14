@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting_misc_one_step_dyed_shulker_boxes",
+  "version": "4.6+mod",
+  "name": "One Step Dyed Shulker Boxes",
+  "description": "Craft Dyed Shulkers From Scratch",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-one-step-dyed-shulker-boxes",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

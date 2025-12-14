@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "effective_tools_axe_skulls",
+  "version": "3.6+mod",
+  "name": "Axe Skulls",
+  "description": "Skulls And Heads Break Faster With An Axe",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-axe-effective-skulls",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "server",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

@@ -3,6 +3,6 @@ loaderVersion = '[40,)'
 license = 'MIT'
 showAsResourcePack = false
 mods = [
-    { modId = 'effective_tools_pickaxe_light_source_blocks', version = '3.6+mod', displayName = 'Pickaxe Light Source Blocks', description = 'Light Source Blocks Break Faster With A Pickaxe', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/ERLjKg7g/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-pickaxe-effective-light-source-blocks' },
+    { modId = 'effective_tools_pickaxe_light_source_blocks', version = '3.6+mod', displayName = 'Pickaxe Effective For Light Source Blocks', description = 'Light Source Blocks Break Faster With A Pickaxe', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/ERLjKg7g/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-pickaxe-effective-light-source-blocks' },
 ]
 issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

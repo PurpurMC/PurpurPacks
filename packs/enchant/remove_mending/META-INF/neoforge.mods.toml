@@ -4,6 +4,6 @@ loaderVersion = '[1,)'
 license = 'MIT'
 showAsResourcePack = false
 mods = [
-	{ modId = 'enchant_remove_mending', version = '2.6+mod', displayName = 'Remove Mending', description = 'Remove Mending And It's Functionality', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/imR8I7dT/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-no-mending' },
+	{ modId = 'enchant_remove_mending', version = '2.6+mod', displayName = 'Remove Mending', description = 'Remove Mending And It\'s Functionality', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/imR8I7dT/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-no-mending' },
 ]
 issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

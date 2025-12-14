@@ -3,6 +3,6 @@ loaderVersion = '[40,)'
 license = 'MIT'
 showAsResourcePack = false
 mods = [
-    { modId = 'crafting_stonecutting_wood_doors_and_trapdoors', version = '1.6+mod', displayName = 'Doors And Trapdoors', description = 'Use the stonecutter to get doors and trapdoors from planks', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/VWWrpSlM/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-stonecutter-cuts-doors' },
+    { modId = 'crafting_stonecutting_wood_doors_and_trapdoors', version = '1.6+mod', displayName = 'Stonecutter Wood Doors And Trapdoors', description = 'Use the stonecutter to get doors and trapdoors from planks', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/VWWrpSlM/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-stonecutter-cuts-doors' },
 ]
 issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

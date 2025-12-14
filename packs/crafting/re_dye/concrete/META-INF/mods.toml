@@ -3,6 +3,6 @@ loaderVersion = '[40,)'
 license = 'MIT'
 showAsResourcePack = false
 mods = [
-    { modId = 'crafting_re_dye_concrete', version = '2.6+mod', displayName = 'Concrete', description = 'Re-Dye All Colors Of Concrete', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/1hrzfBkm/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-re-dye-concrete' },
+    { modId = 'crafting_re_dye_concrete', version = '2.6+mod', displayName = 'Re-Dye Concrete', description = 'Re-Dye All Colors Of Concrete', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/1hrzfBkm/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-re-dye-concrete' },
 ]
 issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

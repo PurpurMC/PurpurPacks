@@ -5,7 +5,7 @@
     "id": "beacon_base_redstone",
     "version": "3.6+mod",
     "metadata": {
-      "name": "Redstone",
+      "name": "Redstone Beacons",
       "description": "Redstone Blocks Can Be Used As A Beacon Base. Redstone Dust Can Be Used As A Beacon Payment Item",
       "contributors": {"granny": "Owner", "Rhythmic": "Developer", "PurpurMC": "Organization"},
       "contact": {

@@ -3,6 +3,6 @@ loaderVersion = '[40,)'
 license = 'MIT'
 showAsResourcePack = false
 mods = [
-    { modId = 'crafting_re_dye_glazed_terracotta', version = '2.6+mod', displayName = 'Glazed Terracotta', description = 'Re-Dye All Colors Of Glazed Terracotta', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/mBcDOO3o/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-re-dye-glazed-terracotta' },
+    { modId = 'crafting_re_dye_glazed_terracotta', version = '2.6+mod', displayName = 'Re-Dye Glazed Terracotta', description = 'Re-Dye All Colors Of Glazed Terracotta', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/mBcDOO3o/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-re-dye-glazed-terracotta' },
 ]
 issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

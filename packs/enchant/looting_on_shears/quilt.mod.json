@@ -5,7 +5,7 @@
     "id": "enchant_looting_on_shears",
     "version": "1.6+mod",
     "metadata": {
-      "name": "Looting On Shears",
+      "name": "Looting Can Go On Shears",
       "description": "Looting Works On Shears",
       "contributors": {"granny": "Owner", "Rhythmic": "Developer", "PurpurMC": "Organization"},
       "contact": {

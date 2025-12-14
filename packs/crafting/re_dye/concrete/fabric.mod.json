@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "crafting_re_dye_concrete",
   "version": "2.6+mod",
-  "name": "Concrete",
+  "name": "Re-Dye Concrete",
   "description": "Re-Dye All Colors Of Concrete",
   "authors": ["granny", "Rhythmic", "PurpurMC"],
   "contact": {
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "icon": "pack.png",
-  "environment": "server",
+  "environment": "*",
   "depends": {
     "fabric-resource-loader-v0": "*"
   }

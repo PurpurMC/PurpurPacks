@@ -3,6 +3,6 @@ loaderVersion = '[40,)'
 license = 'MIT'
 showAsResourcePack = false
 mods = [
-    { modId = 'blocks_silk_touch_budding_amethyst', version = '4.6+mod', displayName = 'Budding Amethyst', description = 'Pick Up Budding Amethyst Blocks With Silk Touch', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/7P6tQJuB/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-silk-touch-budding-amethyst' },
+    { modId = 'blocks_silk_touch_budding_amethyst', version = '4.6+mod', displayName = 'Silk Touch-able Budding Amethyst', description = 'Pick Up Budding Amethyst Blocks With Silk Touch', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/7P6tQJuB/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-silk-touch-budding-amethyst' },
 ]
 issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

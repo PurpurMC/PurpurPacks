@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "icon": "{icon-path}",
-  "environment": "server",
+  "environment": "*",
   "depends": {
     "fabric-resource-loader-v0": "*"
   }

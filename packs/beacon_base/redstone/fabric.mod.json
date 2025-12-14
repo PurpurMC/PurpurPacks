@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "beacon_base_redstone",
   "version": "3.6+mod",
-  "name": "Redstone",
+  "name": "Redstone Beacons",
   "description": "Redstone Blocks Can Be Used As A Beacon Base. Redstone Dust Can Be Used As A Beacon Payment Item",
   "authors": ["granny", "Rhythmic", "PurpurMC"],
   "contact": {
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "icon": "pack.png",
-  "environment": "server",
+  "environment": "*",
   "depends": {
     "fabric-resource-loader-v0": "*"
   }

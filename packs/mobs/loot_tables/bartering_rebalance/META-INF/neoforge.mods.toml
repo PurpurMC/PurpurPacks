@@ -4,6 +4,6 @@ loaderVersion = '[1,)'
 license = 'MIT'
 showAsResourcePack = false
 mods = [
-	{ modId = 'mobs_loot_tables_bartering_rebalance', version = '4.7+mod', displayName = 'Bartering Rebalance', description = 'Rebalance The Piglin Bartering Loot Table', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/fffp1OgS/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-rebalanced-piglin-bartering' },
+	{ modId = 'mobs_loot_tables_bartering_rebalance', version = '4.7+mod', displayName = 'Bartering Table Rebalance', description = 'Rebalance The Piglin Bartering Loot Table', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/fffp1OgS/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-rebalanced-piglin-bartering' },
 ]
 issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

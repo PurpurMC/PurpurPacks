@@ -5,7 +5,7 @@
     "id": "mobs_loot_tables_bartering_rebalance",
     "version": "4.7+mod",
     "metadata": {
-      "name": "Bartering Rebalance",
+      "name": "Bartering Table Rebalance",
       "description": "Rebalance The Piglin Bartering Loot Table",
       "contributors": {"granny": "Owner", "Rhythmic": "Developer", "PurpurMC": "Organization"},
       "contact": {

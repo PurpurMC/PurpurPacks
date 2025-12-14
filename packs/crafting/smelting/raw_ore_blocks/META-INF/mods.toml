@@ -3,6 +3,6 @@ loaderVersion = '[40,)'
 license = 'MIT'
 showAsResourcePack = false
 mods = [
-    { modId = 'crafting_smelting_raw_ore_blocks', version = '4.6+mod', displayName = 'Raw Ore Blocks', description = 'Smelt Raw Ore Blocks', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/Sue2z8Bl/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpack-smelt-raw-ore-blocks' },
+    { modId = 'crafting_smelting_raw_ore_blocks', version = '4.6+mod', displayName = 'Smelt Raw Ore Blocks', description = 'Smelt Raw Ore Blocks', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/Sue2z8Bl/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpack-smelt-raw-ore-blocks' },
 ]
 issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

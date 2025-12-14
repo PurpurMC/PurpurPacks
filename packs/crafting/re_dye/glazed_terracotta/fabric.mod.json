@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "crafting_re_dye_glazed_terracotta",
   "version": "2.6+mod",
-  "name": "Glazed Terracotta",
+  "name": "Re-Dye Glazed Terracotta",
   "description": "Re-Dye All Colors Of Glazed Terracotta",
   "authors": ["granny", "Rhythmic", "PurpurMC"],
   "contact": {
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "icon": "pack.png",
-  "environment": "server",
+  "environment": "*",
   "depends": {
     "fabric-resource-loader-v0": "*"
   }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "beacon_base_amethyst",
   "version": "3.8+mod",
-  "name": "Amethyst",
+  "name": "Amethyst Beacons",
   "description": "Amethyst Blocks Can Be Used As A Beacon Base. Amethyst Shards Can Be Used As A Beacon Payment Item.",
   "authors": ["granny", "Rhythmic", "PurpurMC"],
   "contact": {
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "icon": "pack.png",
-  "environment": "server",
+  "environment": "*",
   "depends": {
     "fabric-resource-loader-v0": "*"
   }

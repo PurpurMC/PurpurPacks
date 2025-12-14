@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "crafting_re_dye_terracotta",
   "version": "4.6+mod",
-  "name": "Terracotta",
+  "name": "Re-Dye Terracotta",
   "description": "Re-Dye All Colors Of Terracotta",
   "authors": ["granny", "Rhythmic", "PurpurMC"],
   "contact": {
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "icon": "pack.png",
-  "environment": "server",
+  "environment": "*",
   "depends": {
     "fabric-resource-loader-v0": "*"
   }

@@ -1,4 +1,10 @@
 {
     "version_number": "1.6",
-    "project_id": "VWWrpSlM"
+    "project_id": "VWWrpSlM",
+    "modrinth": {
+        "project_id": "VWWrpSlM",
+        "project_type": "mod",
+        "slug": "purpurpacks-stonecutter-cuts-doors",
+        "url": "https://modrinth.com/mod/purpurpacks-stonecutter-cuts-doors"
+    }
 }

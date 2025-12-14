@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "I2neFSkP"
+    "project_id": "I2neFSkP",
+    "modrinth": {
+        "project_id": "I2neFSkP",
+        "project_type": "mod",
+        "slug": "purpurpacks-redstone-beacon-base",
+        "url": "https://modrinth.com/mod/purpurpacks-redstone-beacon-base"
+    }
 }

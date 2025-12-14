@@ -1,4 +1,10 @@
 {
     "version_number": "4.6",
-    "project_id": "fOi8LwAw"
+    "project_id": "fOi8LwAw",
+    "modrinth": {
+        "project_id": "fOi8LwAw",
+        "project_type": "mod",
+        "slug": "purpurpacks-iron-to-diamond-tools-upgrades",
+        "url": "https://modrinth.com/mod/purpurpacks-iron-to-diamond-tools-upgrades"
+    }
 }

@@ -1,4 +1,10 @@
 {
     "version_number": "5.1",
-    "project_id": "NhxPgV4c"
+    "project_id": "NhxPgV4c",
+    "modrinth": {
+        "project_id": "NhxPgV4c",
+        "project_type": "mod",
+        "slug": "purpurpacks-transparent-blocks-in-enchant-area",
+        "url": "https://modrinth.com/mod/purpurpacks-transparent-blocks-in-enchant-area"
+    }
 }

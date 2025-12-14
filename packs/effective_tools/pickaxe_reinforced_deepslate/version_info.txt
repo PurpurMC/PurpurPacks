@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "kbuqezYO"
+    "project_id": "kbuqezYO",
+    "modrinth": {
+        "project_id": "kbuqezYO",
+        "project_type": "mod",
+        "slug": "purpurpacks-pickaxe-effective-reinforced-deepslate",
+        "url": "https://modrinth.com/mod/purpurpacks-pickaxe-effective-reinforced-deepslate"
+    }
 }

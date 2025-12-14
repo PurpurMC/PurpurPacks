@@ -1,4 +1,10 @@
 {
     "version_number": "4.6",
-    "project_id": "zFdrE9Wt"
+    "project_id": "zFdrE9Wt",
+    "modrinth": {
+        "project_id": "zFdrE9Wt",
+        "project_type": "mod",
+        "slug": "purpurpacks-copper-block-beacon-base",
+        "url": "https://modrinth.com/mod/purpurpacks-copper-block-beacon-base"
+    }
 }

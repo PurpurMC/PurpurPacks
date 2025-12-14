@@ -1,4 +1,10 @@
 {
     "version_number": "4.6",
-    "project_id": "fEg9tXQ6"
+    "project_id": "fEg9tXQ6",
+    "modrinth": {
+        "project_id": "fEg9tXQ6",
+        "project_type": "mod",
+        "slug": "purpurpacks-wooden-to-stone-tools-upgrades",
+        "url": "https://modrinth.com/mod/purpurpacks-wooden-to-stone-tools-upgrades"
+    }
 }

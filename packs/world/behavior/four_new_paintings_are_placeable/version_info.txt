@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "UDhPA1TM"
+    "project_id": "UDhPA1TM",
+    "modrinth": {
+        "project_id": "UDhPA1TM",
+        "project_type": "mod",
+        "slug": "purpurpacks-placeable-new-paintings",
+        "url": "https://modrinth.com/mod/purpurpacks-placeable-new-paintings"
+    }
 }

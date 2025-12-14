@@ -1,4 +1,10 @@
 {
     "version_number": "4.6",
-    "project_id": "R1WCIhLq"
+    "project_id": "R1WCIhLq",
+    "modrinth": {
+        "project_id": "R1WCIhLq",
+        "project_type": "mod",
+        "slug": "purpurpacks-no-template-netherite-tool-upgrades",
+        "url": "https://modrinth.com/mod/purpurpacks-no-template-netherite-tool-upgrades"
+    }
 }

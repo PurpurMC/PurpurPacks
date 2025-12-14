@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "y87pO5HP"
+    "project_id": "y87pO5HP",
+    "modrinth": {
+        "project_id": "y87pO5HP",
+        "project_type": "mod",
+        "slug": "purpurpacks-pickaxe-effective-glass",
+        "url": "https://modrinth.com/mod/purpurpacks-pickaxe-effective-glass"
+    }
 }

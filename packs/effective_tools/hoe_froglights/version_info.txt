@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "dpLYDTiH"
+    "project_id": "dpLYDTiH",
+    "modrinth": {
+        "project_id": "dpLYDTiH",
+        "project_type": "mod",
+        "slug": "purpurpacks-hoe-effective-froglights",
+        "url": "https://modrinth.com/mod/purpurpacks-hoe-effective-froglights"
+    }
 }

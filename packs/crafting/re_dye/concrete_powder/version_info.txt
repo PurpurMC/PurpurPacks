@@ -1,4 +1,10 @@
 {
     "version_number": "4.6",
-    "project_id": "DUoieMnq"
+    "project_id": "DUoieMnq",
+    "modrinth": {
+        "project_id": "DUoieMnq",
+        "project_type": "mod",
+        "slug": "purpurpacks-re-dye-concrete-powder",
+        "url": "https://modrinth.com/mod/purpurpacks-re-dye-concrete-powder"
+    }
 }

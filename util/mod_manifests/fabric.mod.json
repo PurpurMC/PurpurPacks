@@ -4,9 +4,7 @@
   "version": "{version-number}",
   "name": "{project-name}",
   "description": "{project-description}",
-  "authors": [
-    "{authors-list}"
-  ],
+  "authors": {authors-list},
   "contact": {
     "homepage": "https://modrinth.com/project/{modrinth-id}",
     "sources": "{github-link}",

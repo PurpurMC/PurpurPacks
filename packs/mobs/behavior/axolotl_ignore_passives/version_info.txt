@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "uqr5V1OT"
+    "project_id": "uqr5V1OT",
+    "modrinth": {
+        "project_id": "uqr5V1OT",
+        "project_type": "mod",
+        "slug": "purpurpack-axolotls-ignore-passives",
+        "url": "https://modrinth.com/mod/purpurpack-axolotls-ignore-passives"
+    }
 }

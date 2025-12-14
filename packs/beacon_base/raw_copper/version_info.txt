@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "ItRpuGf4"
+    "project_id": "ItRpuGf4",
+    "modrinth": {
+        "project_id": "ItRpuGf4",
+        "project_type": "mod",
+        "slug": "purpurpacks-raw-copper-beacon-base",
+        "url": "https://modrinth.com/mod/purpurpacks-raw-copper-beacon-base"
+    }
 }

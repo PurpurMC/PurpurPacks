@@ -1,4 +1,10 @@
 {
     "version_number": "4.6",
-    "project_id": "t5xqR0AK"
+    "project_id": "t5xqR0AK",
+    "modrinth": {
+        "project_id": "t5xqR0AK",
+        "project_type": "mod",
+        "slug": "purpurpacks-no-template-netherite-armor-upgrades",
+        "url": "https://modrinth.com/mod/purpurpacks-no-template-netherite-armor-upgrades"
+    }
 }

@@ -1,4 +1,10 @@
 {
     "version_number": "4.6",
-    "project_id": "sbHA4Z4I"
+    "project_id": "sbHA4Z4I",
+    "modrinth": {
+        "project_id": "sbHA4Z4I",
+        "project_type": "mod",
+        "slug": "purpurpacks-re-dye-glass",
+        "url": "https://modrinth.com/mod/purpurpacks-re-dye-glass"
+    }
 }

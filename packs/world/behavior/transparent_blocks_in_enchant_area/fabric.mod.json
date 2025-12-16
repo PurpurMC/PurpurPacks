@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "world_behavior_transparent_blocks_in_enchant_area",
+  "version": "5.1+mod",
+  "name": "Transparent Blocks In Enchant Area",
+  "description": "Transparent Blocks Do Not Reduce Enchant Power In Enchant Area",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-transparent-blocks-in-enchant-area",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

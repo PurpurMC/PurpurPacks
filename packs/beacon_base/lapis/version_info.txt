@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "gDqoouES"
+    "project_id": "gDqoouES",
+    "modrinth": {
+        "project_id": "gDqoouES",
+        "project_type": "mod",
+        "slug": "purpurpacks-lapis-beacon-base",
+        "url": "https://modrinth.com/mod/purpurpacks-lapis-beacon-base"
+    }
 }

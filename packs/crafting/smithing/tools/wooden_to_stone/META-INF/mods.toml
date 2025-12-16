@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'crafting_smithing_tools_wooden_to_stone', version = '4.6+mod', displayName = 'Upgrade Wood Tools To Stone', description = 'Upgrade Wood Tools To Stone Ones', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/fEg9tXQ6/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-wooden-to-stone-tools-upgrades' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

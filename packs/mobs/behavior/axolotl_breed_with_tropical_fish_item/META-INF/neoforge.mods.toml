@@ -1,0 +1,9 @@
+
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+	{ modId = 'mobs_behavior_axolotl_breed_with_tropical_fish_item', version = '4.6+mod', displayName = 'Axolotl Breed With Tropical Fish Item', description = 'Axolotls Breed With The Tropical Fish Item', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/ZLRxxRmh/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpack-breed-axolotl-with-tropical-fish-item' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

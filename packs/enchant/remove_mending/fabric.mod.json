@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "enchant_remove_mending",
+  "version": "2.6+mod",
+  "name": "Remove Mending",
+  "description": "Remove Mending And It's Functionality",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-no-mending",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

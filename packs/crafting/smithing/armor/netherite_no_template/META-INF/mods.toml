@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'crafting_smithing_armor_netherite_no_template', version = '4.6+mod', displayName = 'Netherite Armor Upgrades Without A Template', description = 'Upgrade Diamond Armor to Netherite Without A Template', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/t5xqR0AK/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-no-template-netherite-armor-upgrades' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

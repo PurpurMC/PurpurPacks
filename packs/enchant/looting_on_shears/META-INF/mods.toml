@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'enchant_looting_on_shears', version = '1.6+mod', displayName = 'Looting Can Go On Shears', description = 'Looting Works On Shears', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/qwRhepin/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-looting-shears' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

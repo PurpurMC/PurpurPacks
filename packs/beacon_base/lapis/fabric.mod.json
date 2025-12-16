@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "beacon_base_lapis",
+  "version": "3.6+mod",
+  "name": "Lapis Beacons",
+  "description": "Lapis Blocks Can Be Used As A Beacon Base. Lapis Lazuli Can Be Used As A Beacon Payment Item",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-lapis-beacon-base",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

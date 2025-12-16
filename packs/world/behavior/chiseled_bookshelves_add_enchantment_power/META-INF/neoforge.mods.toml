@@ -1,0 +1,9 @@
+
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+	{ modId = 'world_behavior_chiseled_bookshelves_add_enchantment_power', version = '3.6+mod', displayName = 'Chiseled Bookshelves Add Enchantment Power', description = 'Chiseled Bookshelves Add To Enchantment Power', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/504BLPX7/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-chiseled-bookshelves-add-enchantment-power' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

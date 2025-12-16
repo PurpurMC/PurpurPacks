@@ -1,4 +1,10 @@
 {
     "version_number": "4.6",
-    "project_id": "Sue2z8Bl"
+    "project_id": "Sue2z8Bl",
+    "modrinth": {
+        "project_id": "Sue2z8Bl",
+        "project_type": "mod",
+        "slug": "purpurpack-smelt-raw-ore-blocks",
+        "url": "https://modrinth.com/mod/purpurpack-smelt-raw-ore-blocks"
+    }
 }

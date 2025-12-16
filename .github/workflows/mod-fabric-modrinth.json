@@ -1,0 +1,16 @@
+{
+  "featured": false,
+  "loaders": [
+    "fabric", "quilt"
+  ],
+  "dependencies": [
+    {
+      "project_id": "P7dR8mSH",
+      "dependency_type": "required"
+    }
+  ],
+  "primary": true,
+  "file_parts": [
+    "file"
+  ]
+}

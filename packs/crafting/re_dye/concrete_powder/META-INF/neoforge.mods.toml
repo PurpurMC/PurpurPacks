@@ -1,0 +1,9 @@
+
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+	{ modId = 'crafting_re_dye_concrete_powder', version = '4.6+mod', displayName = 'Re-Dye Concrete Powder', description = 'Re-Dye All Colors Of Concrete Powder', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/DUoieMnq/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-re-dye-concrete-powder' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

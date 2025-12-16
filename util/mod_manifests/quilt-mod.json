@@ -7,9 +7,7 @@
     "metadata": {
       "name": "{project-name}",
       "description": "{project-description}",
-      "contributors": {
-        "{authors-map}"
-      },
+      "contributors": {authors-map},
       "contact": {
         "homepage": "https://modrinth.com/project/{modrinth-id}",
         "sources": "{github-link}",

@@ -1,0 +1,9 @@
+
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+	{ modId = 'enchant_elytra_ignores_unbreaking', version = '2.6+mod', displayName = 'Elytra Ignores Unbreaking', description = 'Disables Unbreaking From Working On Elytra', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/QZKMChtj/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-no-unbreaking-on-elytra' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

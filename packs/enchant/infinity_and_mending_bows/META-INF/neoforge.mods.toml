@@ -1,0 +1,9 @@
+
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+	{ modId = 'enchant_infinity_and_mending_bows', version = '2.6+mod', displayName = 'Infinity And Mending Bows', description = 'Infinity And Mending Can Be Placed On The Same Bow', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/NLzRxVcC/forge_updates.json?neoforge=only', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-infinity-mending-bows' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

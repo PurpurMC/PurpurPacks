@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting_smithing_tools_netherite_no_template",
+  "version": "4.6+mod",
+  "name": "Netherite Tool Upgrades Without A Template",
+  "description": "Upgrade Diamond Tools to Netherite Without A Template",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-no-template-netherite-tool-upgrades",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

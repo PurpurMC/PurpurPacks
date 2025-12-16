@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mobs_behavior_axolotl_breed_with_tropical_fish_item",
+  "version": "4.6+mod",
+  "name": "Axolotl Breed With Tropical Fish Item",
+  "description": "Axolotls Breed With The Tropical Fish Item",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpack-breed-axolotl-with-tropical-fish-item",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

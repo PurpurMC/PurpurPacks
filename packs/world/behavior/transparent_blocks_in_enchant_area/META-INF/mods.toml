@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'world_behavior_transparent_blocks_in_enchant_area', version = '5.1+mod', displayName = 'Transparent Blocks In Enchant Area', description = 'Transparent Blocks Do Not Reduce Enchant Power In Enchant Area', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/NhxPgV4c/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-transparent-blocks-in-enchant-area' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

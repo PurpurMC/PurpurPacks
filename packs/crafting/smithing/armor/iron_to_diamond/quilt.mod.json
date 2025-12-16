@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "org.purpurmc",
+    "id": "crafting_smithing_armor_iron_to_diamond",
+    "version": "4.6+mod",
+    "metadata": {
+      "name": "Upgrade Iron Armor To Diamond",
+      "description": "Upgrade Iron Armor to Diamond Armor",
+      "contributors": {"granny": "Owner", "Rhythmic": "Developer", "PurpurMC": "Organization"},
+      "contact": {
+        "homepage": "https://modrinth.com/mod/purpurpacks-iron-to-diamond-armor-upgrades",
+        "sources": "https://github.com/PurpurMC/PurpurPacks",
+        "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+      },
+      "icon": "pack.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ]
+  }
+}

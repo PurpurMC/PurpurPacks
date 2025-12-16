@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "ERLjKg7g"
+    "project_id": "ERLjKg7g",
+    "modrinth": {
+        "project_id": "ERLjKg7g",
+        "project_type": "mod",
+        "slug": "purpurpacks-pickaxe-effective-light-source-blocks",
+        "url": "https://modrinth.com/mod/purpurpacks-pickaxe-effective-light-source-blocks"
+    }
 }

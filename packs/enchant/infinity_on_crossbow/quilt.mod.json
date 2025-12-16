@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "org.purpurmc",
+    "id": "enchant_infinity_on_crossbow",
+    "version": "2.6+mod",
+    "metadata": {
+      "name": "Infinity Can Go On Crossbow",
+      "description": "Infinity Can Be Placed On A Crossbow",
+      "contributors": {"granny": "Owner", "Rhythmic": "Developer", "PurpurMC": "Organization"},
+      "contact": {
+        "homepage": "https://modrinth.com/mod/purpurpacks-infinity-on-crossbows",
+        "sources": "https://github.com/PurpurMC/PurpurPacks",
+        "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+      },
+      "icon": "pack.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ]
+  }
+}

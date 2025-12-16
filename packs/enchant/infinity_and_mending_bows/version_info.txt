@@ -1,4 +1,10 @@
 {
     "version_number": "2.6",
-    "project_id": "NLzRxVcC"
+    "project_id": "NLzRxVcC",
+    "modrinth": {
+        "project_id": "NLzRxVcC",
+        "project_type": "mod",
+        "slug": "purpurpacks-infinity-mending-bows",
+        "url": "https://modrinth.com/mod/purpurpacks-infinity-mending-bows"
+    }
 }

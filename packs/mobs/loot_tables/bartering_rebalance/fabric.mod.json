@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mobs_loot_tables_bartering_rebalance",
+  "version": "4.7+mod",
+  "name": "Bartering Table Rebalance",
+  "description": "Rebalance The Piglin Bartering Loot Table",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-rebalanced-piglin-bartering",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

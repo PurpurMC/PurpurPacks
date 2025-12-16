@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'blocks_silk_touch_reinforced_deepslate', version = '4.6+mod', displayName = 'Silk Touch-able Reinforced Deepslate', description = 'Pick Up Reinforced Deepslate Blocks With Silk Touch', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/B92jc48r/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-silk-touch-reinforced-deepslate' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

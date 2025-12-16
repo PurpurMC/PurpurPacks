@@ -1,4 +1,10 @@
 {
     "version_number": "3.6",
-    "project_id": "S7cHoMDR"
+    "project_id": "S7cHoMDR",
+    "modrinth": {
+        "project_id": "S7cHoMDR",
+        "project_type": "mod",
+        "slug": "purpurpacks-axe-effective-skulls",
+        "url": "https://modrinth.com/mod/purpurpacks-axe-effective-skulls"
+    }
 }

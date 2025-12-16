@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "blocks_silk_touch_reinforced_deepslate",
+  "version": "4.6+mod",
+  "name": "Silk Touch-able Reinforced Deepslate",
+  "description": "Pick Up Reinforced Deepslate Blocks With Silk Touch",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-silk-touch-reinforced-deepslate",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

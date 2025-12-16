@@ -1,0 +1,8 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+    { modId = 'beacon_base_copper', version = '4.6+mod', displayName = 'Copper Beacons', description = 'Copper Blocks Can Be Used As A Beacon Base. Copper Ingots Can Be Used As A Beacon Payment Item', logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/zFdrE9Wt/forge_updates.json', credits = 'By PurpurMC', authors = ["granny", "Rhythmic", "PurpurMC"], displayURL = 'https://modrinth.com/mod/purpurpacks-copper-block-beacon-base' },
+]
+issueTrackerURL = 'https://github.com/PurpurMC/PurpurPacks/issues'

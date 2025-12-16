@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting_re_dye_glazed_terracotta",
+  "version": "2.6+mod",
+  "name": "Re-Dye Glazed Terracotta",
+  "description": "Re-Dye All Colors Of Glazed Terracotta",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpacks-re-dye-glazed-terracotta",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

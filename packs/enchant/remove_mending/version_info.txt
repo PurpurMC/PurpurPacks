@@ -1,4 +1,10 @@
 {
     "version_number": "2.6",
-    "project_id": "imR8I7dT"
+    "project_id": "imR8I7dT",
+    "modrinth": {
+        "project_id": "imR8I7dT",
+        "project_type": "mod",
+        "slug": "purpurpacks-no-mending",
+        "url": "https://modrinth.com/mod/purpurpacks-no-mending"
+    }
 }

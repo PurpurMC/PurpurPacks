@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mobs_behavior_axolotl_ignore_passives",
+  "version": "3.6+mod",
+  "name": "Axolotl Ignore Passives",
+  "description": "Axolotls Do Not Attack Passive Mobs",
+  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/purpurpack-axolotls-ignore-passives",
+    "sources": "https://github.com/PurpurMC/PurpurPacks",
+    "issues": "https://github.com/PurpurMC/PurpurPacks/issues"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  }
+}

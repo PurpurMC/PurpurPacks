@@ -1,4 +1,10 @@
 {
     "version_number": "1.7",
-    "project_id": "k4swAzko"
+    "project_id": "k4swAzko",
+    "modrinth": {
+        "project_id": "k4swAzko",
+        "project_type": "mod",
+        "slug": "purpurpacks-stonecutter-cuts-slabs",
+        "url": "https://modrinth.com/mod/purpurpacks-stonecutter-cuts-slabs"
+    }
 }

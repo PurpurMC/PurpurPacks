@@ -50,13 +50,16 @@ FORGE_METADATA_FILES = [
 _VERSION_CACHE = {}
 
 def build_modrinth_metadata(base_meta, defaults, *, suffix=None):
+    # Merge the info from the defaults into the metadata for the project specifically.
+    # Will not override pack-specific defaults.
     meta = defaults.copy()
     for key, value in base_meta.items():
         if key == "dependencies":
             continue
         meta[key] = value
 
-    # Merge dependencies (defaults first, then pack-specific)
+    # Merge the dependencies of the packs.
+    # The 'overrides' will be appended, so they're not really overrides but whatever
     deps = []
     if "dependencies" in defaults:
         deps.extend(defaults["dependencies"])
@@ -69,7 +72,7 @@ def build_modrinth_metadata(base_meta, defaults, *, suffix=None):
         base_version = meta.get("version_number")
         if not base_version:
             raise ValueError("version_number missing from metadata")
-
+        # Modrinth doesn't let you use the same version multiple times. So it says the loader now.
         meta["version_number"] = f"{base_version}-{suffix}"
 
     return meta
@@ -88,6 +91,7 @@ def build_datapack_zipfile(root, version):
             for file in files:
                 if file in FORGE_METADATA_FILES or file in FABRIC_METADATA_FILES:
                     continue
+                # noinspection PyTypeChecker
                 z.write(
                     os.path.join(rel, file),
                     arcname=os.path.relpath(os.path.join(rel, file), root)
@@ -116,6 +120,7 @@ def build_mod_jar(root, version, loader):
             for file in files:
                 if file in excluded_files:
                     continue
+                # noinspection PyTypeChecker
                 z.write(
                     os.path.join(rel, file),
                     arcname=os.path.relpath(os.path.join(rel, file), root)
@@ -197,6 +202,7 @@ def main():
     if CI_SKIP:
         print("CI-Skip detected, returning.")
         return
+    # Hooray logging.
     log(f"Script dir: {SCRIPT_DIR}")
     log(f"Repo root: {REPO_ROOT}")
     log(f"Datapack folder: {datapack_folder}")
@@ -222,23 +228,22 @@ def main():
             print(f"{root} has no version_number, skipping")
             continue
 
-        # =====================
-        # DATAPACK
-        # =====================
+        # Vanilla Datapack
         dp_meta = build_modrinth_metadata(pack_meta, DATAPACK_DEFAULTS)
+        # If the version already exists, skip it. For simplicity sake we're only gonna check the datapack version.
+        # This could be added to the other versions though, too.
+        if not should_update(project_id=pack_meta.get('project_id'), version_number=pack_meta.get('version_number')):
+            continue
+
         dp_path, dp_name = build_datapack_zipfile(root, version)
         post_version(dp_meta, dp_path, dp_name)
 
-        # =====================
-        # FABRIC / QUILT MOD
-        # =====================
+        # Fabric and Quilt
         fabric_meta = build_modrinth_metadata(pack_meta, FABRIC_DEFAULTS, suffix="fabric")
         fabric_path, fabric_name = build_mod_jar(root, version, "fabric")
         post_version(fabric_meta, fabric_path, fabric_name)
 
-        # =====================
-        # FORGE / NEOFORGE MOD
-        # =====================
+        # Forge & Neoforge
         forge_meta = build_modrinth_metadata(pack_meta, FORGE_DEFAULTS, suffix="forge")
         forge_path, forge_name = build_mod_jar(root, version, "forge")
         post_version(forge_meta, forge_path, forge_name)

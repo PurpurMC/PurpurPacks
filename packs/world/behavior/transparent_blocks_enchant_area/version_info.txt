@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "5.1",
+    "project_id": "NhxPgV4c",
+    "project_name": "Transparent Blocks Can Be In The Enchant Area",
+    "project_description": "Transparent blocks can be used in the enchanting area without lowering the enchantment power",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "NhxPgV4c",
+        "project_type": "mod",
+        "slug": "purpurpacks-transparent-blocks-in-enchant-area",
+        "url": "https://modrinth.com/mod/purpurpacks-transparent-blocks-in-enchant-area"
+    }
+}

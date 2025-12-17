@@ -1,6 +1,9 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "fEg9tXQ6",
+    "project_name": "Wooden Tools Upgrade To Stone",
+    "project_description": "Wooden tools can be upgraded to stone tools in a smithing table"
     "modrinth": {
         "project_id": "fEg9tXQ6",
         "project_type": "mod",

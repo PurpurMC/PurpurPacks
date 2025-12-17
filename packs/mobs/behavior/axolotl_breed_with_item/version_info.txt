@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "4.6",
+    "project_id": "ZLRxxRmh",
+    "project_name": "Axolotls Breed Using Tropical Fish Item",
+    "project_description": "Axolotls can be bred using the tropical fish item rather than the bucket",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "ZLRxxRmh",
+        "project_type": "mod",
+        "slug": "purpurpack-breed-axolotl-with-tropical-fish-item",
+        "url": "https://modrinth.com/mod/purpurpack-breed-axolotl-with-tropical-fish-item"
+    }
+}

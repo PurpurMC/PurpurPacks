@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "3.6",
+    "project_id": "MqaYXlAP",
+    "project_name": "Raw Gold Beacons",
+    "project_description": "Beacon bases can be made of raw gold blocks. Raw gold can be used as a beacon payment item.",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "MqaYXlAP",
+        "project_type": "mod",
+        "slug": "purpurpacks-raw-gold-beacon-base",
+        "url": "https://modrinth.com/mod/purpurpacks-raw-gold-beacon-base"
+    }
+}

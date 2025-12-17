@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "3.6",
     "project_id": "kbuqezYO",
+    "project_name": "Pickaxes Are Effective For Breaking Reinforced Deepslate",
+    "project_description": "Pickaxes breaks reinforced deepslate more quickly",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "kbuqezYO",
         "project_type": "mod",

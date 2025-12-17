@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "3.6",
     "project_id": "uqr5V1OT",
+    "project_name": "Axolotl Ignore Passives",
+    "project_description": "Axolotls no longer attack squid or tropical fish",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "uqr5V1OT",
         "project_type": "mod",

@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "2.6",
     "project_id": "mBcDOO3o",
+    "project_name": "Re-dye Glazed Terracotta",
+    "project_description": "Glazed terracotta can be re-dyed different colors",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "mBcDOO3o",
         "project_type": "mod",

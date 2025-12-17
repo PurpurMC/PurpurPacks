@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "3.6",
+    "project_id": "8iJVgUtF",
+    "project_name": "Raw Iron Beacons",
+    "project_description": "Beacon bases can be made of raw iron blocks. Raw iron can be used as a beacon payment item.",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "8iJVgUtF",
+        "project_type": "mod",
+        "slug": "purpurpacks-raw-iron-block-beacon-base",
+        "url": "https://modrinth.com/mod/purpurpacks-raw-iron-block-beacon-base"
+    }
+}

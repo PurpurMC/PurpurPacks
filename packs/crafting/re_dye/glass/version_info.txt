@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "sbHA4Z4I",
+    "project_name": "Re-dye Glass",
+    "project_description": "Glass can be re-dyed different colors",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "sbHA4Z4I",
         "project_type": "mod",

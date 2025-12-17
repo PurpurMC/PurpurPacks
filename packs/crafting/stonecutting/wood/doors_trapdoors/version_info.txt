@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "1.6",
+    "project_id": "VWWrpSlM",
+    "project_name": "Stonecutter Crafts Wooden Doors And Trapdoors",
+    "project_description": "Stonecutter crafts planks into doors and trapdoors",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "VWWrpSlM",
+        "project_type": "mod",
+        "slug": "purpurpacks-stonecutter-cuts-doors",
+        "url": "https://modrinth.com/mod/purpurpacks-stonecutter-cuts-doors"
+    }
+}

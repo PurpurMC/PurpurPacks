@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "2.6",
+    "project_id": "rvzRe1CC",
+    "project_name": "Infinity Can Go On Crossbow",
+    "project_description": "The infinity enchantment can be used on a crossbow",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "rvzRe1CC",
+        "project_type": "mod",
+        "slug": "purpurpacks-infinity-on-crossbows",
+        "url": "https://modrinth.com/mod/purpurpacks-infinity-on-crossbows"
+    }
+}

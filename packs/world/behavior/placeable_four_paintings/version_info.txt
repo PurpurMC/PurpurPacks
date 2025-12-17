@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "3.6",
+    "project_id": "UDhPA1TM",
+    "project_name": "Four Element Paintings Can Be Placed",
+    "project_description": "The four element paintings can be placed in the world without commands",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "UDhPA1TM",
+        "project_type": "mod",
+        "slug": "purpurpacks-placeable-new-paintings",
+        "url": "https://modrinth.com/mod/purpurpacks-placeable-new-paintings"
+    }
+}

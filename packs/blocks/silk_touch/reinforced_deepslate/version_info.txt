@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "B92jc48r",
+    "project_name": "Silk-touch-able Reinforced Deepslate",
+    "project_description": "Reinforced deepslate can be picked up with silk touch",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "B92jc48r",
         "project_type": "mod",

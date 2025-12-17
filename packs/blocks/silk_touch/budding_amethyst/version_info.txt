@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "7P6tQJuB",
+    "project_name": "Silk-touch-able Budding Amethyst",
+    "project_description": "Budding amethyst blocks can be picked up with silk touch",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "7P6tQJuB",
         "project_type": "mod",

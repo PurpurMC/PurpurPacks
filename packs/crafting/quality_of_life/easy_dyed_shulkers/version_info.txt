@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "4.6",
+    "project_id": "cNHq7t9M",
+    "project_name": "One-step Dyed Shulker Box Recipe",
+    "project_description": "Dyed shulker boxes can be crafted in one step",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "cNHq7t9M",
+        "project_type": "mod",
+        "slug": "purpurpacks-one-step-dyed-shulker-boxes",
+        "url": "https://modrinth.com/mod/purpurpacks-one-step-dyed-shulker-boxes"
+    }
+}

@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "fOi8LwAw",
+    "project_name": "Iron Tools Upgrade To Diamond",
+    "project_description": "Iron tools can be upgraded to diamond tools in a smithing table",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "fOi8LwAw",
         "project_type": "mod",

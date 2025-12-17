@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "2.6",
     "project_id": "imR8I7dT",
+    "project_name": "Removes Mending Enchantment",
+    "project_description": "Mending enchantment is removed from loot tables and enchant is disabled",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "imR8I7dT",
         "project_type": "mod",

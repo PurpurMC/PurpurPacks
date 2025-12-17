@@ -1,6 +1,9 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "8zLmjJ4K",
+    "project_name": "Stone Tools Upgrade To Iron",
+    "project_description": "Stone tools can be upgraded to iron tools in a smithing table"
     "modrinth": {
         "project_id": "8zLmjJ4K",
         "project_type": "mod",

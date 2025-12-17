@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "3.6",
+    "project_id": "EP4tesbZ",
+    "project_name": "Amethyst Beacons",
+    "project_description": "Beacon bases can be made of amethyst blocks and budding amethyst. Amethyst can be used as a beacon payment item.",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "EP4tesbZ",
+        "project_type": "mod",
+        "slug": "purpurpacks-amethyst-beacon-base",
+        "url": "https://modrinth.com/mod/purpurpacks-amethyst-beacon-base"
+    }
+}

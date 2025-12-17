@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "3.6",
     "project_id": "S7cHoMDR",
+    "project_name": "Axes Are Effective For Breaking Skulls",
+    "project_description": "Axes break skulls more quickly",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "S7cHoMDR",
         "project_type": "mod",

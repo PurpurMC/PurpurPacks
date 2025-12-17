@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "R1WCIhLq",
+    "project_name": "Netherite Tools Upgrade Without A Template",
+    "project_description": "Diamond tools can be upgraded to netherite tools without an upgrade template",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "R1WCIhLq",
         "project_type": "mod",

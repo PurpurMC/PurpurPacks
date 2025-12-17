@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "3.6",
     "project_id": "y87pO5HP",
+    "project_name": "Pickaxes Are Effective For Breaking Glass",
+    "project_description": "Pickaxes break glass more quickly",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "y87pO5HP",
         "project_type": "mod",

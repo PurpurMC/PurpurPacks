@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "1.6",
+    "project_id": "qwRhepin",
+    "project_name": "Looting Can Go On Shears",
+    "project_description": "Shears can have the looting enchantment",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "qwRhepin",
+        "project_type": "mod",
+        "slug": "purpurpacks-looting-shears",
+        "url": "https://modrinth.com/mod/purpurpacks-looting-shears"
+    }
+}

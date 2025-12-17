@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.7",
     "project_id": "fffp1OgS",
+    "project_name": "Bartering Table Rebalance",
+    "project_description": "Bartering table is rebalanced to resemble what it originally did in 1.16 snapshots. Also contains netherite upgrade",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "fffp1OgS",
         "project_type": "mod",

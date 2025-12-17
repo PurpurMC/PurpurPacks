@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "1.7",
+    "project_id": "k4swAzko",
+    "project_name": "Stonecutter Crafts Wooden Slabs And Stairs",
+    "project_description": "Stonecutter crafts planks into slabs and stairs",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "k4swAzko",
+        "project_type": "mod",
+        "slug": "purpurpacks-stonecutter-cuts-slabs",
+        "url": "https://modrinth.com/mod/purpurpacks-stonecutter-cuts-slabs"
+    }
+}

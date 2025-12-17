@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "2.6",
+    "project_id": "QZKMChtj",
+    "project_name": "Unbreaking Cannot Go On Elytra",
+    "project_description": "Prevents the unbreaking enchant from being applied to elytra",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "QZKMChtj",
+        "project_type": "mod",
+        "slug": "purpurpacks-no-unbreaking-on-elytra",
+        "url": "https://modrinth.com/mod/purpurpacks-no-unbreaking-on-elytra"
+    }
+}

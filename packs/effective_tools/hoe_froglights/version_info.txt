@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "3.6",
     "project_id": "dpLYDTiH",
+    "project_name": "Hoes Are Effective For Breaking Froglights",
+    "project_description": "Hoes break froglights more quickly",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "dpLYDTiH",
         "project_type": "mod",

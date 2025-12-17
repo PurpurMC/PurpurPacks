@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "2.6",
+    "project_id": "NLzRxVcC",
+    "project_name": "Infinity And Mending Can Go On The Same Bow",
+    "project_description": "Both infinity and mending can be used on the same bow",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "NLzRxVcC",
+        "project_type": "mod",
+        "slug": "purpurpacks-infinity-mending-bows",
+        "url": "https://modrinth.com/mod/purpurpacks-infinity-mending-bows"
+    }
+}

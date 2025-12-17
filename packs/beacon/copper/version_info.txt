@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "4.6",
+    "project_id": "zFdrE9Wt",
+    "project_name": "Copper Beacons",
+    "project_description": "Beacon bases can be made of copper blocks. Copper ingots can be used as a beacon payment item.",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "zFdrE9Wt",
+        "project_type": "mod",
+        "slug": "purpurpacks-copper-block-beacon-base",
+        "url": "https://modrinth.com/mod/purpurpacks-copper-block-beacon-base"
+    }
+}

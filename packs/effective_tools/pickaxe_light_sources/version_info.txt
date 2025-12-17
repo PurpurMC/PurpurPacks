@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "3.6",
+    "project_id": "ERLjKg7g",
+    "project_name": "Pickaxes Are Effective For Breaking Light Sources",
+    "project_description": "Pickaxes break light sources more quickly",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "ERLjKg7g",
+        "project_type": "mod",
+        "slug": "purpurpacks-pickaxe-effective-light-source-blocks",
+        "url": "https://modrinth.com/mod/purpurpacks-pickaxe-effective-light-source-blocks"
+    }
+}

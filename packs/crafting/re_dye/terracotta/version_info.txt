@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "lANiwxxT",
+    "project_name": "Re-dye Terracotta",
+    "project_description": "Re-dye terracotta different colors",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "lANiwxxT",
         "project_type": "mod",

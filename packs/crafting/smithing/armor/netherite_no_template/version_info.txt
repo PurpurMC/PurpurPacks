@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "t5xqR0AK",
+    "project_name": "Netherite Armor Upgrades Without A Template",
+    "project_description": "Diamond armor can be upgraded to netherite armor without an upgrade template",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "t5xqR0AK",
         "project_type": "mod",

@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "3.6",
     "project_id": "Xqq7IBeE",
+    "project_name": "Hoes Are Effective For Breaking Cactus",
+    "project_description": "Hoes break cactus more quickly",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "Xqq7IBeE",
         "project_type": "mod",

@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "2.6",
     "project_id": "1hrzfBkm",
+    "project_name": "Re-dye Concrete",
+    "project_description": "Concrete can be re-dyed different colors",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "1hrzfBkm",
         "project_type": "mod",

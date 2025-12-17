@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "3.6",
+    "project_id": "504BLPX7",
+    "project_name": "Chiseled Bookshelves Can Be Used For Enchantment Setups",
+    "project_description": "Chiseled bookshelves add power to enchant table like a normal bookshelf",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "504BLPX7",
+        "project_type": "mod",
+        "slug": "purpurpacks-chiseled-bookshelves-add-enchantment-power",
+        "url": "https://modrinth.com/mod/purpurpacks-chiseled-bookshelves-add-enchantment-power"
+    }
+}

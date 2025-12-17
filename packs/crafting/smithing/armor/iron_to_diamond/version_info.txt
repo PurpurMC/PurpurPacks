@@ -1,6 +1,10 @@
 {
+    "data_schema": 1.0,
     "version_number": "4.6",
     "project_id": "UwL3n8Ei",
+    "project_name": "Iron Armor Upgrades To Diamond",
+    "project_description": "Iron armor can be upgraded to diamond armor in a smithing table",
+    "project_icon": "pack.png",
     "modrinth": {
         "project_id": "UwL3n8Ei",
         "project_type": "mod",

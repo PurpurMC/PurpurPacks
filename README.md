@@ -5,13 +5,13 @@ What determines if something should be a datapack is if the feature is data-driv
 There's a folder in the first directory, named `data` - everything in that directory is modifiable by datapacks.
 
 ## Beacon Base Materials
-[![](/packs/beacon_base/amethyst/pack.png "Amethyst Blocks Can Be Used As A Beacon Base. Amethyst Shards Can Be Used As A Beacon Payment Item.")](https://modrinth.com/project/EP4tesbZ/versions)
-[![](/packs/beacon_base/copper/pack.png "Copper Blocks Can Be Used As A Beacon Base. Copper Ingots Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/zFdrE9Wt/versions)
-[![](/packs/beacon_base/lapis/pack.png "Lapis Blocks Can Be Used As A Beacon Base. Lapis Lazuli Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/gDqoouES/versions)
-[![](/packs/beacon_base/raw_copper/pack.png "Raw Copper Blocks Can Be Used As A Beacon Base. Raw Copper Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/ItRpuGf4/versions)
-[![](/packs/beacon_base/raw_gold/pack.png "Raw Gold Blocks Can Be Used As A Beacon Base. Raw Gold Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/MqaYXlAP/versions)
-[![](/packs/beacon_base/raw_iron/pack.png "Raw Iron Blocks Can Be Used As A Beacon Base. Raw Iron Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/8iJVgUtF/versions)
-[![](/packs/beacon_base/redstone/pack.png "Redstone Blocks Can Be Used As A Beacon Base. Redstone Dust Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/I2neFSkP/versions)
+[![](/packs/beacon/amethyst/pack.png "Amethyst Blocks Can Be Used As A Beacon Base. Amethyst Shards Can Be Used As A Beacon Payment Item.")](https://modrinth.com/project/EP4tesbZ/versions)
+[![](/packs/beacon/copper/pack.png "Copper Blocks Can Be Used As A Beacon Base. Copper Ingots Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/zFdrE9Wt/versions)
+[![](/packs/beacon/lapis/pack.png "Lapis Blocks Can Be Used As A Beacon Base. Lapis Lazuli Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/gDqoouES/versions)
+[![](/packs/beacon/raw_copper/pack.png "Raw Copper Blocks Can Be Used As A Beacon Base. Raw Copper Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/ItRpuGf4/versions)
+[![](/packs/beacon/raw_gold/pack.png "Raw Gold Blocks Can Be Used As A Beacon Base. Raw Gold Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/MqaYXlAP/versions)
+[![](/packs/beacon/raw_iron/pack.png "Raw Iron Blocks Can Be Used As A Beacon Base. Raw Iron Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/8iJVgUtF/versions)
+[![](/packs/beacon/redstone/pack.png "Redstone Blocks Can Be Used As A Beacon Base. Redstone Dust Can Be Used As A Beacon Payment Item")](https://modrinth.com/project/I2neFSkP/versions)
 
 ## Crafting 
 ### Smithing
@@ -28,27 +28,27 @@ There's a folder in the first directory, named `data` - everything in that direc
 [![](/packs/crafting/re_dye/glazed_terracotta/pack.png "Re-Dye All Colors Of Glazed Terracotta")](https://modrinth.com/project/mBcDOO3o/versions)
 [![](/packs/crafting/re_dye/terracotta/pack.png "Re-Dye All Colors Of Terracotta")](https://modrinth.com/project/lANiwxxT/versions)
 ### Smelting
-[![](/packs/crafting/smelting/blasting_smelts_glass/pack.png "Blasting Furnace Smelts Glass")](https://modrinth.com/project/yQr7wOEY/versions)
-[![](/packs/crafting/smelting/raw_ore_blocks/pack.png "Smelt Raw Ore Blocks")](https://modrinth.com/project/Sue2z8Bl/versions)
+[![](/packs/crafting/smelting/blast_glass/pack.png "Blasting Furnace Smelts Glass")](https://modrinth.com/project/yQr7wOEY/versions)
+[![](/packs/crafting/smelting/ore_blocks/pack.png "Smelt Raw Ore Blocks")](https://modrinth.com/project/Sue2z8Bl/versions)
 ### Stonecutter
-[![](packs/crafting/stonecutting/wood/doors_and_trapdoors/pack.png "Stonecutter Cuts Planks To Doors Trapdoors and Pressure Plates")](https://modrinth.com/project/VWWrpSlM/versions)
-[![](packs/crafting/stonecutting/wood/slabs_and_stairs/pack.png "Stonecutter Cuts Planks To Slabs Stairs Fences and Fence Gates")](https://modrinth.com/project/k4swAzko/versions)
+[![](packs/crafting/stonecutting/wood/doors_trapdoors/pack.png "Stonecutter Cuts Planks To Doors Trapdoors and Pressure Plates")](https://modrinth.com/project/VWWrpSlM/versions)
+[![](packs/crafting/stonecutting/wood/slabs_stairs/pack.png "Stonecutter Cuts Planks To Slabs Stairs Fences and Fence Gates")](https://modrinth.com/project/k4swAzko/versions)
 ### Misc
-[![](/packs/crafting/misc/more_dyed_wool_and_carpet/pack.png "Craft 8 Wool Or Carpet Instead Of One At A Time")](https://modrinth.com/project/z9M75QAX/versions)
-[![](/packs/crafting/misc/one_step_dyed_shulker_boxes/pack.png "Craft Dyed Shulkers From Scratch")](https://modrinth.com/project/cNHq7t9M/versions)
+[![](/packs/crafting/re_dye/more_wool_carpet/pack.png "Craft 8 Wool Or Carpet Instead Of One At A Time")](https://modrinth.com/project/z9M75QAX/versions)
+[![](/packs/crafting/quality_of_life/easy_dyed_shulkers/pack.png "Craft Dyed Shulkers From Scratch")](https://modrinth.com/project/cNHq7t9M/versions)
 
 ## Enchants
 
-[![](/packs/enchant/elytra_ignores_unbreaking/pack.png "Disables Unbreaking From Working On Elytra")](https://modrinth.com/project/QZKMChtj/versions)
-[![](/packs/enchant/infinity_and_mending_bows/pack.png "Infinity And Mending Can Be Placed On The Same Bow")](https://modrinth.com/project/NLzRxVcC/versions)
-[![](/packs/enchant/infinity_on_crossbow/pack.png "Infinity Can Be Placed On A Crossbow")](https://modrinth.com/project/rvzRe1CC/versions)
-[![](/packs/enchant/looting_on_shears/pack.png "Looting Works On Shears")](https://modrinth.com/project/qwRhepin/versions)
+[![](/packs/enchant/elytra_no_unbreaking/pack.png "Disables Unbreaking From Working On Elytra")](https://modrinth.com/project/QZKMChtj/versions)
+[![](/packs/enchant/infinity_mending_bows/pack.png "Infinity And Mending Can Be Placed On The Same Bow")](https://modrinth.com/project/NLzRxVcC/versions)
+[![](/packs/enchant/infinity_crossbow/pack.png "Infinity Can Be Placed On A Crossbow")](https://modrinth.com/project/rvzRe1CC/versions)
+[![](/packs/enchant/looting_shears/pack.png "Looting Works On Shears")](https://modrinth.com/project/qwRhepin/versions)
 [![](/packs/enchant/remove_mending/pack.png "Remove Mending And It's Functionality")](https://modrinth.com/project/imR8I7dT/versions)
 
 ## Mobs
 [![](/packs/mobs/loot_tables/bartering_rebalance/pack.png "Rebalance The Piglin Bartering Loot Table")](https://modrinth.com/project/fffp1OgS/versions)
 [![](/packs/mobs/behavior/axolotl_ignore_passives/pack.png "Axolotls Do Not Attack Passive Mobs")](https://modrinth.com/project/uqr5V1OT/versions)
-[![](/packs/mobs/behavior/axolotl_breed_with_tropical_fish_item/pack.png "Axolotls Breed With The Tropical Fish Item")](https://modrinth.com/project/ZLRxxRmh/versions)
+[![](/packs/mobs/behavior/axolotl_breed_with_item/pack.png "Axolotls Breed With The Tropical Fish Item")](https://modrinth.com/project/ZLRxxRmh/versions)
 
 ## Blocks
 [![](/packs/blocks/silk_touch/budding_amethyst/pack.png "Pick Up Budding Amethyst Blocks With Silk Touch")](https://modrinth.com/project/7P6tQJuB/versions)
@@ -60,10 +60,10 @@ There's a folder in the first directory, named `data` - everything in that direc
 [![](/packs/effective_tools/hoe_cactus/pack.png "Cactus Breaks Faster With A Hoe")](https://modrinth.com/project/Xqq7IBeE/versions)
 [![](/packs/effective_tools/hoe_froglights/pack.png "Froglights Break Faster Using A Hoe")](https://modrinth.com/project/dpLYDTiH/versions)
 [![](/packs/effective_tools/pickaxe_glass/pack.png "Glass Breaks Faster With A Pickaxe")](https://modrinth.com/project/y87pO5HP/versions)
-[![](/packs/effective_tools/pickaxe_light_source_blocks/pack.png "Light Source Blocks Break Faster With A Pickaxe")](https://modrinth.com/project/ERLjKg7g/versions)
+[![](/packs/effective_tools/pickaxe_light_sources/pack.png "Light Source Blocks Break Faster With A Pickaxe")](https://modrinth.com/project/ERLjKg7g/versions)
 [![](/packs/effective_tools/pickaxe_reinforced_deepslate/pack.png "Reinforced Deepslate Breaks Faster With A Pickaxe")](https://modrinth.com/project/kbuqezYO/versions)
 
 ## World Behavior
-[![](/packs/world/behavior/chiseled_bookshelves_add_enchantment_power/pack.png "Chiseled Bookshelves Add To Enchantment Power")](https://modrinth.com/project/504BLPX7/versions)
-[![](/packs/world/behavior/four_new_paintings_are_placeable/pack.png "The Four New Paintings Are Placeable")](https://modrinth.com/project/UDhPA1TM/versions)
-[![](/packs/world/behavior/transparent_blocks_in_enchant_area/pack.png "Transparent Blocks Do Not Reduce Enchant Power In Enchant Area")](https://modrinth.com/project/NhxPgV4c/versions)
+[![](/packs/world/behavior/chiseled_bookshelves_for_enchanting/pack.png "Chiseled Bookshelves Add To Enchantment Power")](https://modrinth.com/project/504BLPX7/versions)
+[![](/packs/world/behavior/placeable_four_paintings/pack.png "The Four New Paintings Are Placeable")](https://modrinth.com/project/UDhPA1TM/versions)
+[![](/packs/world/behavior/transparent_blocks_enchant_area/pack.png "Transparent Blocks Do Not Reduce Enchant Power In Enchant Area")](https://modrinth.com/project/NhxPgV4c/versions)

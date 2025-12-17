@@ -1,0 +1,14 @@
+{
+    "data_schema": 1.0,
+    "version_number": "3.6",
+    "project_id": "I2neFSkP",
+    "project_name": "Redstone Beacons",
+    "project_description": "Beacon bases can be made of redstone blocks. Redstone can be used as a beacon payment item.",
+    "project_icon": "pack.png",
+    "modrinth": {
+        "project_id": "I2neFSkP",
+        "project_type": "mod",
+        "slug": "purpurpacks-redstone-beacon-base",
+        "url": "https://modrinth.com/mod/purpurpacks-redstone-beacon-base"
+    }
+}

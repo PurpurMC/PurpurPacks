@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:wooden_spear",
+  "addition": "#minecraft:stone_tool_materials",
+  "result": {
+    "id": "minecraft:stone_spear"
+  }
+}

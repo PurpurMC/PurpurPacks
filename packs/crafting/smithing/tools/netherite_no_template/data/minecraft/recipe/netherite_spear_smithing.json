@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:diamond_spear",
+  "result": {
+    "id": "minecraft:netherite_spear"
+  }
+}

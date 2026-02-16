@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:iron_spear",
+  "addition": "minecraft:diamond",
+  "result": {
+    "id": "minecraft:diamond_spear"
+  }
+}

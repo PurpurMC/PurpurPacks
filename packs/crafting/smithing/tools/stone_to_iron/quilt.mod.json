@@ -3,7 +3,7 @@
   "quilt_loader": {
     "group": "org.purpurmc",
     "id": "crafting_smithing_tools_stone_to_iron",
-    "version": "4.6+mod",
+    "version": "4.7+mod",
     "metadata": {
       "name": "Upgrade Stone Tools To Iron",
       "description": "Upgrade Stone Tools To Iron Ones",

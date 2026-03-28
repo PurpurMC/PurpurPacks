@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "crafting_smelting_blasting_smelts_glass",
-  "version": "4.6+mod",
+  "version": "4.7+fabric_quilt",
   "name": "Blasting Smelts Glass",
   "description": "Blasting Furnace Smelts Glass",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpack-blasting-smelts-glass",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

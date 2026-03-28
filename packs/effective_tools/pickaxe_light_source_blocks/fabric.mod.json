@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "effective_tools_pickaxe_light_source_blocks",
-  "version": "3.6+mod",
+  "version": "3.7+fabric_quilt",
   "name": "Pickaxe Effective For Light Source Blocks",
   "description": "Light Source Blocks Break Faster With A Pickaxe",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-pickaxe-effective-light-source-blocks",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "crafting_re_dye_concrete",
-  "version": "2.6+mod",
+  "version": "2.7+fabric_quilt",
   "name": "Re-Dye Concrete",
   "description": "Re-Dye All Colors Of Concrete",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-re-dye-concrete",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

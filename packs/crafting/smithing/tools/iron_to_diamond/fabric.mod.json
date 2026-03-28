@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "crafting_smithing_tools_iron_to_diamond",
-  "version": "4.7+mod",
+  "version": "4.8+fabric_quilt",
   "name": "Upgrade Iron Tools To Diamond",
   "description": "Upgrade Iron Tools To Diamond Ones",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-iron-to-diamond-tools-upgrades",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

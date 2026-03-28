@@ -3,11 +3,15 @@
   "quilt_loader": {
     "group": "org.purpurmc",
     "id": "enchant_remove_mending",
-    "version": "2.6+mod",
+    "version": "2.7+fabric_quilt",
     "metadata": {
       "name": "Remove Mending",
       "description": "Remove Mending And It's Functionality",
-      "contributors": {"granny": "Owner", "Rhythmic": "Developer", "PurpurMC": "Organization"},
+      "contributors": {
+        "granny": "Owner",
+        "Rhythmic": "Developer",
+        "PurpurMC": "Organization"
+      },
       "contact": {
         "homepage": "https://modrinth.com/mod/purpurpacks-no-mending",
         "sources": "https://github.com/PurpurMC/PurpurPacks",

@@ -132,7 +132,7 @@ def fetch_existing_versions(project_id):
     if project_id in _VERSION_CACHE:
         return _VERSION_CACHE[project_id]
 
-    url = f"https://api.modrinth.com/v2/project/{project_id}/version"
+    url = f"https://api.modrinth.com/v2/project/{project_id}/version?include_changelog=false"
     headers = {
         "Authorization": modrinth_token,
         "User-Agent": user_agent

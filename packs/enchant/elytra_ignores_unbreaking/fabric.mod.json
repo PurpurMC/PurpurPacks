@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "enchant_elytra_ignores_unbreaking",
-  "version": "2.6+mod",
+  "version": "2.7+fabric_quilt",
   "name": "Elytra Ignores Unbreaking",
   "description": "Disables Unbreaking From Working On Elytra",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-no-unbreaking-on-elytra",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

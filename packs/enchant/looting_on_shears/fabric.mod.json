@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "enchant_looting_on_shears",
-  "version": "1.6+mod",
+  "version": "1.7+fabric_quilt",
   "name": "Looting Can Go On Shears",
   "description": "Looting Works On Shears",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-looting-shears",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

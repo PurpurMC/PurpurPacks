@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "enchant_infinity_and_mending_bows",
-  "version": "2.6+mod",
+  "version": "2.7+fabric_quilt",
   "name": "Infinity And Mending Bows",
   "description": "Infinity And Mending Can Be Placed On The Same Bow",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-infinity-mending-bows",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

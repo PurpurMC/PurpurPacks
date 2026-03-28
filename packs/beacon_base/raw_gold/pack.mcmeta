@@ -1,12 +1,12 @@
 {
     "pack": {
         "description": "Raw Gold Blocks Can Be Used As A Beacon Base. Raw Gold Can Be Used As A Beacon Payment Item",
-        "pack_format": 94.1,
+        "pack_format": 101.1,
         "supported_formats": {
             "min_inclusive": 57,
-            "max_inclusive": 94.1
+            "max_inclusive": 101.1
         },
         "min_format": 57,
-        "max_format": 94.1
+        "max_format": 101.1
     }
 }

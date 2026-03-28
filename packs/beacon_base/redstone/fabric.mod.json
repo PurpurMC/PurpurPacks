@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "beacon_base_redstone",
-  "version": "3.6+mod",
+  "version": "3.7+fabric_quilt",
   "name": "Redstone Beacons",
   "description": "Redstone Blocks Can Be Used As A Beacon Base. Redstone Dust Can Be Used As A Beacon Payment Item",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-redstone-beacon-base",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

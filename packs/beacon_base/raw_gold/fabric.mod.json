@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "beacon_base_raw_gold",
-  "version": "3.6+mod",
+  "version": "3.7+fabric_quilt",
   "name": "Raw Gold Beacons",
   "description": "Raw Gold Blocks Can Be Used As A Beacon Base. Raw Gold Can Be Used As A Beacon Payment Item",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-raw-gold-beacon-base",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

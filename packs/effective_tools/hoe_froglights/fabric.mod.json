@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "effective_tools_hoe_froglights",
-  "version": "3.6+mod",
+  "version": "3.7+fabric_quilt",
   "name": "Hoe Effective For Froglights",
   "description": "Froglights Break Faster Using A Hoe",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-hoe-effective-froglights",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

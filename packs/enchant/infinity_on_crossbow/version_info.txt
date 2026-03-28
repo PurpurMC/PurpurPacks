@@ -1,5 +1,5 @@
 {
-    "version_number": "2.6",
+    "version_number": "2.7",
     "project_id": "rvzRe1CC",
     "modrinth": {
         "project_id": "rvzRe1CC",

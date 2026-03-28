@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "crafting_stonecutting_wood_doors_and_trapdoors",
-  "version": "1.6+mod",
+  "version": "1.7+fabric_quilt",
   "name": "Stonecutter Wood Doors And Trapdoors",
   "description": "Use the stonecutter to get doors and trapdoors from planks",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-stonecutter-cuts-doors",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

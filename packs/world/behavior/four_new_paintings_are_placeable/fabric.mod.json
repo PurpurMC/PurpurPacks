@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "world_behavior_four_new_paintings_are_placeable",
-  "version": "3.6+mod",
+  "version": "3.7+fabric_quilt",
   "name": "Four New Paintings Are Placeable",
   "description": "The Four New Paintings Are Placeable",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-placeable-new-paintings",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

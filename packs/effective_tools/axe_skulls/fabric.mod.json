@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "effective_tools_axe_skulls",
-  "version": "3.6+mod",
+  "version": "3.7+fabric_quilt",
   "name": "Axe Effective For Skulls",
   "description": "Skulls And Heads Break Faster With An Axe",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-axe-effective-skulls",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

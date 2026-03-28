@@ -1,5 +1,5 @@
 {
-    "version_number": "4.7",
+    "version_number": "4.8",
     "project_id": "R1WCIhLq",
     "modrinth": {
         "project_id": "R1WCIhLq",

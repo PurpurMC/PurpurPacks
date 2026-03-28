@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "enchant_infinity_on_crossbow",
-  "version": "2.6+mod",
+  "version": "2.7+fabric_quilt",
   "name": "Infinity Can Go On Crossbow",
   "description": "Infinity Can Be Placed On A Crossbow",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-infinity-on-crossbows",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

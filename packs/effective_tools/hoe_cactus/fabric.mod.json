@@ -1,10 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "effective_tools_hoe_cactus",
-  "version": "3.6+mod",
+  "version": "3.7+fabric_quilt",
   "name": "Hoe Effective For Cactus",
   "description": "Cactus Breaks Faster With A Hoe",
-  "authors": ["granny", "Rhythmic", "PurpurMC"],
+  "authors": [
+    "granny",
+    "Rhythmic",
+    "PurpurMC"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/purpurpacks-hoe-effective-cactus",
     "sources": "https://github.com/PurpurMC/PurpurPacks",

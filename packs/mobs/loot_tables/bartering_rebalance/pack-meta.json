@@ -1,0 +1,26 @@
+{
+    "id": "mobs_loot_tables_bartering_rebalance",
+    "display_name": "Bartering Table Rebalance",
+    "description": "Rebalance The Piglin Bartering Loot Table",
+    "name": "v4.8 Update",
+    "version_number": "4.8",
+    "project_id": "fffp1OgS",
+    "modrinth_slug": "purpurpacks-rebalanced-piglin-bartering",
+    "categories": [
+        "mobs"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "Update to 26.1",
+    "game_versions": [
+        "1.21.10",
+        "1.21.11",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "26.1"
+    ],
+    "version_type": "release"
+}

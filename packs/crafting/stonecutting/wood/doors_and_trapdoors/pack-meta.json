@@ -1,0 +1,26 @@
+{
+    "id": "crafting_stonecutting_wood_doors_and_trapdoors",
+    "display_name": "Stonecutter Wood Doors And Trapdoors",
+    "description": "Use the stonecutter to get doors and trapdoors from planks",
+    "name": "v1.7 Update",
+    "version_number": "1.7",
+    "project_id": "VWWrpSlM",
+    "modrinth_slug": "purpurpacks-stonecutter-cuts-doors",
+    "categories": [
+        "crafting"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "Update to 26.1",
+    "game_versions": [
+        "1.21.10",
+        "1.21.11",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "26.1"
+    ],
+    "version_type": "release"
+}

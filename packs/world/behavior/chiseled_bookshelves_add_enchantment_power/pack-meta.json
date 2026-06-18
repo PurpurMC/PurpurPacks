@@ -1,0 +1,26 @@
+{
+    "id": "world_behavior_chiseled_bookshelves_add_enchantment_power",
+    "display_name": "Chiseled Bookshelves Add Enchantment Power",
+    "description": "Chiseled Bookshelves Add To Enchantment Power",
+    "name": "v3.7 Update",
+    "version_number": "3.7",
+    "project_id": "504BLPX7",
+    "modrinth_slug": "purpurpacks-chiseled-bookshelves-add-enchantment-power",
+    "categories": [
+        "world"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "Update to 26.1",
+    "game_versions": [
+        "1.21.10",
+        "1.21.11",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "26.1"
+    ],
+    "version_type": "release"
+}

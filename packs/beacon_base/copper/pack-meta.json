@@ -1,0 +1,27 @@
+{
+    "id": "beacon_base_copper",
+    "display_name": "Copper Beacons",
+    "description": "Copper Blocks Can Be Used As A Beacon Base. Copper Ingots Can Be Used As A Beacon Payment Item",
+    "name": "v4.7 Update",
+    "version_number": "4.7",
+    "project_id": "zFdrE9Wt",
+    "modrinth_slug": "purpurpacks-copper-block-beacon-base",
+    "categories": [
+        "beacon_base"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "Update to 26.1",
+    "game_versions": [
+        "1.21.10",
+        "1.21.11",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "26.1"
+    ],
+    "version_type": "release"
+}

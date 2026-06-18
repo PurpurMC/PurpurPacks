@@ -1,0 +1,27 @@
+{
+    "id": "effective_tools_hoe_cactus",
+    "display_name": "Hoe Effective For Cactus",
+    "description": "Cactus Breaks Faster With A Hoe",
+    "name": "v3.7 Update",
+    "version_number": "3.7",
+    "project_id": "Xqq7IBeE",
+    "modrinth_slug": "purpurpacks-hoe-effective-cactus",
+    "categories": [
+        "effective_tools"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "Update to 26.1",
+    "game_versions": [
+        "1.21.10",
+        "1.21.11",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "26.1"
+    ],
+    "version_type": "release"
+}

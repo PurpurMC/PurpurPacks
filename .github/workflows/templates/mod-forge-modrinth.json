@@ -1,7 +1,7 @@
 {
   "featured": false,
   "loaders": [
-    "forge", "neoforge"
+    "forge"
   ],
   "dependencies": [],
   "primary": true,

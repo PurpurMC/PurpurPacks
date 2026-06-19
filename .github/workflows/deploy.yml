@@ -25,7 +25,7 @@ jobs:
           pip install requests
 
       - name: Run Python Deploy Script
-        run: python3 .github/workflows/deploy.py
+        run: python3 .github/workflows/main.py
         env:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           DRY_RUN: ${{ github.event_name == 'pull_request' }}

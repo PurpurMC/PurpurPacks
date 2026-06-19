@@ -1,0 +1,11 @@
+{
+  "featured": false,
+  "loaders": [
+    "neoforge"
+  ],
+  "dependencies": [],
+  "primary": true,
+  "file_parts": [
+    "file"
+  ]
+}

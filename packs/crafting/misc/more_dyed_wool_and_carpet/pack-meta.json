@@ -2,15 +2,15 @@
     "id": "crafting_misc_more_dyed_wool_and_carpet",
     "display_name": "Dye More Wool And Carpet At Once",
     "description": "Craft 8 Wool Or Carpet Instead Of One At A Time",
-    "name": "v5.7 Update",
-    "version_number": "5.7",
+    "name": "v5.11 Update",
+    "version_number": "5.11",
     "project_id": "z9M75QAX",
     "modrinth_slug": "purpurpacks-more-dyed-wool-and-carpet",
     "categories": [
         "crafting"
     ],
     "has_loader_distribution": true,
-    "changelog": "Update to 26.1",
+    "changelog": "Update to 26.2",
     "game_versions": [
         "1.21.10",
         "1.21.11",
@@ -21,7 +21,8 @@
         "1.21.7",
         "1.21.8",
         "1.21.9",
-        "26.1"
+        "26.1",
+        "26.2"
     ],
     "version_type": "release"
 }

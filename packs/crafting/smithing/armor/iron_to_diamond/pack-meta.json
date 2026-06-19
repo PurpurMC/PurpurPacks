@@ -2,15 +2,15 @@
     "id": "crafting_smithing_armor_iron_to_diamond",
     "display_name": "Upgrade Iron Armor To Diamond",
     "description": "Upgrade Iron Armor to Diamond Armor",
-    "name": "v4.7 Update",
-    "version_number": "4.7",
+    "name": "v4.11 Update",
+    "version_number": "4.11",
     "project_id": "UwL3n8Ei",
     "modrinth_slug": "purpurpacks-iron-to-diamond-armor-upgrades",
     "categories": [
         "crafting"
     ],
     "has_loader_distribution": true,
-    "changelog": "Update to 26.1",
+    "changelog": "Update to 26.2",
     "game_versions": [
         "1.21.10",
         "1.21.11",
@@ -20,7 +20,8 @@
         "1.21.7",
         "1.21.8",
         "1.21.9",
-        "26.1"
+        "26.1",
+        "26.2"
     ],
     "version_type": "release"
 }

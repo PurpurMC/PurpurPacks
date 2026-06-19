@@ -2,20 +2,21 @@
     "id": "world_behavior_transparent_blocks_in_enchant_area",
     "display_name": "Transparent Blocks In Enchant Area",
     "description": "Transparent Blocks Do Not Reduce Enchant Power In Enchant Area",
-    "name": "v5.2 Update",
-    "version_number": "5.2",
+    "name": "v5.6 Update",
+    "version_number": "5.6",
     "project_id": "NhxPgV4c",
     "modrinth_slug": "purpurpacks-transparent-blocks-in-enchant-area",
     "categories": [
         "world"
     ],
     "has_loader_distribution": true,
-    "changelog": "Update to 26.1",
+    "changelog": "Update to 26.2",
     "game_versions": [
         "1.21.10",
         "1.21.11",
         "1.21.9",
-        "26.1"
+        "26.1",
+        "26.2"
     ],
     "version_type": "release"
 }

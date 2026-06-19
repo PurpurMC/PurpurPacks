@@ -2,7 +2,7 @@
     "id": "enchant_mending_multiplier",
     "display_name": "Mending Multiplier",
     "description": "Allows you to alter the mending multiplier",
-    "name": "",
+    "name": "v Update",
     "version_number": "",
     "project_id": "",
     "modrinth_slug": "",
@@ -11,6 +11,8 @@
     ],
     "has_loader_distribution": false,
     "changelog": "",
-    "game_versions": [],
+    "game_versions": [
+        "26.2"
+    ],
     "version_type": "release"
 }

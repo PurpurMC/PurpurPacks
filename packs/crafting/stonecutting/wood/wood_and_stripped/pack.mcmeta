@@ -1,12 +1,8 @@
 {
     "pack": {
         "description": "Use the stonecutter to get stripped logs, stripped wood, and wood from logs",
-        "pack_format": 101.1,
-        "supported_formats": {
-            "min_inclusive": 57,
-            "max_inclusive": 101.1
-        },
+        "pack_format": 107.1,
         "min_format": 57,
-        "max_format": 101.1
+        "max_format": 107.1
     }
 }

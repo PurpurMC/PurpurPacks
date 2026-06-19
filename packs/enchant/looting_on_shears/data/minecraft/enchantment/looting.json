@@ -18,9 +18,7 @@
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "attacker",
-          "predicate": {
-            "type": "minecraft:player"
-          }
+          "predicate": {}
         }
       }
     ]

@@ -2,15 +2,15 @@
     "id": "beacon_base_raw_gold",
     "display_name": "Raw Gold Beacons",
     "description": "Raw Gold Blocks Can Be Used As A Beacon Base. Raw Gold Can Be Used As A Beacon Payment Item",
-    "name": "v3.7 Update",
-    "version_number": "3.7",
+    "name": "v3.11 Update",
+    "version_number": "3.11",
     "project_id": "MqaYXlAP",
     "modrinth_slug": "purpurpacks-raw-gold-beacon-base",
     "categories": [
         "beacon_base"
     ],
     "has_loader_distribution": true,
-    "changelog": "Update to 26.1",
+    "changelog": "Update to 26.2",
     "game_versions": [
         "1.21.10",
         "1.21.11",
@@ -21,7 +21,8 @@
         "1.21.7",
         "1.21.8",
         "1.21.9",
-        "26.1"
+        "26.1",
+        "26.2"
     ],
     "version_type": "release"
 }

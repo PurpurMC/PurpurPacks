@@ -2,15 +2,15 @@
     "id": "beacon_base_amethyst",
     "display_name": "Amethyst Beacons",
     "description": "Amethyst Blocks Can Be Used As A Beacon Base. Amethyst Shards Can Be Used As A Beacon Payment Item.",
-    "name": "v3.9 Update",
-    "version_number": "3.9",
+    "name": "v3.13 Update",
+    "version_number": "3.13",
     "project_id": "EP4tesbZ",
     "modrinth_slug": "purpurpacks-amethyst-beacon-base",
     "categories": [
         "beacon_base"
     ],
     "has_loader_distribution": true,
-    "changelog": "Update to 26.1",
+    "changelog": "Update to 26.2",
     "game_versions": [
         "1.21.10",
         "1.21.11",
@@ -21,7 +21,8 @@
         "1.21.7",
         "1.21.8",
         "1.21.9",
-        "26.1"
+        "26.1",
+        "26.2"
     ],
     "version_type": "release"
 }

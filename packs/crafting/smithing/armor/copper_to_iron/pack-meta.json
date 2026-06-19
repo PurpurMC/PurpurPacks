@@ -1,0 +1,27 @@
+{
+    "id": "crafting_smithing_armor_copper_to_iron",
+    "display_name": "Upgrade Copper Armor To Iron",
+    "description": "Upgrade Copper Armor to Diamond Armor",
+    "name": "v4.11 Update",
+    "version_number": "4.11",
+    "project_id": "UwL3n8Ei",
+    "modrinth_slug": "purpurpacks-iron-to-diamond-armor-upgrades",
+    "categories": [
+        "crafting"
+    ],
+    "has_loader_distribution": false,
+    "changelog": "Update to 26.2",
+    "game_versions": [
+        "1.21.10",
+        "1.21.11",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "26.1",
+        "26.2"
+    ],
+    "version_type": "release"
+}

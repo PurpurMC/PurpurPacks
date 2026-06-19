@@ -1,0 +1,28 @@
+{
+    "id": "crafting_smithing_tools_stone_to_iron",
+    "display_name": "Upgrade Stone Tools To Iron",
+    "description": "Upgrade Stone Tools To Iron Ones",
+    "name": "v4.12 Update",
+    "version_number": "4.12",
+    "project_id": "8zLmjJ4K",
+    "modrinth_slug": "purpurpacks-stone-to-iron-tools-upgrades",
+    "categories": [
+        "crafting"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "Update to 26.2",
+    "game_versions": [
+        "1.21.10",
+        "1.21.11",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "26.1",
+        "26.2"
+    ],
+    "version_type": "release"
+}

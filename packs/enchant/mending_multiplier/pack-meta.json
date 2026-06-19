@@ -1,0 +1,18 @@
+{
+    "id": "enchant_mending_multiplier",
+    "display_name": "Mending Multiplier",
+    "description": "Allows you to alter the mending multiplier",
+    "name": "v Update",
+    "version_number": "",
+    "project_id": "",
+    "modrinth_slug": "",
+    "categories": [
+        "enchant"
+    ],
+    "has_loader_distribution": false,
+    "changelog": "",
+    "game_versions": [
+        "26.2"
+    ],
+    "version_type": "release"
+}

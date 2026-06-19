@@ -1,12 +1,6 @@
 {
     "pack": {
         "description": "Looting Works On Shears",
-        "pack_format": 101.1,
-        "supported_formats": {
-            "min_inclusive": 57,
-            "max_inclusive": 101.1
-        },
-        "min_format": 57,
-        "max_format": 101.1
+        "pack_format": 107.1
     }
 }

@@ -1,0 +1,18 @@
+{
+    "id": "enchant_looting_on_shears",
+    "display_name": "Looting Can Go On Shears",
+    "description": "Looting Works On Shears",
+    "name": "v1.11 Update",
+    "version_number": "1.11",
+    "project_id": "qwRhepin",
+    "modrinth_slug": "purpurpacks-looting-shears",
+    "categories": [
+        "enchant"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "Update to 26.2, no longer works on previous versions",
+    "game_versions": [
+        "26.2"
+    ],
+    "version_type": "release"
+}

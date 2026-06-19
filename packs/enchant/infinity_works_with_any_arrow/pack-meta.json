@@ -1,0 +1,18 @@
+{
+    "id": "enchant_infinity_works_with_any_arrow",
+    "display_name": "Infinity Works With Any Arrow",
+    "description": "Infinity Works With Any Arrow",
+    "name": "v Update",
+    "version_number": "",
+    "project_id": "",
+    "modrinth_slug": "",
+    "categories": [
+        "enchant"
+    ],
+    "has_loader_distribution": false,
+    "changelog": "",
+    "game_versions": [
+        "26.2"
+    ],
+    "version_type": "release"
+}

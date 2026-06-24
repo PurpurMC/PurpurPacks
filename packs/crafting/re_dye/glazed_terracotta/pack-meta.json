@@ -2,15 +2,15 @@
     "id": "crafting_re_dye_glazed_terracotta",
     "display_name": "Re-Dye Glazed Terracotta",
     "description": "Re-Dye All Colors Of Glazed Terracotta",
-    "name": "v2.12 Update",
-    "version_number": "2.12",
+    "name": "v2.13 Update",
+    "version_number": "2.13",
     "project_id": "mBcDOO3o",
     "modrinth_slug": "purpurpacks-re-dye-glazed-terracotta",
     "categories": [
         "crafting"
     ],
     "has_loader_distribution": true,
-    "changelog": "fix metadata to stop console spam about incorrect format declarations",
+    "changelog": "idk how to count. broke the number of items on the last one",
     "game_versions": [
         "26.2"
     ],

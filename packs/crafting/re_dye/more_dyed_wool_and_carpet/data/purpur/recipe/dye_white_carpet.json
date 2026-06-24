@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "carpet",
+    "ingredients": [
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        [
+            "minecraft:white_dye"
+        ]
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:white_carpet"
+    },
+    "show_notification": true
+}

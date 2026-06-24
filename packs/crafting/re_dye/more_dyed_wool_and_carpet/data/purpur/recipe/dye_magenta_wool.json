@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "wool",
+    "ingredients": [
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        [
+            "minecraft:magenta_dye"
+        ]
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:magenta_wool"
+    },
+    "show_notification": true
+}

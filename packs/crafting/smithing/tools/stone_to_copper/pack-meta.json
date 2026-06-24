@@ -1,0 +1,22 @@
+{
+    "id": "crafting_smithing_tools_stone_to_copper",
+    "display_name": "Upgrade Stone Tools To Copper",
+    "description": "Upgrade Stone Tools to Copper Ones",
+    "name": "v1.1 Update",
+    "version_number": "1.1",
+    "project_id": "",
+    "modrinth_slug": "",
+    "categories": [
+        "crafting"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "fix metadata to stop console spam about incorrect format declarations",
+    "game_versions": [
+        "1.21.10",
+        "1.21.11",
+        "1.21.9",
+        "26.1",
+        "26.2"
+    ],
+    "version_type": "release"
+}

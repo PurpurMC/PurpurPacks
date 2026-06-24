@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:wool_carpets"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:dye_black_carpet",
+      "purpur:dye_blue_carpet",
+      "purpur:dye_brown_carpet",
+      "purpur:dye_cyan_carpet",
+      "purpur:dye_gray_carpet",
+      "purpur:dye_green_carpet",
+      "purpur:dye_light_blue_carpet",
+      "purpur:dye_light_gray_carpet",
+      "purpur:dye_lime_carpet",
+      "purpur:dye_magenta_carpet",
+      "purpur:dye_orange_carpet",
+      "purpur:dye_pink_carpet",
+      "purpur:dye_purple_carpet",
+      "purpur:dye_red_carpet",
+      "purpur:dye_white_carpet",
+      "purpur:dye_yellow_carpet"
+    ]
+  }
+}

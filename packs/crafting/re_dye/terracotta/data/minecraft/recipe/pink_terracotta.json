@@ -1,15 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "building",
     "group": "stained_terracotta",
-    "key": {
-        "#": "#minecraft:terracotta",
-        "X": "minecraft:pink_dye"
-    },
-    "pattern": [
-        "###",
-        "#X#",
-        "###"
+    "ingredients": [
+        "#minecraft:terracotta",
+        "#minecraft:terracotta",
+        "#minecraft:terracotta",
+        "#minecraft:terracotta",
+        "#minecraft:terracotta",
+        "#minecraft:terracotta",
+        "#minecraft:terracotta",
+        [
+            "minecraft:pink_dye"
+        ]
     ],
     "result": {
         "count": 8,

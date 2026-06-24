@@ -1,15 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "building",
     "group": "concrete_powder",
-    "key": {
-        "#": "#purpur:dyeable_concrete_powder",
-        "X": "minecraft:yellow_dye"
-    },
-    "pattern": [
-        "###",
-        "#X#",
-        "###"
+    "ingredients": [
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        [
+            "minecraft:yellow_dye"
+        ]
     ],
     "result": {
         "count": 8,

@@ -2,22 +2,18 @@
     "id": "enchant_infinity_on_crossbow",
     "display_name": "Infinity Can Go On Crossbow",
     "description": "Infinity Can Be Placed On A Crossbow",
-    "name": "v2.11 Update",
-    "version_number": "2.11",
+    "name": "v2.12 Update",
+    "version_number": "2.12",
     "project_id": "rvzRe1CC",
     "modrinth_slug": "purpurpacks-infinity-on-crossbows",
     "categories": [
         "enchant"
     ],
     "has_loader_distribution": true,
-    "changelog": "Update to 26.2",
+    "changelog": "fix metadata to stop console spam about incorrect format declarations",
     "game_versions": [
         "1.21.10",
         "1.21.11",
-        "1.21.5",
-        "1.21.6",
-        "1.21.7",
-        "1.21.8",
         "1.21.9",
         "26.1",
         "26.2"

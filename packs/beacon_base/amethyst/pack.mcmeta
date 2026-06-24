@@ -1,8 +1,7 @@
 {
     "pack": {
         "description": "Amethyst Blocks Can Be Used As A Beacon Base. Amethyst Shards Can Be Used As A Beacon Payment Item.",
-        "pack_format": 107.1,
-        "min_format": 57,
+        "min_format": 82.0,
         "max_format": 107.1
     }
 }

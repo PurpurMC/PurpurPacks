@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:copper_helmet",
+    "addition": "minecraft:iron_ingot",
+    "result": {
+        "id": "minecraft:iron_helmet"
+    }
+}

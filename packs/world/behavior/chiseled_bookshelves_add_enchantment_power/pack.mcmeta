@@ -1,8 +1,7 @@
 {
     "pack": {
         "description": "Chiseled Bookshelves Add To Enchantment Power",
-        "pack_format": 107.1,
-        "min_format": 57,
+        "min_format": 82.0,
         "max_format": 107.1
     }
 }

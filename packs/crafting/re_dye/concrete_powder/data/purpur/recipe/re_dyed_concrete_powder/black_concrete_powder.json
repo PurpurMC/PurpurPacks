@@ -1,16 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "building",
     "group": "concrete_powder",
-    "pattern": [
-        "###",
-        "#X#",
-        "###"
+    "ingredients": [
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        "#minecraft:concrete_powders",
+        [
+            "minecraft:black_dye"
+        ]
     ],
-    "key": {
-		"#": "#purpur:dyeable_concrete_powder",
-        "X": "minecraft:black_dye"
-	},
     "result": {
         "count": 8,
         "id": "minecraft:black_concrete_powder"

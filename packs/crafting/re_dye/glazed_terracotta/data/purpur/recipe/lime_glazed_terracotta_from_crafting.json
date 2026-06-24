@@ -1,15 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "building",
     "group": "stained_terracotta",
-    "key": {
-        "#": "#purpur:glazed_terracotta",
-        "X": "minecraft:lime_dye"
-    },
-    "pattern": [
-        "###",
-        "#X#",
-        "###"
+    "ingredients": [
+        "#minecraft:glazed_terracotta",
+        "#minecraft:glazed_terracotta",
+        "#minecraft:glazed_terracotta",
+        "#minecraft:glazed_terracotta",
+        "#minecraft:glazed_terracotta",
+        "#minecraft:glazed_terracotta",
+        "#minecraft:glazed_terracotta",
+        [
+            "minecraft:lime_dye"
+        ]
     ],
     "result": {
         "count": 8,

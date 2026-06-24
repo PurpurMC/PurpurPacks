@@ -2,23 +2,18 @@
     "id": "crafting_stonecutting_wood_slabs_and_stairs",
     "display_name": "Stonecutter Wooden Slabs And Stairs",
     "description": "Use the stonecutter to get stairs, slabs, fences, and fence gates from planks",
-    "name": "v1.12 Update",
-    "version_number": "1.12",
+    "name": "v1.13 Update",
+    "version_number": "1.13",
     "project_id": "k4swAzko",
     "modrinth_slug": "purpurpacks-stonecutter-cuts-slabs",
     "categories": [
         "crafting"
     ],
     "has_loader_distribution": true,
-    "changelog": "Update to 26.2",
+    "changelog": "fix metadata to stop console spam about incorrect format declarations",
     "game_versions": [
         "1.21.10",
         "1.21.11",
-        "1.21.4",
-        "1.21.5",
-        "1.21.6",
-        "1.21.7",
-        "1.21.8",
         "1.21.9",
         "26.1",
         "26.2"

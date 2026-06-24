@@ -1,15 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "building",
     "group": "wool",
-    "key": {
-        "#": "#minecraft:wool",
-        "X": "minecraft:white_dye"
-    },
-    "pattern": [
-        "###",
-        "#X#",
-        "###"
+    "ingredients": [
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        "#minecraft:wool",
+        [
+            "minecraft:white_dye"
+        ]
     ],
     "result": {
         "count": 8,

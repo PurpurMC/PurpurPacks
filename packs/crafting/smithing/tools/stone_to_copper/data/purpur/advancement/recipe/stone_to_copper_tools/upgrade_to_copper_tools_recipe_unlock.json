@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:copper_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:stone_to_copper_tools/copper_axe_from_stone_axe",
+      "purpur:stone_to_copper_tools/copper_hoe_from_stone_hoe",
+      "purpur:stone_to_copper_tools/copper_pickaxe_from_stone_pickaxe",
+      "purpur:stone_to_copper_tools/copper_shovel_from_stone_shovel",
+      "purpur:stone_to_copper_tools/copper_sword_from_stone_sword",
+      "purpur:stone_to_copper_tools/copper_spear_from_stone_spear"
+    ]
+  }
+}

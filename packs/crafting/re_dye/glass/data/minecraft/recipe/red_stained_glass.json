@@ -1,15 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "building",
     "group": "stained_glass",
-    "key": {
-        "#": "#purpur:dyeable_glass",
-        "X": "minecraft:red_dye"
-    },
-    "pattern": [
-        "###",
-        "#X#",
-        "###"
+    "ingredients": [
+        "#purpur:dyeable_glass",
+        "#purpur:dyeable_glass",
+        "#purpur:dyeable_glass",
+        "#purpur:dyeable_glass",
+        "#purpur:dyeable_glass",
+        "#purpur:dyeable_glass",
+        "#purpur:dyeable_glass",
+        [
+            "minecraft:red_dye"
+        ]
     ],
     "result": {
         "count": 8,

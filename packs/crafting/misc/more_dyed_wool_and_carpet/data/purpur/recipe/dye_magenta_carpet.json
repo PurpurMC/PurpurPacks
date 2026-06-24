@@ -1,15 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "building",
     "group": "carpet",
-    "key": {
-        "#": "#minecraft:wool_carpets",
-        "X": "minecraft:magenta_dye"
-    },
-    "pattern": [
-        "###",
-        "#X#",
-        "###"
+    "ingredients": [
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        "#minecraft:wool_carpets",
+        [
+            "minecraft:magenta_dye"
+        ]
     ],
     "result": {
         "count": 8,

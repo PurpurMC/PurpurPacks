@@ -1,15 +1,18 @@
 {
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "category": "building",
     "group": "concrete",
-    "key": {
-        "#": "#purpur:concrete_blocks",
-        "X": "minecraft:red_dye"
-    },
-    "pattern": [
-        "###",
-        "#X#",
-        "###"
+    "ingredients": [
+        "#minecraft:concrete",
+        "#minecraft:concrete",
+        "#minecraft:concrete",
+        "#minecraft:concrete",
+        "#minecraft:concrete",
+        "#minecraft:concrete",
+        "#minecraft:concrete",
+        [
+            "minecraft:red_dye"
+        ]
     ],
     "result": {
         "count": 8,

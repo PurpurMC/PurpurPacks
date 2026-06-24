@@ -10,7 +10,7 @@
         "enchant"
     ],
     "has_loader_distribution": false,
-    "changelog": "",
+    "changelog": "fix metadata to stop console spam about incorrect format declarations",
     "game_versions": [
         "26.2"
     ],

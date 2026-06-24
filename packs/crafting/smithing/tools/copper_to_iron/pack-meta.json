@@ -1,0 +1,22 @@
+{
+    "id": "crafting_smithing_tools_copper_to_iron",
+    "display_name": "Upgrade Copper Tools To Iron",
+    "description": "Upgrade Copper Tools to Iron Ones",
+    "name": "v1.1 Update",
+    "version_number": "1.1",
+    "project_id": "",
+    "modrinth_slug": "",
+    "categories": [
+        "crafting"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "fix metadata to stop console spam about incorrect format declarations",
+    "game_versions": [
+        "1.21.10",
+        "1.21.11",
+        "1.21.9",
+        "26.1",
+        "26.2"
+    ],
+    "version_type": "release"
+}

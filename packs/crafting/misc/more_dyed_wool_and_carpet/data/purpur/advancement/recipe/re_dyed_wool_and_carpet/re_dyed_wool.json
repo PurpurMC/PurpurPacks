@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:wool"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:dye_black_wool",
+      "purpur:dye_blue_wool",
+      "purpur:dye_brown_wool",
+      "purpur:dye_cyan_wool",
+      "purpur:dye_gray_wool",
+      "purpur:dye_green_wool",
+      "purpur:dye_light_blue_wool",
+      "purpur:dye_light_gray_wool",
+      "purpur:dye_lime_wool",
+      "purpur:dye_magenta_wool",
+      "purpur:dye_orange_wool",
+      "purpur:dye_pink_wool",
+      "purpur:dye_purple_wool",
+      "purpur:dye_red_wool",
+      "purpur:dye_white_wool",
+      "purpur:dye_yellow_wool"
+    ]
+  }
+}

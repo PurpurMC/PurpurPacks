@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Upgrade Copper Tools to Iron Ones",
+        "min_format": 82.0,
+        "max_format": 107.1
+    }
+}

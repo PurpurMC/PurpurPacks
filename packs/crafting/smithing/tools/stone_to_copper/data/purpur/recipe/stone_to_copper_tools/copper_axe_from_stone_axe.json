@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:stone_axe",
+    "addition": "minecraft:copper_ingot",
+    "result": {
+        "id": "minecraft:copper_axe"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "purpur:copper_to_iron_armor/iron_helmet_from_copper_helmet",
+      "purpur:copper_to_iron_armor/iron_chestplate_from_copper_chestplate",
+      "purpur:copper_to_iron_armor/iron_leggings_from_copper_leggings",
+      "purpur:copper_to_iron_armor/iron_boots_from_copper_boots"
+    ]
+  }
+}

@@ -1,15 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "misc",
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
     "group": "stained_glass_pane",
-    "key": {
-        "#": "#purpur:dyeable_glass_panes",
-        "$": "minecraft:yellow_dye"
-    },
-    "pattern": [
-        "###",
-        "#$#",
-        "###"
+    "ingredients": [
+        "#purpur:dyeable_glass_panes",
+        "#purpur:dyeable_glass_panes",
+        "#purpur:dyeable_glass_panes",
+        "#purpur:dyeable_glass_panes",
+        "#purpur:dyeable_glass_panes",
+        "#purpur:dyeable_glass_panes",
+        "#purpur:dyeable_glass_panes",
+        "#purpur:dyeable_glass_panes",
+        [
+            "minecraft:yellow_dye"
+        ]
     ],
     "result": {
         "count": 8,

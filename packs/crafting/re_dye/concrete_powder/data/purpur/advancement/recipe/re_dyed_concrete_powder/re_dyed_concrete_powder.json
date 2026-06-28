@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#purpur:dyeable_concrete_powder"
+            "items": "#minecraft:concrete_powders"
           }
         ]
       }

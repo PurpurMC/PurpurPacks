@@ -2,15 +2,15 @@
     "id": "crafting_re_dye_concrete_powder",
     "display_name": "Re-Dye Concrete Powder",
     "description": "Re-Dye All Colors Of Concrete Powder",
-    "name": "v4.13 Update",
-    "version_number": "4.13",
+    "name": "v4.14 Update",
+    "version_number": "4.14",
     "project_id": "DUoieMnq",
     "modrinth_slug": "purpurpacks-re-dye-concrete-powder",
     "categories": [
         "crafting"
     ],
     "has_loader_distribution": true,
-    "changelog": "idk how to count. broke the number of items on the last one",
+    "changelog": "Forgot to remove the old tag",
     "game_versions": [
         "26.2"
     ],

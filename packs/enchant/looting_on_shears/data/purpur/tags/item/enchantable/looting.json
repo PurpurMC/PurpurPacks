@@ -1,6 +1,7 @@
 {
   "values": [
+    "#minecraft:spears",
     "#minecraft:swords",
-	"minecraft:shears"
+    "minecraft:shears"
   ]
 }

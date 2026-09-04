@@ -2,15 +2,15 @@
     "id": "enchant_looting_on_shears",
     "display_name": "Looting Can Go On Shears",
     "description": "Looting Works On Shears",
-    "name": "v1.12 Update",
-    "version_number": "1.12",
+    "name": "v1.13 Update",
+    "version_number": "1.13",
     "project_id": "qwRhepin",
     "modrinth_slug": "purpurpacks-looting-shears",
     "categories": [
         "enchant"
     ],
     "has_loader_distribution": true,
-    "changelog": "fix metadata to stop console spam about incorrect format declarations",
+    "changelog": "fix Looting enchantment support for spears",
     "game_versions": [
         "26.2"
     ],

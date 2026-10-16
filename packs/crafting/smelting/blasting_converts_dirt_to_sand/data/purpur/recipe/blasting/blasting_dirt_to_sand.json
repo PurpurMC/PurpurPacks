@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "ingredient": [
+    "minecraft:dirt"
+  ],
+  "result": {
+    "id": "minecraft:sand"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

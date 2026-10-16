@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 61,
+        "description": "Blasting Furnace Converts Dirt to Sand",
+        "supported_formats": {
+            "min_inclusive": 57,
+            "max_inclusive": 61
+        }
+    }
+}

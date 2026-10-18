@@ -1,0 +1,18 @@
+{
+    "id": "world_behavior_crying_obsidian_valid_portal_frame",
+    "display_name": "Crying Obsidian Valid For Portal Frame",
+    "description": "Crying Obsidian Valid For Portal Frame",
+    "name": "Initial Release",
+    "version_number": "1.0",
+    "project_id": "",
+    "modrinth_slug": "",
+    "categories": [
+        "world"
+    ],
+    "has_loader_distribution": true,
+    "changelog": "Initial Release",
+    "game_versions": [
+        "26.3"
+    ],
+    "version_type": "release"
+}

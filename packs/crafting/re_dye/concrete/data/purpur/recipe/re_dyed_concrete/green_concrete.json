@@ -1,23 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "building",
-    "group": "concrete",
-    "ingredients": [
-        "#minecraft:concrete",
-        "#minecraft:concrete",
-        "#minecraft:concrete",
-        "#minecraft:concrete",
-        "#minecraft:concrete",
-        "#minecraft:concrete",
-        "#minecraft:concrete",
-        "#minecraft:concrete",
-        [
-            "minecraft:green_dye"
-        ]
-    ],
-    "result": {
-        "count": 8,
-        "id": "minecraft:green_concrete"
-    },
-    "show_notification": true
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "concrete",
+  "ingredients": [
+    "#purpur:dyeable_concrete",
+    "#purpur:dyeable_concrete",
+    "#purpur:dyeable_concrete",
+    "#purpur:dyeable_concrete",
+    "#purpur:dyeable_concrete",
+    "#purpur:dyeable_concrete",
+    "#purpur:dyeable_concrete",
+    "#purpur:dyeable_concrete",
+    ["minecraft:green_dye"]
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:green_concrete"
+  },
+  "show_notification": true
 }
